@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <title>Home | StuRa UHasselt</title>
+
+  <link rel="preload" href="css/bootstrap.min.css" as="style"/>
+  <link rel="preload" href="js/jquery-3.3.1.min.js" as="script"/>
+  <link rel="preload" href="js/bootstrap.min.js" as="script"/>
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+  <link rel="manifest" href="img/favicon/site.webmanifest">
+  <link rel="mask-icon" href="img/favicon/safari-pinned-tab.svg" color="#5ca200">
+  <meta name="msapplication-TileColor" content="#5ca200">
+  <meta name="theme-color" content="#5ca200">
+
+  <meta name="description" content="Website van de studentenraad van de UHasselt.">
+  <meta name="keywords" content="UHasselt,Student,Studenten,StuRa,Studentenraad">
+  <meta name="author" content="StuRa UHasselt">
+  <meta property="og:title" content="StuRa UHasselt" />
+  <meta property="og:description" content="Website van de studentenraad van de UHasselt." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://sturauhasselt.be/" />
+  <meta property="og:image" content="https://sturauhasselt.be/img/StuRa.png" />
+  <meta property="og:image:type" content="image/png" />
+  <meta property="og:image:width" content="300" />
+  <meta property="og:image:height" content="300" />
+
+  <meta property="fb:pages" content="115101731884855">
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="StuRa UHasselt" />
+  <meta name="twitter:description" content="Website van de studentenraad van de UHasselt." />
+  <meta name="twitter:url" content="https://sturauhasselt.be/" />
+  <meta name="twitter:image" content="https://sturauhasselt.be/img/StuRa.png" />
+
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <style>
+  html, body{
+    background: #333;
+    color: #666;
+    height: 100%;
+  }
+  header{
+    width: 100%;
+    height: 100%;
+  }
+  section{
+    position: relative;
+  }
+  header section{
+    height: 100%;
+    width: 100%;
+  }
+  main{
+    background-color: white;
+  }
+  footer{
+    padding-bottom: 30px;
+  }
+  section .container{
+    padding: 30px 0;
+  }
+  .header-logo{
+    position: relative;
+    height: 100%;
+  }
+  .header-logo-img{
+    margin-top: 10%;
+    max-width: 1000px;
+    width: 60%;
+  }
+  .section-image{
+    position: absolute;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+  }
+  .top-nav-collapse {
+    background-color: #5ca200 !important;
+  }
+  .navbar:not(.top-nav-collapse) {
+    background: transparent;
+  }
+  @media (max-width: 768px) {
+    .navbar:not(.top-nav-collapse) {
+      background: #5ca200 !important;
+    }
+  }
+
+  #menu.scrolled{
+    background-color: #5ca200;
+  }
+
+  section p, section h1{
+    margin: 0 3px;
+  }
+  section a{
+    color: white;
+    text-decoration: underline;
+  }
+  #stura{
+    background-color: #5ca200;
+    color: white;
+  }
+  #projecten{
+    background-color: #d16e00;
+    color: white;
+  }
+  #verenigingen{
+    background-color: #E73B2B;
+    color: white;
+  }
+  #groepen{
+    background-color: #0683b3;
+    color: white;
+  }
+  #contact, footer{
+    background-color: #5ca200;
+    color: white;
+  }
+  #lidworden .box{
+    background: rgb(92, 162, 0);
+    color: white;
+    border: 7px solid white;
+    padding-top: 8px;
+  }
+  #internationaal{
+    background-color: #d16e00;
+    color: white;
+  }
+  #internationaal .box{
+    background: white;
+    color: black;
+    border: 7px solid black;
+  }
+  #internationaal a{
+    color: black;
+    text-decoration: underline;
+  }
+  #stumag{
+    background-color: #E73B2B;
+    color: white;
+  }
+  .header-bottom{
+    bottom: 50px;
+    position: absolute;
+    width: 100%;
+  }
+  .social-links{
+    margin: 0 auto;
+  }
+  .social-links img{
+    width: 70px;
+    background-color: white;
+    border: 5px solid black;
+    padding: 0px;
+    margin: 50px 10px 0 10px;
+  }
+  .media-links img{
+    width: 50px;
+    padding: 0px;
+    margin: 0 5px;
+  }
+
+  .inlineImg{
+    margin: 10px;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+  }
+
+  /* Sudoku */
+  .sudoku td {
+    height:30px;
+    width:30px;
+    border:1px solid;
+    text-align:center;
+  }
+  .sudoku td:first-child {
+    border-left:solid;
+  }
+  .sudoku td:nth-child(3n) {
+    border-right:solid ;
+  }
+  .sudoku tr:first-child {
+    border-top:solid;
+  }
+  .sudoku tr:nth-child(3n) td {
+    border-bottom:solid ;
+  }
+  </style>
+</head>
+<body data-spy="scroll" data-target="#menu">
+  <nav id="menu" class="navbar navbar-expand-lg fixed-top navbar-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#home">StuRa UHasselt</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar"
+      aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbar">
+      <ul class="nav navbar-nav">
+        <li class="nav-item"><a class="nav-link" href="#stura">StuRa?</a></li>
+        <li class="nav-item"><a class="nav-link" href="#projecten">Projecten</a></li>
+        <li class="nav-item"><a class="nav-link" href="#lidworden">Lid worden</a></li>
+        <li class="nav-item"><a class="nav-link" href="#verenigingen">Verenigingen</a></li>
+        <li class="nav-item"><a class="nav-link" href="#groepen">Groepen</a></li>
+        <li class="nav-item"><a class="nav-link" href="#internationaal">Internationaal</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>
+      <ul class="nav navbar-nav ml-auto">
+        <li class="nav-item"><a class="nav-link" href="index_en.html">English</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<header>
+  <section id="home" class="">
+    <div class="section-image" style='background-image: url("img/background/1.jpg");'>
+    </div>
+    <div class="container text-center header-logo">
+      <img src="img/StuRa_Full.svg" class="header-logo-img">
+      <div class="header-bottom">
+        <div class="social-links">
+          <a href="https://www.facebook.com/sturauhasselt"><img src="img/ionicons/social-facebook.svg" alt="Facebook Pagina"/></a>
+          <a href="https://www.instagram.com/sturauhasselt/"><img src="img/ionicons/social-instagram.svg" alt="Instagram Pagina"/></a>
+          <a href="https://wiki.suhasselt.be/wiki/Studentenraad"><img src="img/StuRa_Icons/Wiki_mono_borderless.svg" alt="SUHasselt Wiki Pagina"/></a>
+        </div>
+      </div>
+    </div>
+  </section>
+</header>
+
+<main>
+
+  <section id="stura">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg">
+          <img src="img/photo/stura_part_2017-2018.jpg" align="right" class="inlineImg"/>
+          <h1>Wat is StuRa?</h1>
+          <p>
+            StuRa UHasselt is de <a href="https://nl.wiki.suhasselt.be/wiki/Studentenraad" target="_blank">Studentenraad</a> van de UHasselt.
+            Wij zijn <a href="https://wiki.suhasselt.be/wiki/Samenstelling_Studentenraad" target="_blank">een groep studenten</a> die de mening van de studenten
+            <a href="https://nl.wiki.suhasselt.be/wiki/Studentenvertegenwoordiger" target="_blank">vertegenwoordigt</a> binnen de universiteit.
+            De Studentenraad is een actief lid binnen verschillende organen in de UHasselt. De Studentenraad wordt gezien als medebestuur van de universiteit.
+          </p>
+          <p>
+            StuRa bestaat sinds 2004 en is altijd actief bezig geweest met problemen oplossen en de mening van de studenten te verdedigen binnen de universiteit.
+            Bij <a href="#projecten">projecten</a> kan je een lijst vinden met enkele projecten waar StuRa mee bezig is geweest in de afgelopen paar jaar.</a>
+          </p>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projecten">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg">
+          <h1>Wat doet StuRa?</h1>
+          <a href="https://wiki.uhasselt.be"><img src="https://nl.wiki.suhasselt.be/images/e/ea/SUHasselt_Wiki_Logo.svg" alt="Logo Wiki" align="left" width="130" class="inlineImg"/></a>
+          <p>
+            StuRa haar hoofdtaak is zorgen dat problemen aangekaart worden bij de universiteit en de opvolging hiervan.
+            Ook staan wij in voor de terugkoppeling van de oplossingen of andere informatie over de UHasselt.
+            Dit doen wij echter niet alleen, maar dit gebeurt meestal in samenwerking met de universiteit.
+          </p>
+          <p>
+            Je kan een overzicht vinden van alle projecten waarmee wij bezig zijn of mee bezig zijn geweest op de
+            <a href="https://wiki.suhasselt.be/" target="_blank">SUHasselt wiki</a>.
+            Een lijst met alle projecten van dit academiejaar kan je <a href="https://nl.wiki.suhasselt.be/wiki/Projecten_Studentenraad" target="_blank">hier vinden</a>.
+          </p>
+
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section id="lidworden">
+    <div class="section-image" style='background-image: url("img/background/stura_av_2017.jpg");'>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-5 box">
+          <h1>Kom eens kijken</h1>
+          <p>
+            Wij zijn er altijd voor de studenten van de UHasselt. Maar ook jij kan bij ons zijn. Wij hebben regelmatig
+            <a href="https://nl.wiki.suhasselt.be/wiki/Algemene_vergadering_van_de_Studentenraad" target="_blank">algemene vergaderingen</a>.
+            Hierop bespreken we alle actuele onderwerpen van de UHasselt en worden voorstellen besproken, veranderingen voorgesteld,
+            terugkoppeling van andere vergaderingen gegeven en nog veel meer.
+            Op deze vergaderingen zijn alle UHasselt studenten welkom. Heb je zin om eens te komen kijken, stuur een mail naar
+            <a href="mailto:stura@uhasselt.be">stura@uhasselt.be</a> zodat wij weten dat je komt.
+            Voor een overzicht van al onze vergaderingen neem <a href="https://nl.wiki.suhasselt.be/wiki/Kalender_van_de_Studentenraad" target="_blank">hier</a> is een kijkje.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="verenigingen">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg">
+          <h1>Verenigingen aan de UHasselt</h1>
+          <p>
+            De Universiteit Hasselt kent een uitgebreid verenigingsleven, waarbij een heel aantal verenigingen - vaak
+            gekoppeld aan een bepaalde faculteit of opleiding - het hele jaar door activiteiten organiseren.
+            Om je keuze te vergemakkelijken, hebben <a href="https://suhasselt.be/verenigingen.html" target="_blank">hier</a>
+            een overzicht gemaakt van alle verenigingen. Je kan lid worden van meerdere verenigingen als je dit wilt.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="groepen">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg">
+          <h1>Studentengroepen aan de UHasselt</h1>
+          <p>
+            Naast de reeds bestaande verenigingen en clubs hebben we sinds 2018 ook de ‘groepen’ in het leven geroepen.
+            Een groep is, zoals het woord het al zegt, een groep studenten die graag hun hobby’s of interesses met elkaar
+            willen delen. Als deze groepen erkend worden door de universiteit kunnen ook zij gebruik maken van allerlei
+            faciliteiten zoals lokalen en eventueel zelfs subsidies. Je kan
+            <a href="https://suhasselt.be/groepen.html" target="_blank">hier</a> een overzicht vinden van alle groepen.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="internationaal">
+    <div class="section-image" style='background-image: url("img/background/2.jpg");'>
+    </div>
+    <div class="container">
+      <div class="row justify-content-md-center">
+        <div class="col-lg-5 box">
+          <h1>International Students</h1>
+          <p>
+            For international students we have the
+            <a href="https://en.wiki.suhasselt.be/wiki/International_Council" target="_blank">International Council</a>
+            as een extentions of the student council. The International Council is the official participatory platform
+            for non-Dutch speaking students' enrolled in international programmes. The Council organises meetings and
+            networks with students, and in turn advises and consults with StuRa.
+          </p>
+          <p>
+            We are also creating a English wiki with information. <a href="https://en.wiki.suhasselt.be/" target="_blank">Take a look</a>.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="stumag">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          Oplossingen van het StuMag 2018-2019 Intronummer:
+          <a class="btn btn-primary" data-toggle="collapse" href="#results" role="button" aria-expanded="false" aria-controls="collapseExample">
+Laat oplossingen zien</a>
+          <div class="collapse" id="results">
+            <h3>Kruiswoordraadsel:</h3>
+            <ol style="columns: 3;">
+              <li>PXL</li>
+              <li>Ombuts</li>
+              <li>Twintig</li>
+              <li>Jenever</li>
+              <li>Lockers</li>
+              <li>Witlink (H) Fluostiften (V)</li>
+              <li>Groep</li>
+              <li>De Schepper</li>
+              <li>Voorzitter</li>
+              <li>Mandarijnen</li>
+              <li>Hasselaar</li>
+              <li>Taxi</li>
+              <li>Fietsenstalling</li>
+              <li>Vedo</li>
+              <li>Rechten</li>
+              <li>TedX</li>
+              <li>Marie Jeanne (H) Mobiliteit (V)</li>
+              <li>Vijf</li>
+              <li>Speculaas</li>
+              <li>Kleurplaat</li>
+              <li>Diepenbeek</li>
+              <li>Pukkelpop</li>
+              <li>Filmavond</li>
+              <li>Suhasselt (H) StuRa (V)</li>
+              <li>Schurft</li>
+              <li>Condoom</li>
+              <li>Mei</li>
+              <li>Maan</li>
+            </ol>
+            <h3>Sudoku:</h3>
+            <table class="sudoku">
+              <tr>
+                <td>6</td> <td>5</td> <td>7</td> <td>8</td> <td>4</td> <td>2</td> <td>9</td> <td>1</td> <td>3</td>
+              </tr>
+              <tr>
+                <td>8</td> <td>4</td> <td>9</td> <td>5</td> <td>3</td> <td>1</td> <td>2</td> <td>6</td> <td>7</td>
+              </tr>
+              <tr>
+                <td>2</td> <td>1</td> <td>3</td> <td>9</td> <td>6</td> <td>7</td> <td>5</td> <td>4</td> <td>8</td>
+              </tr>
+              <tr>
+                <td>7</td> <td>2</td> <td>5</td> <td>1</td> <td>9</td> <td>8</td> <td>6</td> <td>3</td> <td>4</td>
+              </tr>
+              <tr>
+                <td>1</td> <td>6</td> <td>4</td> <td>3</td> <td>2</td> <td>5</td> <td>7</td> <td>8</td> <td>9</td>
+              </tr>
+              <tr>
+                <td>9</td> <td>3</td> <td>8</td> <td>4</td> <td>7</td> <td>6</td> <td>1</td> <td>5</td> <td>2</td>
+              </tr>
+              <tr>
+                <td>5</td> <td>9</td> <td>6</td> <td>7</td> <td>8</td> <td>3</td> <td>4</td> <td>2</td> <td>1</td>
+              </tr>
+              <tr>
+                <td>4</td> <td>8</td> <td>1</td> <td>2</td> <td>5</td> <td>9</td> <td>3</td> <td>7</td> <td>6</td>
+              </tr>
+              <tr>
+                <td>3</td> <td>7</td> <td>2</td> <td>6</td> <td>1</td> <td>4</td> <td>8</td> <td>9</td> <td>5</td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <h1>Contacteer ons</h1>
+          <p>
+            Email: <a href="mailto:stura@uhasselt.be">stura@uhasselt.be</a><br/>
+            Locatie: lokaal J12 (Campus Diepenbeek) en lokaal in de roze gang (Campus Hasselt)<br/>
+            Postadres: Studentenraad Universiteit Hasselt, Martelarenlaan 42, 3500 Hasselt<br/>
+            Contactpersoon: <a href="https://nl.wiki.suhasselt.be/wiki/Voorzitter_van_de_Studentenraad" target="_blank">voorzitter van de studentenraad</a>
+          </p>
+          <div class="media-links">
+            <a href="https://www.facebook.com/sturauhasselt"><img src="img/ionicons/social-facebook.svg" alt="Facebook Pagina"/></a>
+            <a href="https://www.instagram.com/sturauhasselt/"><img src="img/ionicons/social-instagram.svg" alt="Instagram Pagina"/></a>
+            <a href="https://wiki.suhasselt.be/wiki/Studentenraad"><img src="img/StuRa_Icons/Wiki_mono_borderless.svg" alt="SUHasselt Wiki Pagina"/></a>
+            <a href="https://www.youtube.com/user/sturauhasselt"><img src="img/ionicons/social-youtube.svg" alt="YouTube Pagina"/></a>
+            <a href="https://twitter.com/sturauhasselt"><img src="img/ionicons/social-twitter.svg" alt="Twitter Pagina"/></a>
+            <a href="https://www.linkedin.com/company/student-council-university-of-hasselt/"><img src="img/ionicons/social-linkedin.svg" alt="LinkedIn Pagina"/></a>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
+          src="https://www.openstreetmap.org/export/embed.html?bbox=5.386723279953004%2C50.923924860557676%2C5.3956711292266855%2C50.92693089029205&amp;layer=mapnik"
+          style="border: 1px solid black"></iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+<footer>
+</footer>
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script>
+$('body').scrollspy({ target: '#menu', offset: 56});
+$("#menu a").on('click', function(event) {
+  if (this.hash !== "") {
+    event.preventDefault();
+    var hash = this.hash;
+    $('section').removeClass("focus");
+    $(hash).addClass("focus");
+    $('html, body').animate({
+      scrollTop: $(hash).offset().top
+    }, 600, function(){
+      window.location.hash = hash;
+    });
+  }
+});
+function checkScroll(){
+    var startY = $('#menu').height() * 3; //The point where the navbar changes in px
+    if($(window).scrollTop() > startY){
+        $('#menu').addClass("scrolled");
+    }else{
+        $('#menu').removeClass("scrolled");
+    }
+}
+if($('#menu').length > 0){
+    $(window).on("scroll load resize", function(){
+        checkScroll();
+    });
+}
+</script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-109037485-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-109037485-1');
+</script>
+</body>
+</html>

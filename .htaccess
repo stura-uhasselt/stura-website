@@ -1,0 +1,18 @@
+# Old StuMag 2018-2019
+Redirect /stumag https://nl.wiki.suhasselt.be/wiki/StuMag
+Redirect /international-council https://en.wiki.suhasselt.be/wiki/International_Council
+Redirect /international-coun-cil https://en.wiki.suhasselt.be/wiki/International_Council
+# Page
+Redirect /stura /#stura
+Redirect /projecten /#projecten
+Redirect /lidworden /#lidworden
+Redirect /verenigingen /#verenigingen
+Redirect /groepen /#groepen
+Redirect /internationaal /#internationaal
+Redirect /contact /#contact
+# Language
+Redirect /nl /index.html
+Redirect /en /index_en.html
+# Other websites
+Redirect /suhasselt https://suhasselt.be/
+Redirect /wiki https://wiki.suhasselt.be/
