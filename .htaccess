@@ -10,6 +10,8 @@ Redirect /verenigingen /#verenigingen
 Redirect /groepen /#groepen
 Redirect /internationaal /#internationaal
 Redirect /contact /#contact
+Redirect /verkiezingen /#verkiezingen
+
 # Language
 Redirect /nl /index.html
 Redirect /en /index_en.html
