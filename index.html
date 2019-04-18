@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html lang="nl">
+
 <head>
   <meta charset="UTF-8">
   <title>Home | StuRa UHasselt</title>
 
-  <link rel="preload" href="css/bootstrap.min.css" as="style"/>
-  <link rel="preload" href="js/jquery-3.3.1.min.js" as="script"/>
-  <link rel="preload" href="js/bootstrap.min.js" as="script"/>
+  <link rel="preload" href="css/bootstrap.min.css" as="style" />
+  <link rel="preload" href="js/jquery-3.3.1.min.js" as="script" />
+  <link rel="preload" href="js/bootstrap.min.js" as="script" />
 
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -41,380 +42,570 @@
 
   <link href="css/bootstrap.min.css" rel="stylesheet">
   <style>
-  html, body{
-    background: #333;
-    color: #666;
-    height: 100%;
-  }
-  header{
-    width: 100%;
-    height: 100%;
-  }
-  section{
-    position: relative;
-  }
-  header section{
-    height: 100%;
-    width: 100%;
-  }
-  main{
-    background-color: white;
-  }
-  footer{
-    padding-bottom: 30px;
-  }
-  section .container{
-    padding: 30px 0;
-  }
-  .header-logo{
-    position: relative;
-    height: 100%;
-  }
-  .header-logo-img{
-    margin-top: 10%;
-    max-width: 1000px;
-    width: 60%;
-  }
-  .section-image{
-    position: absolute;
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 100%;
-    z-index: 0;
-  }
-  .top-nav-collapse {
-    background-color: #5ca200 !important;
-  }
-  .navbar:not(.top-nav-collapse) {
-    background: transparent;
-  }
-  @media (max-width: 768px) {
+    html,
+    body {
+      background: #333;
+      color: #666;
+      height: 100%;
+    }
+
+    header {
+      width: 100%;
+      height: 100%;
+    }
+
+    section {
+      position: relative;
+    }
+
+    header section {
+      height: 100%;
+      width: 100%;
+    }
+
+    main {
+      background-color: white;
+    }
+
+    footer {
+      padding-bottom: 30px;
+    }
+
+    section .container {
+      padding: 30px 0;
+    }
+
+    .header-logo {
+      position: relative;
+      height: 100%;
+    }
+
+    .header-logo-img {
+      margin-top: 10%;
+      max-width: 1000px;
+      width: 60%;
+    }
+
+    .section-image {
+      position: absolute;
+      background-size: cover;
+      background-position: center center;
+      background-repeat: no-repeat;
+      width: 100%;
+      height: 100%;
+      z-index: 0;
+    }
+
+    .top-nav-collapse {
+      background-color: #5ca200 !important;
+    }
+
     .navbar:not(.top-nav-collapse) {
       background: #5ca200 !important;
     }
-  }
+    }
 
-  #menu.scrolled{
-    background-color: #5ca200;
-  }
+    #menu.scrolled {
+      background-color: #5ca200;
+    }
 
-  section p, section h1{
-    margin: 0 3px;
-  }
-  section a{
-    color: white;
-    text-decoration: underline;
-  }
-  #stura{
-    background-color: #5ca200;
-    color: white;
-  }
-  #wie-stura{
-    background-color: #d16e00;
-    color: white;
-  }
-  #verenigingen{
-    background-color: #E73B2B;
-    color: white;
-  }
-  #verkiezingen{
-    background-color: #d16e00;
-    color: white;
-  }
-  #groepen{
-    background-color: #0683b3;
-    color: white;
-  }
-  #contact, footer{
-    background-color: #5ca200;
-    color: white;
-  }
-  #lidworden .box{
-    background: rgb(92, 162, 0);
-    color: white;
-    border: 7px solid white;
-    padding-top: 8px;
-  }
-  #internationaal{
-    background-color: #d16e00;
-    color: white;
-  }
-  #internationaal .box{
-    background: white;
-    color: black;
-    border: 7px solid black;
-  }
-  #internationaal a{
-    color: black;
-    text-decoration: underline;
-  }
-  #stumag{
-    background-color: #E73B2B;
-    color: white;
-  }
-  .header-bottom{
-    bottom: 50px;
-    position: absolute;
-    width: 100%;
-  }
-  .social-links{
-    margin: 0 auto;
-  }
-  .social-links img{
-    width: 70px;
-    background-color: white;
-    border: 5px solid black;
-    padding: 0px;
-    margin: 50px 10px 0 10px;
-  }
-  .media-links img{
-    width: 50px;
-    padding: 0px;
-    margin: 0 5px;
-  }
+    section p,
+    section h1 {
+      margin: 0 3px;
+    }
 
-  .inlineImg{
-    margin: 10px;
-    max-width: 100%;
-    max-height: 100%;
-    object-fit: contain;
-  }
+    section a {
+      color: white;
+      text-decoration: underline;
+    }
 
-  /* Sudoku */
-  .sudoku td {
-    height:30px;
-    width:30px;
-    border:1px solid;
-    text-align:center;
-  }
-  .sudoku td:first-child {
-    border-left:solid;
-  }
-  .sudoku td:nth-child(3n) {
-    border-right:solid ;
-  }
-  .sudoku tr:first-child {
-    border-top:solid;
-  }
-  .sudoku tr:nth-child(3n) td {
-    border-bottom:solid ;
-  }
+    #stura {
+      background-color: #5ca200;
+      color: white;
+    }
+
+    #wie-stura {
+      background-color: #d16e00;
+      color: white;
+    }
+
+    #verenigingen {
+      background-color: #E73B2B;
+      color: white;
+    }
+
+    #verkiezingen {
+      background-color: #d16e00;
+      color: white;
+    }
+
+    #groepen {
+      background-color: #0683b3;
+      color: white;
+    }
+
+    #contact,
+    footer {
+      background-color: #5ca200;
+      color: white;
+    }
+
+    #lidworden .box {
+      background: rgb(92, 162, 0);
+      color: white;
+      border: 7px solid white;
+      padding-top: 8px;
+    }
+
+    #internationaal {
+      background-color: #d16e00;
+      color: white;
+    }
+
+    #internationaal .box {
+      background: white;
+      color: black;
+      border: 7px solid black;
+    }
+
+    #internationaal a {
+      color: black;
+      text-decoration: underline;
+    }
+
+    #stumag {
+      background-color: #E73B2B;
+      color: white;
+    }
+
+    .header-bottom {
+      bottom: 50px;
+      position: absolute;
+      width: 100%;
+    }
+
+    .social-links {
+      margin: 0 auto;
+    }
+
+    .social-links img {
+      width: 70px;
+      background-color: white;
+      border: 5px solid black;
+      padding: 0px;
+      margin: 50px 10px 0 10px;
+    }
+
+    .media-links img {
+      width: 50px;
+      padding: 0px;
+      margin: 0 5px;
+    }
+
+    .inlineImg {
+      margin: 10px;
+      max-width: 100%;
+      max-height: 100%;
+      object-fit: contain;
+    }
+
+    /* Sudoku */
+    .sudoku td {
+      height: 30px;
+      width: 30px;
+      border: 1px solid;
+      text-align: center;
+    }
+
+    .sudoku td:first-child {
+      border-left: solid;
+    }
+
+    .sudoku td:nth-child(3n) {
+      border-right: solid;
+    }
+
+    .sudoku tr:first-child {
+      border-top: solid;
+    }
+
+    .sudoku tr:nth-child(3n) td {
+      border-bottom: solid;
+    }
   </style>
 </head>
+
 <body data-spy="scroll" data-target="#menu">
   <nav id="menu" class="navbar navbar-expand-lg fixed-top navbar-dark">
     <div class="container">
       <a class="navbar-brand" href="#home">StuRa UHasselt</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar"
-      aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar"
+        aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-    <div class="collapse navbar-collapse" id="navbar">
-      <ul class="nav navbar-nav">
-        <li class="nav-item"><a class="nav-link" href="#stura">StuRa?</a></li>
-        <li class="nav-item"><a class="nav-link" href="#wie-stura">Wie is StuRa?</a></li>
-        <li class="nav-item"><a class="nav-link" href="#lidworden">Lid worden</a></li>
-        <li class="nav-item"><a class="nav-link" href="#verenigingen">Verenigingen</a></li>
-        <li class="nav-item"><a class="nav-link" href="#verkiezingen">Verkiezingen</a></li>
-        <!-- <li class="nav-item"><a class="nav-link" href="#groepen">Groepen</a></li> -->
-        <li class="nav-item"><a class="nav-link" href="#internationaal">Internationaal</a></li>
-        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
-      </ul>
-      <!-- <ul class="nav navbar-nav ml-auto">
+      <div class="collapse navbar-collapse" id="navbar">
+        <ul class="nav navbar-nav">
+          <li class="nav-item"><a class="nav-link" href="#stura">StuRa?</a></li>
+          <li class="nav-item"><a class="nav-link" href="#wie-stura">Wie is StuRa?</a></li>
+          <li class="nav-item"><a class="nav-link" href="#lidworden">Lid worden</a></li>
+          <li class="nav-item"><a class="nav-link" href="#verenigingen">Verenigingen</a></li>
+          <li class="nav-item"><a class="nav-link" href="#verkiezingen">Verkiezingen</a></li>
+          <!-- <li class="nav-item"><a class="nav-link" href="#groepen">Groepen</a></li> -->
+          <li class="nav-item"><a class="nav-link" href="#internationaal">Internationaal</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+        <!-- <ul class="nav navbar-nav ml-auto">
         <li class="nav-item"><a class="nav-link" href="index_en.html">English</a></li>
       </ul> -->
-    </div>
-  </div>
-</nav>
-<header>
-  <section id="home" class="">
-    <div class="section-image" style='background-image: url("img/background/1.jpg");'>
-    </div>
-    <div class="container text-center header-logo">
-      <img src="img/StuRa_Full.svg" class="header-logo-img">
-      <div class="header-bottom">
-        <div class="social-links">
-          <a href="https://www.facebook.com/sturauhasselt"><img src="img/ionicons/social-facebook.svg" alt="Facebook Pagina"/></a>
-          <a href="https://www.instagram.com/sturauhasselt/"><img src="img/ionicons/social-instagram.svg" alt="Instagram Pagina"/></a>
-          <!-- <a href="https://wiki.suhasselt.be/wiki/Studentenraad"><img src="img/StuRa_Icons/Wiki_mono_borderless.svg" alt="SUHasselt Wiki Pagina"/></a> -->
-        </div>
       </div>
     </div>
-  </section>
-</header>
-
-<main>
-
-  <section id="stura">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg">
-          <img src="img/photo/stura_part_2017-2018.jpg" align="right" class="inlineImg"/>
-          <h1>Wat is StuRa?</h1>
-          <p>
-            StuRa is de studentenraad van de UHasselt, net zoals elke andere universiteit en hogeschool zijn eigen studentenraad heeft. 
-            Wij zijn een gemotiveerde groep studenten die de mening van alle studenten vertegenwoordigt en verdedigt binnen onze universiteit. 
-            Doordat we actief zijn binnen verscheidene organen binnen onze universiteit hebben we inspraak op verschillende niveau's. 
-            Dit gaat van kleine organen, zoals de Eetcomissie en de Bibliotheeksbeleidscomissie, tot en met de hoogste zoals de Onderwijsraad en de Raad van Bestuur van de UHasselt. 
-            Omwille van deze inspraak worden wij gezien als medebestuur van de universiteit.
-            <br><br>
-            StuRa bestaat sinds 2004 en is sindsdien altijd actief bezig geweest met het oplossen van problemen en de mening van studenten binnen de universiteit. 
-            Neem gerust eens onze verslagen door of ons lijstje met projecten om te zien waar we momenteel mee bezig zijn! 
-            StuRa kun je altijd bereiken door leden te contacteren, door op onze open Algemene Vergaderingen binnen te springen, of via onze Stuver-overleggen, waar elke faculteitscoördinator met de studenten uit de evaluatievergaderingen en OMT's samenzit.          
-          </p>
-        </div>
+  </nav>
+  <header>
+    <section id="home" class="">
+      <div class="section-image" style='background-image: url("img/background/1.jpg");'>
       </div>
-    </div>
-  </section>
+      <div class="container text-center header-logo">
+        <img src="img/StuRa_Full.svg" class="header-logo-img">
+        <div class="header-bottom">
+          <div class="social-links">
+            <a href="https://www.facebook.com/sturauhasselt"><img src="img/ionicons/social-facebook.svg"
+                alt="Facebook Pagina" /></a>
+            <a href="https://www.instagram.com/sturauhasselt/"><img src="img/ionicons/social-instagram.svg"
+                alt="Instagram Pagina" /></a>
+            <!-- <a href="https://wiki.suhasselt.be/wiki/Studentenraad"><img src="img/StuRa_Icons/Wiki_mono_borderless.svg" alt="SUHasselt Wiki Pagina"/></a> -->
+          </div>
+        </div>
+    </section>
+  </header>
 
-  <section id="wie-stura">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg">
-          <h1>Wie is StuRa?</h1>
-          <p>
-            StuRa telt momenteel 24 leden, waarvan je in onderstaand overzicht kunt zien welke functie ze beoefenen. 
-            Je kunt op twee manieren lid worden van StuRa. 
-            <br><br>
-            Oftewel stel je je kandidaat tijdens de verkiezingen (kandidaatstelling 17 april t.e.m. 1 mei), waardoor je lid bent en stemrecht hebt, oftewel vraag je om gecoöpteerd te worden gedurende het academiejaar. 
-            Wanneer je gecoöpteerd wordt krijg je enkel stemrecht als je opkomt voor een functie, niet als je opkomt voor een mandaat. 
-            Dit neemt niet weg dat je je mening kunt geven op een vergadering!
-          </p><br>
-          <p>
-            <a class="btn btn-primary" data-toggle="collapse" href="#lijst-functies" role="button" aria-expanded="false" aria-controls="lijst-functies">Lijst van functies</a>
-            <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#lijst-mandaten" aria-expanded="false" aria-controls="lijst-mandaten">Lijst van mandaten</button>
-            <button class="btn btn-primary" type="button" data-toggle="collapse" data-target=".multi-collapse" aria-expanded="false" aria-controls="lijst-functies lijst-mandaten">Beide lijsten</button>
-          </p><br>
-          <div class="row">
-            <div class="col">
-              <div class="collapse multi-collapse" id="lijst-functies">
-                <div class="card card-body" style="background-color: #d16e00">
-                  • Voorzitter<br>
-                  • Ondervoorzitter Onderwijs<br>
-                  • Ondervoorzitter Student<br>
-                  • Secretaris<br>
-                  • Financieel beheerder<br>
-                  • Verenigingscoördinator<br>
-                  • International Coördinator<br>
-                  • Communicatieverantwoordelijke<br>
-                  • Sport Coördinator<br>
-                  • ICT beheerder<br>
-                  • FUN manager<br>
-                  • Campuscoördinator (2: in Hasselt en Diepenbeek)<br>
-                  • Faculteitscoördinator (7, ARK, BEW, GLW, IIW, RWS, MOB, WET)<br>
-                </div>
+  <main>
+
+    <section id="stura">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg">
+            <img src="img/photo/stura_part_2017-2018.jpg" align="right" class="inlineImg" />
+            <h1>Wat is StuRa?</h1>
+            <p>
+              StuRa is de studentenraad van de UHasselt, net zoals elke andere universiteit en hogeschool zijn eigen
+              studentenraad heeft.
+              Wij zijn een gemotiveerde groep studenten die de mening van alle studenten vertegenwoordigt en verdedigt
+              binnen onze universiteit.
+              Doordat we actief zijn binnen verscheidene organen binnen onze universiteit hebben we inspraak op
+              verschillende niveau's.
+              Dit gaat van kleine organen, zoals de Eetcomissie en de Bibliotheeksbeleidscomissie, tot en met de hoogste
+              zoals de Onderwijsraad en de Raad van Bestuur van de UHasselt.
+              Omwille van deze inspraak worden wij gezien als medebestuur van de universiteit.
+              <br><br>
+              StuRa bestaat sinds 2004 en is sindsdien altijd actief bezig geweest met het oplossen van problemen en de
+              mening van studenten binnen de universiteit.
+              Neem gerust eens onze verslagen door of ons lijstje met projecten om te zien waar we momenteel mee bezig
+              zijn!
+              StuRa kun je altijd bereiken door leden te contacteren, door op onze open Algemene Vergaderingen binnen te
+              springen, of via onze Stuver-overleggen, waar elke faculteitscoördinator met de studenten uit de
+              evaluatievergaderingen en OMT's samenzit.
+            </p>
+
+            <a class="btn btn-primary" data-toggle="collapse" href="#more-info-stura" role="button"
+              aria-expanded="false" aria-controls="collapseExample">
+              Meer info over de functies</a>
+            <div class="collapse" id="more-info-stura">
+              <h3>Functies: dagelijks bestuur</h3>
+              <a class="btn btn-primary" data-toggle="collapse" href="#more-info-dagelijks-bestuur" role="button"
+                aria-expanded="false" aria-controls="collapseExample">
+                Meer info over het dagelijks bestuur</a>
+              <div class="collapse" id="more-info-dagelijks-bestuur">
+                <ul>
+                  <li> Voorzitter (1): deze functie kun je vergelijken met een manager in een bedrijf. Je leidt een
+                    groep, met het verschil dat deze groep bestaat uit vrijwilligers. Een goede communicatie tussen
+                    jou, het rectoraat, je medebestuur en de leden van de studentenraad is essentieel.
+                  </li>
+                  <li> Ondervoorzitter Onderwijs (1): het opvolgen van de faculteitscoördinatoren, contact met
+                    studieloopbaanbegeleidsters van elke faculteit en constructief mee denken aan oplossingen of
+                    verbeteringen binnen het onderwijs van de universiteit is de kern van deze functie. De
+                    onderwijsraad is voor jou een cruciaal orgaan. Je bent ook deel van het bestuur, wat inhoudt dat
+                    je mee overlegt en beslist over de richting die StuRa uit wil gaan.
+                  </li>
+                  <li> Ondervoorzitter Student (1): Het belangrijkste orgaan waar je iets kunt realiseren is de Raad
+                    voor Studentenvoorzieningen (RvS), maar je dient ook contact te houden met de dienst stuvo,
+                    cultuur, het rectoraat… Binnen StuRa werk je samen met de verenigingscoördinator,
+                    sportcoördinator… je hoort het al, geen onderwijs dus 😉
+                  </li>
+                  <li> Secretaris (1): is plannen en organiseren echt iets voor jou? Als rechterhand van het StuRa
+                    bestuur, hou je zeer nauwkeurig notities bij tijdens de algemene vergaderingen, hou je de
+                    documentatie bij, plan je vergaderingen en bijkomende benodigdheden in etc. Je nodigt de leden,
+                    geïnteresseerden en eventuele externen uit en zorgt voor een vlotte communicatie tussen het
+                    bestuur en studenten/externen/UHasselt personeelsleden.
+                  </li>
+                </ul>
+              </div>
+              <h3>Functies: gewone leden</h3>
+              <a class="btn btn-primary" data-toggle="collapse" href="#more-info-gewone-leden" role="button"
+                aria-expanded="false" aria-controls="collapseExample">
+                Meer info over de functies van gewone leden</a>
+              <div class="collapse" id="more-info-gewone-leden">
+                <ul>
+                  <li> Faculteitscoördinator (7): per faculteit, de tussenschakel tussen studenten in
+                    evaluatievergaderingen en OMT's, studieloopbaanbegeleiders en de studentenraad. Aanspreekpunt voor
+                    studenten in zijn/haar faculteit. Deze functie vereist dat je je sociaal kunt opstellen en je
+                    verantwoordelijk voelt voor je faculteit. Je bent hier helemaal op je plek als je kennissenkring
+                    veel studenten van je faculteit, en liefst over verscheidene jaren, bevat.
+                  </li>
+                  <li> Internatial Coördinator (1): ben jij iemand die graag contacten legt en geïnteresseerd is in
+                    andere culturen? Vanuit StuRa bestaat ook de International Council voor internationale studenten. In
+                    deze functie begeleid je deze (niet voorzitten!) en ben je een aanspreekpunt internationale
+                    studenten en tussenschakel studentenraad en DIOS en ESN.
+                  </li>
+                  <li> Financieel beheerder (1): je volgt de financiën en ons budget hier nauwkeurig op. Je hebt contact
+                    met de dienst financiën van de universiteit, aangezien ons budget van hun komt.
+                  </li>
+                  <li> Communicatieverantwoordelijke (1): StuRa heeft een account op meerdere social media. Voorlopig
+                    zijn we actief op Facebook, Instagram en hebben we een website. We hebben echter ook nog een
+                    LinkedIn en Twitter account. Heb jij het in je om regelmatig en gestructureerd iets interessants te
+                    laten weten over StuRa? Zit er ook wat humor bij jou verstopt? Dan is deze functie jou op het lijf
+                    geschreven. Je doet dit samen met de 2 mandaten binnen het communicatie team.
+                  </li>
+                  <li> Verenigingscoördinator (1): sta je op goede voet met meerdere verenigingen en kun je je neutraal
+                    opstellen? In deze functie sta je centraal tussen de verenigingen (inclusief de niet studentikoze
+                    verenigingen), StuRa en de universiteit. De verenigings- en praesesraad zijn essentiële
+                    vergaderingen voor jou.
+                  </li>
+                  <li> Sportcoördinator (1): in deze functie heb je contact met de sportdienst en denk je constructief
+                    na over verbeteringen binnen het sportaanbod.
+                  </li>
+                  <li> ICT beheerder (1): je onderhoudt in de website en de ‘simpele’ ICT waar de meeste studenten
+                    moeilijkheden mee hebben.
+                  </li>
+                  <li> FUN manager (1): hou jij je graag bezig met het organiseren van leuke activiteiten? Deze functie
+                    heeft de verantwoordelijk voor zowel interne als externe StuRa activiteiten. Zo heb je onze
+                    weekends, filmavonden… onder jouw bewind een spectaculair event? Je doet dit samen met de 5 mandaten
+                    van het FUN overleg.
+                  </li>
+                  <li> Campuscoördinator (1x Hasselt, 1x Diepenbeek): In deze functie volg je de voorzieningen binnen
+                    jouw campus op. Zijn er bijvoorbeeld problemen met de infrastructuur of een of andere dienst, dan
+                    ben jij degene die hiervoor mailt naar de dienst MAT.
+                  </li>
+                </ul>
+              </div>
+              <h3>Mandaten</h3>
+              <a class="btn btn-primary" data-toggle="collapse" href="#more-info-dagelijks-bestuur" role="button"
+                aria-expanded="false" aria-controls="collapseExample">
+                Meer info over de mandaten</a>
+              <div class="collapse" id="more-dagelijks-bestuur">
+                <ul>
+                  <li> Mandaat in de eetcommissie (3): de veranderingen van Umami lagen menig student op de maag. In
+                    deze commissie ijveren wij voor verbeteringen. Je staat hier ook in contact met de
+                    campuscoördinator, die eventuele problemen mee opvolgt.
+                  </li>
+                  <li> Mandaat in de AUHL (4): onze StuRa UHasselt mee vertegenwoordigen in de Associatie Universiteit
+                    Hogescholen Limburg. Dit gaat voornamelijk over informatie-uitwisseling en met de andere
+                    instellingen wordt elk jaar gekeken naar gezamenlijke projecten die kunnen worden gerealiseerd. We
+                    zijn hier voorlopig bezig met de StudentHotspot.
+                  </li>
+                  <li> Mandaat in RvS (7): studentvertegenwoordiging in de Raad voor Studentenvoorzieningen van de
+                    UHasselt. Hier komt alles over tafel dat met studentenaangelegenheden heeft te maken: van het
+                    restaurant en het kamerbestand tot en met de verenigingen. Hier is het belangrijk onze studenten te
+                    vertegenwoordigen omdat ze ons anders wel eens durven te vergeten 😉.
+                  </li>
+                  <li> Mandaat VVS (2): is een studentenraad niet genoeg voor jou? Vertegenwoordig onze StuRa in de
+                    Vlaamse Vereniging van Studenten! Een overkoepeling van alle studentenraden van hogescholen en
+                    universiteiten, die hun stem laten horen over het onderwijsbeleid.
+                  </li>
+                  <li> Faculteitsraad (2x ARK, 2x BEW, 2x GLW, 1x IIW, 2x RWS, 2x REC, 2xWET, 2xMOB): in dit orgaan sta
+                    je de faculteitscoördinator bij wanneer er onderwijs-gerelateerde topics aan bod komen.
+                  </li>
+                  <li> Mandaat in de Onderwijsraad (1): in dit orgaan sta je de ondervoorzitter onderwijs bij met
+                    StuRa-standpunten. Je denkt constructief mee over het onderwijs binnen de universiteit.
+                  </li>
+                  <li> Mandaat in de verenigingsraad (1): in dit orgaan zijn er zowel studentikoze als niet-studentikoze
+                    verenigingen binnen de universiteit die dienen te worden opgevolgd. Je staat hier de
+                    verenigingscoördinator bij.
+                  </li>
+                  <li> Mandaat in de tuchtcommissie (2): wanneer de tuchtcommissie samenkomt omwille van tuchtgedrag,
+                    dienen ook studenten aanwezig te zijn. Dit is echter een zeer occasioneel feit.
+                  </li>
+                  <li> Bibliotheekbeleidscommissie (2): specifieke zaken over de bibliotheek worden hier aangehaald. Je
+                    staat hier ook in contact met de campuscoördinator, die eventuele problemen mee opvolgt.
+                  </li>
+                  <li> International Council (2): je helpt de international coordinator bij het begeleiden van deze raad
+                    en je bent geïnteresseerd in internationale studenten.
+                  </li>
+                  <li> FUN overleg (5): organiseer je graag activiteiten? Hier worden deze besproken en gepland samen
+                    met de FUN manager.
+                  </li>
+                  <li> Communicatie team (2): in samenspraak met de communicatieverantwoordelijke verzorg je de onze
+                    communicatiekanalen van StuRa.
+                  </li>
+                  <li> Studentenoverleg industriële ingenieurs (1)
+                  </li>
+                  <li> Faculteitsraad industriële ingenieus KUL (1)
+                  </li>
+                  <li> Gezamenlijk opleidingsbestuur faculteit IIW (1)
+                  </li>
+                </ul>
               </div>
             </div>
-            <div class="col">
-              <div class="collapse multi-collapse" id="lijst-mandaten">
-                <div class="card card-body" style="background-color: #d16e00">
-                  Een mandaat dat je opneemt is minder zwaar dan een functie. 
-                  <br><br>
-                  • Faculteitsraad (13, ARK (2), BEW(2), GLW(2), IIW(1), RWS(2), MOB(2), WET(2)<br>
-                  • Onderwijsraad<br>
-                  • Raad voor studentenoorzieningen (7, één per faculteit)<br>
-                  • Verenigingsraad (2)<br>
-                  • Studentenraad AUHL (4, Associatie Universiteit en Hogescholen Limburg)<br>
-                  • VVS (3, Vlaamse Vereniging van Studenten)<br>
-                  • Tuchtcomissie Student (2)<br>
-                  • Eetcomissie (2)<br>
-                  • Bibliotheekbeleidscomissie (2)<br>
-                  • International Council (3)<br>
-                  • FUN overleg (6)<br>
-                  • Communicatie Team (3)<br>
+          </div>
+    </section>
+
+    <section id="wie-stura">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg">
+            <h1>Wie is StuRa?</h1>
+            <p>
+              StuRa telt momenteel 24 leden, waarvan je in onderstaand overzicht kunt zien welke functie ze beoefenen.
+              Je kunt op twee manieren lid worden van StuRa.
+              <br><br>
+              Oftewel stel je je kandidaat tijdens de verkiezingen (kandidaatstelling 17 april t.e.m. 1 mei), waardoor
+              je lid bent en stemrecht hebt, oftewel vraag je om gecoöpteerd te worden gedurende het academiejaar.
+              Wanneer je gecoöpteerd wordt krijg je enkel stemrecht als je opkomt voor een functie, niet als je opkomt
+              voor een mandaat.
+              Dit neemt niet weg dat je je mening kunt geven op een vergadering!
+            </p><br>
+            <p>
+              <a class="btn btn-primary" data-toggle="collapse" href="#lijst-functies" role="button"
+                aria-expanded="false" aria-controls="lijst-functies">Lijst van functies</a>
+              <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#lijst-mandaten"
+                aria-expanded="false" aria-controls="lijst-mandaten">Lijst van mandaten</button>
+              <button class="btn btn-primary" type="button" data-toggle="collapse" data-target=".multi-collapse"
+                aria-expanded="false" aria-controls="lijst-functies lijst-mandaten">Beide lijsten</button>
+            </p><br>
+            <div class="row">
+              <div class="col">
+                <div class="collapse multi-collapse" id="lijst-functies">
+                  <div class="card card-body" style="background-color: #d16e00">
+                    • Voorzitter<br>
+                    • Ondervoorzitter Onderwijs<br>
+                    • Ondervoorzitter Student<br>
+                    • Secretaris<br>
+                    • Financieel beheerder<br>
+                    • Verenigingscoördinator<br>
+                    • International Coördinator<br>
+                    • Communicatieverantwoordelijke<br>
+                    • Sport Coördinator<br>
+                    • ICT beheerder<br>
+                    • FUN manager<br>
+                    • Campuscoördinator (2: in Hasselt en Diepenbeek)<br>
+                    • Faculteitscoördinator (7, ARK, BEW, GLW, IIW, RWS, MOB, WET)<br>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="collapse multi-collapse" id="lijst-mandaten">
+                  <div class="card card-body" style="background-color: #d16e00">
+                    Een mandaat dat je opneemt is minder zwaar dan een functie.
+                    <br><br>
+                    • Faculteitsraad (13, ARK (2), BEW(2), GLW(2), IIW(1), RWS(2), MOB(2), WET(2)<br>
+                    • Onderwijsraad<br>
+                    • Raad voor studentenoorzieningen (7, één per faculteit)<br>
+                    • Verenigingsraad (2)<br>
+                    • Studentenraad AUHL (4, Associatie Universiteit en Hogescholen Limburg)<br>
+                    • VVS (3, Vlaamse Vereniging van Studenten)<br>
+                    • Tuchtcomissie Student (2)<br>
+                    • Eetcomissie (2)<br>
+                    • Bibliotheekbeleidscomissie (2)<br>
+                    • International Council (3)<br>
+                    • FUN overleg (6)<br>
+                    • Communicatie Team (3)<br>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-    </div>
-  </section>
+    </section>
 
-  <section id="lidworden">
-    <div class="section-image" style='background-image: url("img/background/stura_av_2017.jpg");'>
-    </div>
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-5 box">
-          <h1>Kom eens kijken</h1>
-          <p>
-            Wij zijn een team voor en door studenten van de UHasselt. 
-            Wil je toch graag wat meer info? Kom zeker eens langs op onze Algemene Vergadering! 
-            Deze is altijd toegankelijk voor studenten. De kalender kan je hieronder vinden.
-            <br><br>
-            Wat gebeurt er juist op zo'n vergadering? 
-            Soms komen er externen langs omtrent verschillende thema's: 
-              van personeelsleden tot en met mensen of studenten die iets komen voorstellen. 
-            Verslagen van vorige vergaderingen worden goedgekeurd en externe vergaderingen die hebben plaatsgevonden worden allemaal teruggekoppeld zodat iedereen op de hoogte is. 
-            Verder maken wij een onderscheid in lopende topics tussen onderwijs- en studentgerelateerde info. 
-            Ook de internationale studenten komen aan bod: hier koppelt de International Coordinator, die zit in de International Council, informatie over terug.
-            <br><br>            
-            Buiten de Algemene Vergadering, organiseren we ook werkgroepen over verschillende thema's, met de bedoeling te brainstormen over een onderwerp en vervolgens met voorstellen naar de Algemene Vergadering te trekken.
-            <br><br>            
-            Indien je graag nieuws krijgt over vergaderingen en werkgroepen, schrijf je dan in op onze maillijst!
-            <br><br>            
-            Heb je zin om eens te komen kijken? Stuur een mailtje naar ons bestuur via <a href="mailto:stura@uhasselt.be">stura@uhasselt.be</a>, of contacteer een stura-lid dat je kent. 
-            Indien dit tijdig gebeurt kunnen we een broodje voor je voorzien.          
-          </p>
+    <section id="lidworden">
+      <div class="section-image" style='background-image: url("img/background/stura_av_2017.jpg");'>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-5 box">
+            <h1>Kom eens kijken</h1>
+            <p>
+              Wij zijn een team voor en door studenten van de UHasselt.
+              Wil je toch graag wat meer info? Kom zeker eens langs op onze Algemene Vergadering!
+              Deze is altijd toegankelijk voor studenten. De kalender kan je hieronder vinden.
+              <br><br>
+              Wat gebeurt er juist op zo'n vergadering?
+              Soms komen er externen langs omtrent verschillende thema's:
+              van personeelsleden tot en met mensen of studenten die iets komen voorstellen.
+              Verslagen van vorige vergaderingen worden goedgekeurd en externe vergaderingen die hebben plaatsgevonden
+              worden allemaal teruggekoppeld zodat iedereen op de hoogte is.
+              Verder maken wij een onderscheid in lopende topics tussen onderwijs- en studentgerelateerde info.
+              Ook de internationale studenten komen aan bod: hier koppelt de International Coordinator, die zit in de
+              International Council, informatie over terug.
+              <br><br>
+              Buiten de Algemene Vergadering, organiseren we ook werkgroepen over verschillende thema's, met de
+              bedoeling te brainstormen over een onderwerp en vervolgens met voorstellen naar de Algemene Vergadering te
+              trekken.
+              <br><br>
+              Indien je graag nieuws krijgt over vergaderingen en werkgroepen, schrijf je dan in op onze maillijst!
+              <br><br>
+              Heb je zin om eens te komen kijken? Stuur een mailtje naar ons bestuur via <a
+                href="mailto:stura@uhasselt.be">stura@uhasselt.be</a>, of contacteer een stura-lid dat je kent.
+              Indien dit tijdig gebeurt kunnen we een broodje voor je voorzien.
+            </p>
+          </div>
+        </div>
+    </section>
+
+    <section id="verenigingen">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg">
+            <h1>Verenigingen aan de UHasselt</h1>
+            <p>
+              Ook onze kleine universiteit kent een uitgebreid verenigingsleven!
+              Heel het jaar door kun je naar td's, fakbars, maar ook andere interessante activiteiten van deze
+              verenigingen.
+              Indien je je bij een vereniging wilt aansluiten, hoeft dit niet een van je faculteit te zijn, je kan je
+              zelfs aansluiten bij meerdere verenigingen.
+              Wel biedt elke vereniging voordelen voor zijn leden in verband met studies en examens.
+              <br><br>
+              PS. Wist je dat je als lid van StuRa gratis binnen mag op alle td's?
+            </p>
+          </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <section id="verenigingen">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg">
-          <h1>Verenigingen aan de UHasselt</h1>
-          <p>
-            Ook onze kleine universiteit kent een uitgebreid verenigingsleven! 
-            Heel het jaar door kun je naar td's, fakbars, maar ook andere interessante activiteiten van deze verenigingen. 
-            Indien je je bij een vereniging wilt aansluiten, hoeft dit niet een van je faculteit te zijn, je kan je zelfs aansluiten bij meerdere verenigingen. 
-            Wel biedt elke vereniging voordelen voor zijn leden in verband met studies en examens. 
-            <br><br>
-            PS. Wist je dat je als lid van StuRa gratis binnen mag op alle td's? 
-          </p>
+    <section id="verkiezingen">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg">
+            <h1>StuRa-verkiezingen</h1>
+            <p>
+              Planning van de StuRa-verkiezingen<br>
+              <br>
+              Kandidaatstelling: 17/04/2019-01/05/2019<br>
+              Iedere UH-student kan zich kandidaat stellen via zijn studentendossier.<br>
+              <br>
+              Stemming: 03/05/2019-13/05/2019<br>
+              Iedere UH-student kan stemmen op de kandidaten die binnen zij/haar faculteit zijn opgekomen. Binnen elke
+              faculteit zijn er een beperkt aantal plaatsen.<br>
+              <br>
+              Functievergadering: datum in mei nog te bepalen met de verkozen leden<br>
+              Hier kan ieder verkozen lid opkomen voor functies en/of mandaten binnen de studentenraad.
+              Indien je niet bent verkozen tijdens de verkiezingen, kan je hier ook opkomen voor functies en/of mandaten
+              die niet ingevuld geraken.
+              Waag je kans!<br>
+              <br>
+              Wil je weten wat je allemaal kan doen binnen de studentenraad? Kom eens langs op onze Open Office
+              dagen!<br>
+              Diepenbeek: elke donderdagmiddag<br>
+              Hasselt: elke maandag middag<br>
+              (niet in de Paasvakantie en examens-periode)<br>
+              <br>
+              Of stuur een mailtje naar <a href="mailto:stura@uhasselt.be">stura@uhasselt.be</a><br>
+            </p>
+          </div>
         </div>
-      </div>
-    </div>
-  </section>
+    </section>
 
-  <section id="verkiezingen">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg">
-          <h1>StuRa-verkiezingen</h1>
-          <p>
-            Planning van de StuRa-verkiezingen<br>
-            <br>
-            Kandidaatstelling: 17/04/2019-01/05/2019<br>
-            Iedere UH-student kan zich kandidaat stellen via zijn studentendossier.<br>
-            <br>
-            Stemming: 03/05/2019-13/05/2019<br>
-            Iedere UH-student kan stemmen op de kandidaten die binnen zij/haar faculteit zijn opgekomen. Binnen elke faculteit zijn er een beperkt aantal plaatsen.<br>
-            <br>
-            Functievergadering: datum in mei nog te bepalen met de verkozen leden<br>
-            Hier kan ieder verkozen lid opkomen voor functies en/of mandaten binnen de studentenraad. 
-            Indien je niet bent verkozen tijdens de verkiezingen, kan je hier ook opkomen voor functies en/of mandaten die niet ingevuld geraken. 
-            Waag je kans!<br>
-            <br>
-            Wil je weten wat je allemaal kan doen binnen de studentenraad? Kom eens langs op onze Open Office dagen!<br>
-            Diepenbeek: elke donderdagmiddag<br>
-            Hasselt: elke maandag middag<br>
-            (niet in de Paasvakantie en examens-periode)<br>
-            <br>
-            Of stuur een mailtje naar <a href="mailto:stura@uhasselt.be">stura@uhasselt.be</a><br>
-          </p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- <section id="groepen">
+    <!-- <section id="groepen">
     <div class="container">
       <div class="row">
         <div class="col-lg">
@@ -431,24 +622,24 @@
     </div>
   </section> -->
 
-  <section id="internationaal">
-    <div class="section-image" style='background-image: url("img/background/2.jpg");'>
-    </div>
-    <div class="container">
-      <div class="row justify-content-md-center">
-        <div class="col-lg-5 box">
-          <h1>International Students</h1>
-          <p>
-            For international students we have the International Council as an extention of de student counil (StuRa). The International Council is the official participatory platform
-            for non-Dutch speaking students' enrolled in international programmes. The Council organises meetings and
-            networks with students, and in turn advises and consults with StuRa.
-          </p>
-        </div>
+    <section id="internationaal">
+      <div class="section-image" style='background-image: url("img/background/2.jpg");'>
       </div>
-    </div>
-  </section>
+      <div class="container">
+        <div class="row justify-content-md-center">
+          <div class="col-lg-5 box">
+            <h1>International Students</h1>
+            <p>
+              For international students we have the International Council as an extention of de student counil (StuRa).
+              The International Council is the official participatory platform
+              for non-Dutch speaking students' enrolled in international programmes. The Council organises meetings and
+              networks with students, and in turn advises and consults with StuRa.
+            </p>
+          </div>
+        </div>
+    </section>
 
-  <!-- <section id="stumag">
+    <!-- <section id="stumag">
     <div class="container">
       <div class="row">
         <div class="col-lg-12">
@@ -523,84 +714,82 @@ Laat oplossingen zien</a>
     </div>
   </section> -->
 
-  <section id="contact">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-6">
-          <h1>Contacteer ons</h1>
-          <p>
-            Dagelijks bestuur:<br>
-            Len Van Ocken, ondervoorzitter onderwijs<br>
-            Lisa Colinet, ondervoorzitter student<br>
-            Astrid Coene, secretaris<br>
-            <br>
-            Locatie campus Diepenbeek: lokaal J12, in de gang bij de verenigingslokalen<br>
-            Locatie campus Hasselt: laatste lokaal in de roze gang<br><br>
-            Postadres: <br>
-            Studentenraad Universiteit Hasselt, <br>
-            Martelarenlaan 42, <br>
-            3500 Hasselt<br><br>           
-          </p>
-          <div class="media-links">
-            <a href="https://www.facebook.com/sturauhasselt"><img src="img/ionicons/social-facebook.svg" alt="Facebook Pagina"/></a>
-            <a href="https://www.instagram.com/sturauhasselt/"><img src="img/ionicons/social-instagram.svg" alt="Instagram Pagina"/></a>
-            <!-- <a href="https://wiki.suhasselt.be/wiki/Studentenraad"><img src="img/StuRa_Icons/Wiki_mono_borderless.svg" alt="SUHasselt Wiki Pagina"/></a> -->
-            <!-- <a href="https://www.youtube.com/user/sturauhasselt"><img src="img/ionicons/social-youtube.svg" alt="YouTube Pagina"/></a> -->
-            <!-- <a href="https://twitter.com/sturauhasselt"><img src="img/ionicons/social-twitter.svg" alt="Twitter Pagina"/></a> -->
-            <a href="https://www.linkedin.com/company/student-council-university-of-hasselt/"><img src="img/ionicons/social-linkedin.svg" alt="LinkedIn Pagina"/></a>
-            <a href="mailto:stura@uhasselt.be"><img src="img/ionicons/social-mail.svg" alt="Mail"/></a>
+    <section id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <h1>Contacteer ons</h1>
+            <p>
+              Dagelijks bestuur:<br>
+              Len Van Ocken, ondervoorzitter onderwijs<br>
+              Lisa Colinet, ondervoorzitter student<br>
+              Astrid Coene, secretaris<br>
+              <br>
+              Locatie campus Diepenbeek: lokaal J12, in de gang bij de verenigingslokalen<br>
+              Locatie campus Hasselt: laatste lokaal in de roze gang<br><br>
+              Postadres: <br>
+              Studentenraad Universiteit Hasselt, <br>
+              Martelarenlaan 42, <br>
+              3500 Hasselt<br><br>
+            </p>
+            <div class="media-links">
+              <a href="https://www.facebook.com/sturauhasselt"><img src="img/ionicons/social-facebook.svg"
+                  alt="Facebook Pagina" /></a>
+              <a href="https://www.instagram.com/sturauhasselt/"><img src="img/ionicons/social-instagram.svg"
+                  alt="Instagram Pagina" /></a>
+              <!-- <a href="https://wiki.suhasselt.be/wiki/Studentenraad"><img src="img/StuRa_Icons/Wiki_mono_borderless.svg" alt="SUHasselt Wiki Pagina"/></a> -->
+              <!-- <a href="https://www.youtube.com/user/sturauhasselt"><img src="img/ionicons/social-youtube.svg" alt="YouTube Pagina"/></a> -->
+              <!-- <a href="https://twitter.com/sturauhasselt"><img src="img/ionicons/social-twitter.svg" alt="Twitter Pagina"/></a> -->
+              <a href="https://www.linkedin.com/company/student-council-university-of-hasselt/"><img
+                  src="img/ionicons/social-linkedin.svg" alt="LinkedIn Pagina" /></a>
+              <a href="mailto:stura@uhasselt.be"><img src="img/ionicons/social-mail.svg" alt="Mail" /></a>
+            </div>
           </div>
         </div>
-        <div class="col-lg-6">
-          <iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
-          src="https://www.openstreetmap.org/export/embed.html?bbox=5.386723279953004%2C50.923924860557676%2C5.3956711292266855%2C50.92693089029205&amp;layer=mapnik"
-          style="border: 1px solid black"></iframe>
-        </div>
-      </div>
-    </div>
-  </section>
-</main>
-<footer>
-</footer>
-<script src="js/jquery-3.3.1.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script>
-$('body').scrollspy({ target: '#menu', offset: 56});
-$("#menu a").on('click', function(event) {
-  if (this.hash !== "") {
-    event.preventDefault();
-    var hash = this.hash;
-    $('section').removeClass("focus");
-    $(hash).addClass("focus");
-    $('html, body').animate({
-      scrollTop: $(hash).offset().top
-    }, 600, function(){
-      window.location.hash = hash;
+    </section>
+  </main>
+  <footer>
+  </footer>
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script>
+    $('body').scrollspy({ target: '#menu', offset: 56 });
+    $("#menu a").on('click', function (event) {
+      if (this.hash !== "") {
+        event.preventDefault();
+        var hash = this.hash;
+        $('section').removeClass("focus");
+        $(hash).addClass("focus");
+        $('html, body').animate({
+          scrollTop: $(hash).offset().top
+        }, 600, function () {
+          window.location.hash = hash;
+        });
+      }
     });
-  }
-});
-function checkScroll(){
-    var startY = $('#menu').height() * 3; //The point where the navbar changes in px
-    if($(window).scrollTop() > startY){
+    function checkScroll() {
+      var startY = $('#menu').height() * 3; //The point where the navbar changes in px
+      if ($(window).scrollTop() > startY) {
         $('#menu').addClass("scrolled");
-    }else{
+      } else {
         $('#menu').removeClass("scrolled");
+      }
     }
-}
-if($('#menu').length > 0){
-    $(window).on("scroll load resize", function(){
+    if ($('#menu').length > 0) {
+      $(window).on("scroll load resize", function () {
         checkScroll();
-    });
-}
-</script>
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-109037485-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+      });
+    }
+  </script>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-109037485-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
 
-  gtag('config', 'UA-109037485-1');
-</script>
+    gtag('config', 'UA-109037485-1');
+  </script>
 </body>
+
 </html>
