@@ -29,18 +29,23 @@ module.exports = express.Router({mergeParams: true})
             reason: 'not a supported language',
         });
 
+        console.log(data.language);
+
         res.cookie('_language',data.language, {
             maxAge: 10*365*24*3600*1000,
+            secure: true,
             domain: '.sturauhasselt.be',
         });
 
         res.json({
             success: true,
+            language: data.language,
         });
     })
     .delete('/', async (_req, res) => {
         res.clearCookie('_language', {
             domain: '.sturauhasselt.be',
+            secure: true,
         });
 
         res.json({

@@ -23,7 +23,7 @@ app.use((req, res, next) => {
     next();
 });
 
-// app.use(require('./cors'));
+app.use(require('./cors'));
 // app.use(require('./errors'));
 // app.use(require('./auth'));
 
