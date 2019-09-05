@@ -2,8 +2,8 @@ const express = require('express');
 const app = express();
 const port = 8080;
 const path = require('path');
-const Url = require('url');
 const compression = require('compression');
+const cookie = require('cookie');
 
 app.disable('x-powered-by');
 
@@ -17,13 +17,15 @@ app.use(express.static(path.resolve('public'), {
     }
 }));
 
-app.get('*', (req, res) => {
-    const url = Url.parse(req.url).pathname;
-    res.render(`pages${url}`);
+app.use((req, res, next) => {
+    if (!req.headers.cookie) {
+        req.cookies = {};
+        return next();
+    }
+    req.cookies = cookie.parse(req.headers.cookie);
+    next();
 });
 
-app.use((err, req, res) => {
-    res.status(404).render('pages/notfound');
-});
+app.use(require('./render'))
 
 app.listen(port, () => console.log(`frontend app listening on ${process.env.HOST}:${port}!`));

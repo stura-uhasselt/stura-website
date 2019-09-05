@@ -1,0 +1,15 @@
+{
+    "fn_vars": {
+        "change_lang": "nl"
+    },
+    "other_lang": "Nederlands",
+    "header": {
+        "projects": "Projects",
+        "association": "Verenigingen",
+        "international": "International",
+        "members": "Members"
+    },
+    "footer": {
+        "contact_us": "Contact us"
+    }
+}
