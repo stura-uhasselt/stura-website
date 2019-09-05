@@ -1,6 +1,6 @@
 const express = require('express');
-// const bodyParser = require('body-parser');
-// const cookie = require('cookie');
+const bodyParser = require('body-parser');
+const cookie = require('cookie');
 
 const router = require('./calls/router');
 
@@ -11,17 +11,17 @@ const port = 8080;
 
 app.disable('x-powered-by');
 
-// app.use(bodyParser.json());
-// app.use(bodyParser.urlencoded({ extended: true }));
+app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({ extended: true }));
 
-// app.use((req, res, next) => {
-//     if (!req.headers.cookie) {
-//         req.cookies = {};
-//         return next();
-//     }
-//     req.cookies = cookie.parse(req.headers.cookie);
-//     next();
-// });
+app.use((req, res, next) => {
+    if (!req.headers.cookie) {
+        req.cookies = {};
+        return next();
+    }
+    req.cookies = cookie.parse(req.headers.cookie);
+    next();
+});
 
 // app.use(require('./cors'));
 // app.use(require('./errors'));
