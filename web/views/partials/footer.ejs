@@ -1,0 +1,69 @@
+<section id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <h1>Contacteer ons</h1>
+                <p>
+                    Dagelijks bestuur:<br>
+                    Lisa Colinet, voorzitster<br>
+                    Jordi Schreurs, ondervoorzitter onderwijs<br>
+                    Tim Vervoort, ondervoorzitter student<br>
+                    Len Van Ocken, secretaris<br>
+                    <br>
+                    Locatie campus Diepenbeek: lokaal J12, in de gang bij de verenigingslokalen<br>
+                    Locatie campus Hasselt: laatste lokaal in de roze gang<br><br>
+                    Postadres: <br>
+                    Studentenraad Universiteit Hasselt, <br>
+                    Martelarenlaan 42, <br>
+                    3500 Hasselt<br><br>
+                </p>
+                <div class="media-links">
+                    <a href="https://www.facebook.com/sturauhasselt"><img src="/assets/img/ionicons/social-facebook.svg" alt="Facebook Pagina"/></a>
+                    <a href="https://www.instagram.com/sturauhasselt/"><img src="/assets/img/ionicons/social-instagram.svg" alt="Instagram Pagina"/></a>
+                    <!-- <a href="https://www.youtube.com/user/sturauhasselt"><img src="/assets/img/ionicons/social-youtube.svg" alt="YouTube Pagina"/></a> -->
+                    <!-- <a href="https://twitter.com/sturauhasselt"><img src="/assets/img/ionicons/social-twitter.svg" alt="Twitter Pagina"/></a> -->
+                    <a href="https://www.linkedin.com/company/student-council-university-of-hasselt/"><img src="/assets/img/ionicons/social-linkedin.svg" alt="LinkedIn Pagina"/></a>
+                    <a href="mailto:stura@uhasselt.be"><img src="/assets/img/ionicons/social-mail.svg" alt="Mail" /></a>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
+                    src="https://www.openstreetmap.org/export/embed.html?bbox=5.386723279953004%2C50.923924860557676%2C5.3956711292266855%2C50.92693089029205&amp;layer=mapnik"
+                    style="border: 1px solid black"></iframe>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script src="/assets/js/jquery-3.3.1.min.js"></script>
+<script src="/assets/js/bootstrap.min.js"></script>
+
+<script>
+        $('body').scrollspy({ target: '#menu', offset: 56});
+        $("#menu a").on('click', function(event) {
+          if (this.hash !== "") {
+            event.preventDefault();
+            var hash = this.hash;
+            $('section').removeClass("focus");
+            $(hash).addClass("focus");
+            $('html, body').animate({
+              scrollTop: $(hash).offset().top
+            }, 600, function(){
+              window.location.hash = hash;
+            });
+          }
+        });
+        function checkScroll(){
+            var startY = $('#menu').height() * 3; //The point where the navbar changes in px
+            if($(window).scrollTop() > startY){
+                $('#menu').addClass("scrolled");
+            }else{
+                $('#menu').removeClass("scrolled");
+            }
+        }
+        if($('#menu').length > 0){
+            $(window).on("scroll load resize", function(){
+                checkScroll();
+            });
+        }
+</script>

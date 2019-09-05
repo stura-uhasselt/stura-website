@@ -1,0 +1,180 @@
+html, body{
+    background: #333;
+    color: #666;
+    height: 100%;
+}
+section{
+    position: relative;
+}
+header section{
+    height: 100%;
+    width: 100%;
+}
+main{
+    background-color: white;
+}
+footer{
+    padding-bottom: 30px;
+    background-color: #5ca200;
+    color: white;
+}
+section .container{
+    padding: 30px 0;
+}
+.header-logo{
+    position: relative;
+    height: 100%;
+}
+.header-logo-img{
+    margin-top: 10%;
+    max-width: 1000px;
+    width: 60%;
+}
+.section-image{
+    position: absolute;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+.top-nav-collapse {
+    background-color: #5ca200 !important;
+}
+.navbar:not(.top-nav-collapse) {
+    background: transparent;
+}
+@media (max-width: 768px) {
+    .navbar:not(.top-nav-collapse) {
+        background: #5ca200 !important;
+    }
+}
+
+#menu.scrolled{
+    background-color: #5ca200;
+}
+
+section p, section h1{
+    margin: 0 3px;
+}
+section a{
+    color: white;
+    text-decoration: underline;
+}
+#stura{
+    background-color: #5ca200;
+    color: white;
+}
+#wie-stura {
+    background-color: #d16e00;
+    color: white;
+}
+#projecten{
+    background-color: #E73B2B;
+    color: white;
+}
+#vergaderverslagen{
+    background-color: #0683b3;
+    color: white;
+}
+#contact, footer{
+    background-color: #5ca200;
+    color: white;
+}
+#lidworden .box{
+    background: rgb(92, 162, 0);
+    color: white;
+    border: 7px solid white;
+    padding-top: 8px;
+}
+#verkiezingen {
+    background-color: #d12a00;
+    color: white;
+}
+#internationaal{
+    background-color: #d16e00;
+    color: white;
+}
+#internationaal .box{
+    background: white;
+    color: black;
+    border: 7px solid black;
+}
+#internationaal a{
+    color: black;
+    text-decoration: underline;
+}
+#leden{
+    background-color: white;
+    color: black;
+}
+#verenigingen{
+    background-color: white;
+    color: black;
+}
+#groepen{
+    background-color: #0683b3;
+    color: white;
+}
+.header-bottom{
+    bottom: 50px;
+    position: absolute;
+    width: 100%;
+}
+.social-links{
+    margin: 0 auto;
+}
+.social-links img{
+    width: 70px;
+    background-color: white;
+    border: 5px solid black;
+    padding: 0px;
+    margin: 50px 10px 0 10px;
+}
+.media-links img{
+    width: 50px;
+    padding: 0px;
+    margin: 0 5px;
+}
+
+.inlineImg{
+    margin: 10px;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+/* Sudoku */
+.sudoku td {
+    height:30px;
+    width:30px;
+    border:1px solid;
+    text-align:center;
+}
+.sudoku td:first-child {
+    border-left:solid;
+}
+.sudoku td:nth-child(3n) {
+    border-right:solid ;
+}
+.sudoku tr:first-child {
+    border-top:solid;
+}
+.sudoku tr:nth-child(3n) td {
+    border-bottom:solid ;
+}
+
+.more-info {
+    background-color: #8b4c04;
+    border-radius: 0.5rem;
+    padding: 0.35rem;
+    margin: 0.35rem
+  }
+  .more-info-list>li {
+    margin-top: 0.25rem;
+    margin-bottom: 0.25rem;
+  }
+  .more-info-btn {
+    margin-left: 1rem;
+  }
