@@ -19,7 +19,7 @@ footer{
     color: white;
 }
 section .container{
-    padding: 30px 0;
+    padding: 80px 0; /* was 30px 0 */
 }
 .header-logo{
     position: relative;
@@ -43,20 +43,32 @@ section .container{
     background-color: #5ca200 !important;
 }
 .navbar:not(.top-nav-collapse) {
+    background: #5ca200 !important;
+}
+
+/* navbar changing color */
+/* .top-nav-collapse {
+    background-color: #5ca200 !important;
+  }
+.navbar:not(.top-nav-collapse) {
     background: transparent;
 }
 @media (max-width: 768px) {
     .navbar:not(.top-nav-collapse) {
         background: #5ca200 !important;
     }
-}
+} */
 
 #menu.scrolled{
     background-color: #5ca200;
 }
 
-section p, section h1{
-    margin: 0 3px;
+section p, 
+section h1,
+section h4,
+section h5,
+section a{
+    margin: 0 15px; /* was 0 3px*/
 }
 section a{
     color: white;
@@ -78,7 +90,7 @@ section a{
     background-color: #0683b3;
     color: white;
 }
-#contact, footer{
+#contact {
     background-color: #5ca200;
     color: white;
 }

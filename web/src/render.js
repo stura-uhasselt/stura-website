@@ -6,14 +6,10 @@ const languages = {
     nl: require('./languages/nl')
 };
 
-console.log(languages);
-
 module.exports =  express.Router()
     .get('*', (req, res) => {
         const url = Url.parse(req.url).pathname;
         const options = renderOptions(req);
-
-        console.log(options);
 
         res.render(`pages${url}`, options);
     })
@@ -32,8 +28,6 @@ function renderOptions(req) {
         language = req.acceptsLanguages('nl', 'en');
         source = 'useragent';
     }
-
-    console.log(language, source);
 
     return {
         text: languages[language],

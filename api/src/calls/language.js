@@ -5,8 +5,6 @@ module.exports = express.Router({mergeParams: true})
         let language = 'nl';
         let source = 'default';
 
-        console.log(req.cookies._language);
-
         if (req.cookies._language) {
             language = req.cookies._language;
             source = 'cookies';
@@ -28,8 +26,6 @@ module.exports = express.Router({mergeParams: true})
             success: false,
             reason: 'not a supported language',
         });
-
-        console.log(data.language);
 
         res.cookie('_language',data.language, {
             maxAge: 10*365*24*3600*1000,

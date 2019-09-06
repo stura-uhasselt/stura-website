@@ -1,15 +1,42 @@
 {
+    "page": {
+        "association": {
+            "title": "Verenigingen | StuRa UHasselt",
+            "heading": "Verenigingen aan de UHasselt",
+            "description": "Ook onze kleine universiteit kent een uitgebreid verenigingsleven! Heel het jaar door kun je naar td's, fakbars, maar ook andere interessante activiteiten van deze verenigingen. Indien je je bij een vereniging wilt aansluiten, hoeft dit niet een van je faculteit te zijn, je kan je zelfs aansluiten bij meerdere verenigingen. Wel biedt elke vereniging voordelen voor zijn leden in verband met studies en examens.<br><br>PS. Wist je dat je als lid van StuRa gratis binnen mag op alle td's?"
+        }
+    },
     "fn_vars": {
         "change_lang": "en"
     },
     "other_lang": "English",
+    "head": {
+        "description": "Website van de studentenraad van de UHasselt.",
+        "keywords": "UHasselt,Student,Studenten,StuRa,Studentenraad",
+        "author": "StuRa UHasselt",
+        "title": "StuRa UHasselt"
+    },
     "header": {
+        "stura_uhasselt": "StuRa UHasselt",
         "projects": "Projecten",
         "association": "Verenigingen",
         "international": "Internationaal",
         "members": "Leden"
     },
     "footer": {
-        "contact_us": "Contacteer ons"
+        "contact_us": "Contacteer ons",
+        "executive_committee": "Dagelijks bestuur:",
+        "executive_committee_members": [
+            "Lisa Colinet, voorzitster",
+            "Jordi Schreurs, ondervoorzitter onderwijs",
+            "Tim Vervoort, ondervoorzitter student",
+            "Len Van Ocken, secretaris"
+        ],
+        "locations": [
+            "Locatie campus Diepenbeek: lokaal J12, in de gang bij de verenigingslokalen",
+            "Locatie campus Hasselt: laatste lokaal in de roze gang"
+        ],
+        "postal_address": "Postadres:",
+        "postal_address_actual": "Studentenraad Universiteit Hasselt,<br>Martelarenlaan 42,<br>3500 Hasselt<br>"
     }
 }

@@ -9,7 +9,6 @@ function changeLang(lang) {
             language: lang,
         }),
     }).then(res => res.json()).then((res) => {
-        console.log(res);
         location.reload();   
     });
 }

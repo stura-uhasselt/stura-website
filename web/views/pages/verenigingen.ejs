@@ -1,19 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Verenigingen | StuRa UHasselt</title>
+    <title><%= text.page.association.title %></title>
     <% include ../partials/head %>
-    <style>
-        .navbar:not(.top-nav-collapse) {
-            background: #5ca200;
-        }
-        section p, section h1, section h5{
-            margin: 0 15px;
-        }
-        section .container{
-            padding: 80px 0;
-        }
-    </style>
 </head>
 <body data-spy="scroll" data-target="#menu">
     <header>
@@ -24,17 +13,8 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg">
-                        <h1>Verenigingen aan de UHasselt</h1>
-                        <p>
-                            Ook onze kleine universiteit kent een uitgebreid verenigingsleven!
-                            Heel het jaar door kun je naar td's, fakbars, maar ook andere interessante activiteiten van deze
-                            verenigingen.
-                            Indien je je bij een vereniging wilt aansluiten, hoeft dit niet een van je faculteit te zijn, je kan je
-                            zelfs aansluiten bij meerdere verenigingen.
-                            Wel biedt elke vereniging voordelen voor zijn leden in verband met studies en examens.
-                            <br><br>
-                            PS. Wist je dat je als lid van StuRa gratis binnen mag op alle td's?
-                        </p>
+                        <h1><%= text.page.association.heading %></h1>
+                        <p><%- text.page.association.description %></p>
                         <br>
                         <table style="width:100%">
                             <tr>
