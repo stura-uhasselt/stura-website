@@ -182,11 +182,18 @@ section a{
     border-radius: 0.5rem;
     padding: 0.35rem;
     margin: 0.35rem
-  }
-  .more-info-list>li {
+}
+.more-info-list>li {
     margin-top: 0.25rem;
     margin-bottom: 0.25rem;
-  }
-  .more-info-btn {
+}
+.more-info-btn {
     margin-left: 1rem;
-  }
+}
+
+.download-list {
+    border-radius: 0.5rem;
+    background-color: #004188;
+    padding: 0.35rem;
+    margin: 0.35rem;
+}

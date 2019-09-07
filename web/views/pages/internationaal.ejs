@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Projecten | StuRa UHasselt</title>
+    <title><%= text.page.international.title %></title>
     <% include ../partials/head %>
 </head>
 <body data-spy="scroll" data-target="#menu">
@@ -14,16 +14,15 @@
             <div class="container">
                 <div class="row justify-content-md-center">
                     <div class="col-lg-5 box">
-                        <h1>International Students</h1>
+                        <h1><%= text.page.international.international_students %></h1>
                         <p>
-                            For international students we have the International Council
-                            as een extentions of the student council. The International Council is the official participatory platform
-                            for non-Dutch speaking students' enrolled in international programmes. The Council organises meetings and
-                            networks with students, and in turn advises and consults with StuRa.<br>
+                            <%= text.page.international.international_students_desc %>
+                            <br><br>
+                            <%= text.page.international.contact_name %>
                             <br>
-                            Our international council this year is Xhoana Trezhnjeva<br>
-                            Email: <a href="mailto:xhoana.trezhnjeva@student.uhasselt.be ">xhoana.trezhnjeva@student.uhasselt.be</a><br>
-                            Email: <a href="mailto:internationalcouncil@uhasselt.be">internationalcouncil@uhasselt.be</a>
+                            <% text.page.international.contact_email.forEach(function(email) { %>
+                            Email: <a href="mailto:<%= email %>"><%= email %></a><br>
+                            <% }) %>
                         </p>
                     </div>
                 </div>
