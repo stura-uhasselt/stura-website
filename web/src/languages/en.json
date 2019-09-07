@@ -145,7 +145,184 @@
             "elections_desc": "Planning van de StuRa-verkiezingen<br><br>Kandidaatstelling: 17/04/2019-01/05/2019<br>Iedere UH-student kan zich kandidaat stellen via zijn studentendossier.<br><br>Stemming: 03/05/2019-13/05/2019<br>Iedere UH-student kan stemmen op de kandidaten die binnen zij/haar faculteit zijn opgekomen. Binnen elke faculteit zijn er een beperkt aantal plaatsen.<br><br>Functievergadering:<br>17 mei, 17h in A4, campus Diepenbeek<br>22 mei, 17h in E139, campus Diepenbeek<br>Hier kan ieder verkozen lid opkomen voor functies en/of mandaten binnen de studentenraad. Indien je niet bent verkozen tijdens de verkiezingen, kan je hier ook opkomen voor functies en/of mandaten die niet ingevuld geraken. Waag je kans!<br><br>Wil je weten wat je allemaal kan doen binnen de studentenraad? Kom eens langs op onze Open Office dagen!<br>Diepenbeek: elke donderdagmiddag<br>Hasselt: elke maandag middag<br>(niet in de Paasvakantie en examens-periode)<br><br>Of stuur een mailtje naar <a href='mailto:stura@uhasselt.be'>stura@uhasselt.be</a>"
         },
         "members": {
-
+            "title": "Leden | StuRa UHasselt",
+            "members_stura": "Leden van de studentenraad",
+            "desc": "Hier hebben we een overzicht gemaakt van alle leden van de studentenraad. We hebben iedereen per faculteit gesorteerd",
+            "list": [
+                {
+                    "name": "Rechten",
+                    "list": [
+                        {
+                            "img": "/assets/img/leden/An-Sofie Peeters.jpg",
+                            "img_alt": "An-Sofie Peeters",
+                            "name": "An-Sofie Peeters",
+                            "desc": "Faculteitscoördinator"
+                        },
+                        {
+                            "img": "/assets/img/leden/Chelsey Thijs.jpg",
+                            "img_alt": "Chelsey Thijs",
+                            "name": "Chelsey Thijs",
+                            "desc": "Lid"
+                        },
+                        {
+                            "img": "/assets/img/leden/Robbe Vos.jpg",
+                            "img_alt": "Robbe Vos",
+                            "name": "Robbe Vos",
+                            "desc": "Lid"
+                        }
+                    ]
+                },
+                {
+                    "name": "Bedrijfseconomische wetenschappen",
+                    "list": [
+                        {
+                            "img": "/assets/img/leden/Lisa Colinet.jpg",
+                            "img_alt": "Lisa Colinet",
+                            "name": "Lisa Colinet",
+                            "desc": "Voorzitster"
+                        },
+                        {
+                            "img": "/assets/img/leden/Yann Ceccarelli.png",
+                            "img_alt": "Yann Ceccarelli",
+                            "name": "Yann Ceccarelli",
+                            "desc": "Faculteitscoördinator"
+                        },
+                        {
+                            "img": "/assets/img/leden/Xhoana Trezhnjeva.jpg",
+                            "img_alt": "Xhoana Trezhnjeva",
+                            "name": "Xhoana Trezhnjeva",
+                            "desc": "Internationale coördinator"
+                        },
+                        {
+                            "img": "/assets/img/leden/Niek Schoenman.jpg",
+                            "img_alt": "Niek Schoenman",
+                            "name": "Niek Schoenman",
+                            "desc": "Lid"
+                        },
+                        {
+                            "img": "/assets/img/leden/Ahsan Chuhan.jpg",
+                            "img_alt": "Ahsan Chuhan",
+                            "name": "Ahsan Chuhan",
+                            "desc": "Lid"
+                        }
+                        
+                    ]
+                },
+                {
+                    "name": "Geneeskunde en levenswetenschappen",
+                    "list": [
+                        {
+                            "img": "/assets/img/leden/Stijn Dilissen.jpg",
+                            "img_alt": "Stijn Dilissen",
+                            "name": "Stijn Dilissen",
+                            "desc": "Verenigingscoördinator"
+                        },
+                        {
+                            "img": "/assets/img/leden/Emma Ceulemans.jpg",
+                            "img_alt": "Emma Ceulemans",
+                            "name": "Emma Ceulemans",
+                            "desc": "Lid"
+                        }
+                    ]
+                },
+                {
+                    "name": "Industriële ingenieurswetenschappen",
+                    "list": [
+                        {
+                            "img": "/assets/img/leden/Jordi Schreurs.jpg",
+                            "img_alt": "Jordi Schreurs",
+                            "name": "Jordi Schreurs",
+                            "desc": "Ondervoorzitter onderwijs"
+                        },
+                        {
+                            "img": "/assets/img/leden/Rainier Hermans.jpg",
+                            "img_alt": "Rainier Hermans",
+                            "name": "Rainier Hermans",
+                            "desc": "Faculteitscoördinator"
+                        },
+                        {
+                            "img": "/assets/img/leden/Bram Claessen.jpg",
+                            "img_alt": "Bram Claessen",
+                            "name": "Bram Claessen",
+                            "desc": "Lid"
+                        },
+                        {
+                            "img": "/assets/img/leden/Toon Vekemans.jpg",
+                            "img_alt": "Toon Vekemans",
+                            "name": "Toon Vekemans",
+                            "desc": "Lid"
+                        }
+                    ]
+                },
+                {
+                    "name": "Mobiliteitswetenschappen",
+                    "list": [
+                        {
+                            "img": "/assets/img/leden/Tim Vervoort.jpg",
+                            "img_alt": "Tim Vervoort",
+                            "name": "Tim Vervoort",
+                            "desc": "Ondervoorzitter student"
+                        },
+                        {
+                            "img": "/assets/img/leden/Len Van Ocken.jpg",
+                            "img_alt": "Len Van Ocken",
+                            "name": "Len Van Ocken",
+                            "desc": "Secretaris"
+                        },
+                        {
+                            "img": "/assets/img/leden/Ines Damen.jpg",
+                            "img_alt": "Ines Damen",
+                            "name": "Ines Damen",
+                            "desc": "Lid"
+                        }
+                    ]
+                },
+                {
+                    "name": "Revaliditeitswetenschappen",
+                    "list": [
+                        {
+                            "img": "/assets/img/leden/Rune Van de Weyer.jpg",
+                            "img_alt": "Rune Van de Weyer",
+                            "name": "Rune Van de Weyer",
+                            "desc": "Faculteitscoördinator"
+                        }
+                    ]
+                },
+                {
+                    "name": "Architectuur",
+                    "list": [
+                        {
+                            "img": "/assets/img/leden/Zjef Van Den Bruel.jpg",
+                            "img_alt": "Zjef Van Den Bruel",
+                            "name": "Zjef Van Den Bruel",
+                            "desc": "Faculteitscoördinator"
+                        }
+                    ]
+                },
+                {
+                    "name": "Wetenschappen",
+                    "list": [
+                        {
+                            "img": "/assets/img/leden/Jasper Steegmans.jpg",
+                            "img_alt": "Jasper Steegmans",
+                            "name": "Jasper Steegmans",
+                            "desc": "Faculteitscoördinator"
+                        },
+                        {
+                            "img": "/assets/img/leden/Cecile Ishan.jpg",
+                            "img_alt": "Cécile Ishan",
+                            "name": "Cécile Ishan",
+                            "desc": "Communicatieverantwoordelijke"
+                        },
+                        {
+                            "img": "/assets/img/leden/Victor Smet.jpg",
+                            "img_alt": "Victor Smet",
+                            "name": "Victor Smet",
+                            "desc": "FUN-manager"
+                        }
+                    ]
+                }
+            ]
         },
         "associations": {
             "title": "Verenigingen | StuRa UHasselt",
