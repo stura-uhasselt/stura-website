@@ -150,7 +150,111 @@
         "associations": {
             "title": "Verenigingen | StuRa UHasselt",
             "heading": "Verenigingen aan de UHasselt",
-            "description": "Ook onze kleine universiteit kent een uitgebreid verenigingsleven! Heel het jaar door kun je naar td's, fakbars, maar ook andere interessante activiteiten van deze verenigingen. Indien je je bij een vereniging wilt aansluiten, hoeft dit niet een van je faculteit te zijn, je kan je zelfs aansluiten bij meerdere verenigingen. Wel biedt elke vereniging voordelen voor zijn leden in verband met studies en examens.<br><br>PS. Wist je dat je als lid van StuRa gratis binnen mag op alle td's?"
+            "description": "Ook onze kleine universiteit kent een uitgebreid verenigingsleven! Heel het jaar door kun je naar td's, fakbars, maar ook andere interessante activiteiten van deze verenigingen. Indien je je bij een vereniging wilt aansluiten, hoeft dit niet een van je faculteit te zijn, je kan je zelfs aansluiten bij meerdere verenigingen. Wel biedt elke vereniging voordelen voor zijn leden in verband met studies en examens.<br><br>PS. Wist je dat je als lid van StuRa gratis binnen mag op alle td's?",
+            "list": [
+                {
+                    "img": "/assets/img/verenigingen_fotos/Ambifaarke.png",
+                    "img_alt": "Het wapenschild van Ambifaarke",
+                    "name": "Ambifaarke",
+                    "desc": "Ambifaarke is een studentenvereniging. Deze vereniging is de studentenfanfare van de UHasselt."
+                },
+                {
+                    "img": "/assets/img/verenigingen_fotos/ASG.jpg",
+                    "img_alt": "Het wapenschild van A.S.G.",
+                    "name": "A.S.G",
+                    "desc": "A.S.G. Diepenbeek is een studentenvereniging voor studenten industriële ingenieurswetenschappen."
+                },
+                {
+                    "img": "/assets/img/verenigingen_fotos/BeMSA.png",
+                    "img_alt": "Het logo van BeMSA",
+                    "name": "BeMSA",
+                    "desc": "Belgian Medical Students' Association, of BeMSA, is een studentenvereniging voor geneeskundestudenten."
+                },
+                {
+                    "img": "/assets/img/verenigingen_fotos/Biomedica.png",
+                    "img_alt": "Het wapenschild van Biomedica",
+                    "name": "Biomedica",
+                    "desc": "Biomedica is een studentenvereniging voor de studenten biomedische wetenschappen."
+                },
+                {
+                    "img": "/assets/img/verenigingen_fotos/CCG.png",
+                    "img_alt": "Het wapenschild van CCG",
+                    "name": "CCG",
+                    "desc": "Christelijke Campusgemeenschap, of CCG, is een studentenvereniging. Het is de enige studentenvereniging met een godsdienstige achtergrond."
+                },
+                {
+                    "img": "/assets/img/verenigingen_fotos/Commeatus.png",
+                    "img_alt": "Het wapenschild van Commeatus",
+                    "name": "Commeatus",
+                    "desc": "Commeatus is een Studentenvereniging voor de studenten mobiliteitswetenschappen."
+                },
+                {
+                    "img": "/assets/img/verenigingen_fotos/DIPs.jpg",
+                    "img_alt": "Het wapenschild van DIP's",
+                    "name": "DIP's",
+                    "desc": "DIP's is een studentenvereniging voor de studenten biologie en chemie."
+                },
+                {
+                    "img": "/assets/img/verenigingen_fotos/ELSA.png",
+                    "img_alt": "Het logo van ELSA",
+                    "name": "ELSA",
+                    "desc": "European Law Students' Association, of ELSA, is een studentenvereniging voor rechtenstudenten."
+                },
+                {
+                    "img": "/assets/img/verenigingen_fotos/ESN.png",
+                    "img_alt": "Het logo van ESN",
+                    "name": "ESN",
+                    "desc": "Erasmus Student Network, of ESN, is een studentenvereniging voor de buitenlandse studenten die aan de UHasselt studeren."
+                },
+                {
+                    "img": "/assets/img/verenigingen_fotos/Filii_Lamberti.png",
+                    "img_alt": "Het wapenschild van Filii Lamberti",
+                    "name": "Filii Lamberti",
+                    "desc": "Filii Lamberti is een studentenvereniging voor de studenten informatica, wiskunde en fysica."
+                },
+                {
+                    "img": "/assets/img/verenigingen_fotos/Hermes.png",
+                    "img_alt": "Het wapenschild van Hermes",
+                    "name": "Hermes",
+                    "desc": "Hermes is een studentenvereniging voor de studenten bedrijfseconomische wetenschappen."
+                },
+                {
+                    "img": "#",
+                    "img_alt": "Het logo van JOSS",
+                    "name": "JOSS",
+                    "desc": "Joint Organisation of Statistic Scholars, of JOSS, is een studentenvereniging. Sommige leden van deze vereniging zijn aangesloten bij CenStat. JOSS is een groepering van biostatistici."
+                },
+                {
+                    "img": "/assets/img/verenigingen_fotos/LVSV.jpg",
+                    "img_alt": "Het wapenschild van LVSV",
+                    "name": "LVSV",
+                    "desc": "Liberaal Vlaams StudentenVerbond, of LVSV, is een studentenvereniging. De vereniging is een partijonafhankelijke, maar politiek-ideologische vereniging, namelijk liberaal-ideologisch, die deel uitmaakt van LVSV Nationaal."
+                },
+                {
+                    "img": "/assets/img/verenigingen_fotos/Miezerik.png",
+                    "img_alt": "Het wapenschild van Miezerik",
+                    "name": "Miezerik",
+                    "desc": "Miezerik is een studentenvereniging voor de studenten geneeskunde."
+                },
+                {
+                    "img": "/assets/img/verenigingen_fotos/Rekinea.png",
+                    "img_alt": "Het wapenschild van Rekinea",
+                    "name": "Rekinea",
+                    "desc": "Rekinéa is een studentenvereniging voor de studenten Revalidatiewetenschappen en Kinesitherapie."
+                },
+                {
+                    "img": "/assets/img/verenigingen_fotos/SOFA.png",
+                    "img_alt": "Het wapenschild van SOFA",
+                    "name": "SOFA",
+                    "desc": "SOFA is een studentenvereniging voor studenten van de Faculteit Architectuur en Kunst."
+                },
+                {
+                    "img": "/assets/img/verenigingen_fotos/Themis.svg",
+                    "img_alt": "Het wapenschild van Themis",
+                    "name": "Themis",
+                    "desc": "Themis is een studentenvereniging voor de studenten rechten."
+                }
+            ]
         },
         "projects": {
             "title": "Projecten | StuRa UHasselt",
