@@ -202,3 +202,18 @@ section a{
 .associations {
     margin-top: 30px;
 }
+
+#streetmap {
+    width: 425px;
+    height: 350px;
+    border: 1px solid black;
+}
+
+@media (max-width: 600px) {
+    #streetmap {
+        width: 300px;
+        height: 250px;
+        border: 1px solid black;
+        margin: 15px;
+    }
+}
