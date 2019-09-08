@@ -281,10 +281,10 @@
                     "name": "Revaliditeitswetenschappen",
                     "list": [
                         {
-                            "img": "/assets/img/leden/Rune Van de Weyer.jpg",
-                            "img_alt": "Rune Van de Weyer",
-                            "name": "Rune Van de Weyer",
-                            "desc": "Faculteitscoördinator"
+                            "img": "/assets/img/ionicons/person.svg",
+                            "img_alt": "Jij?",
+                            "name": "Jij?",
+                            "desc": "Interesse? Stuur snel naar stura@uhasselt.be!"
                         }
                     ]
                 },
@@ -307,12 +307,6 @@
                             "img_alt": "Jasper Steegmans",
                             "name": "Jasper Steegmans",
                             "desc": "Faculteitscoördinator"
-                        },
-                        {
-                            "img": "/assets/img/leden/Cecile Ishan.jpg",
-                            "img_alt": "Cécile Ishan",
-                            "name": "Cécile Ishan",
-                            "desc": "Communicatieverantwoordelijke"
                         },
                         {
                             "img": "/assets/img/leden/Victor Smet.jpg",
