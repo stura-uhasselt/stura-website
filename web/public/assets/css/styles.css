@@ -28,7 +28,7 @@ section .container{
 }
 .header-logo-img{
     margin-top: 10%;
-    max-width: 1000px;
+    max-width: 600px;
     width: 60%;
 }
 .section-image{
@@ -84,7 +84,7 @@ section a{
     color: white;
 }
 #projecten{
-    background-color: #E73B2B;
+    background-color: #5ca200;
     color: white;
 }
 #vergaderverslagen{
@@ -221,3 +221,8 @@ section a{
 .member {
     margin-bottom: 30px;
 }
+
+/* .row {
+    margin-left: 0px;
+    margin-right: 0px;
+} */
