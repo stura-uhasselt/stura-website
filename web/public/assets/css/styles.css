@@ -130,6 +130,10 @@ section a{
     background-color: #0683b3;
     color: white;
 }
+#stumag{
+    background-color: #E73B2B;
+    color: white;
+}
 .header-bottom{
     bottom: 50px;
     position: absolute;
@@ -225,4 +229,7 @@ h2 {
 .association-banner {
     margin-left: 15px;
     margin-right: -15px;
+}
+[v-cloak] { 
+    display: none;
 }
