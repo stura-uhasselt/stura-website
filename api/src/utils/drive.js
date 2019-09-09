@@ -9,8 +9,8 @@ const SCOPES = [
 ];
 
 const redirect_uris = [
-    "urn:ietf:wg:oauth:2.0:oob",
-    "http://localhost"
+    'urn:ietf:wg:oauth:2.0:oob',
+    'http://localhost'
 ];
 
 const TOKEN_PATH = './.certs/token.json';
@@ -34,7 +34,7 @@ oAuth2Client.on('tokens', async (tokens) => {
 });
 
 async function setup() {
-    const token = await fs.readFile(TOKEN_PATH).catch((err) => {
+    const token = await fs.readFile(TOKEN_PATH).catch(() => {
         return getAccessToken(oAuth2Client);
     });
     oAuth2Client.setCredentials(JSON.parse(token));
@@ -53,7 +53,7 @@ async function getAccessToken(oAuth2Client) {
         ouput: process.stdout,
     });
 
-    return new Promise((resolve, reject) => {
+    return new Promise((resolve) => {
         rl.question('code:', async (code) => {
             rl.close();
             const {tokens} = await oAuth2Client.getToken(code);
@@ -84,12 +84,12 @@ function getFile(fileId, dest) {
         alt: 'media'
     }, {responseType: 'stream'}, function(err, res){
         res.data
-        .on('end', () => {
-        })
-        .on('error', err => {
-            console.log('Error', err);
-        })
-        .pipe(dest);
+            .on('end', () => {
+            })
+            .on('error', err => {
+                console.log('Error', err);
+            })
+            .pipe(dest);
     });
 }
 

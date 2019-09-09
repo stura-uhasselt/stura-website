@@ -8,7 +8,7 @@ function changeLang(lang) {
         body: JSON.stringify({
             language: lang,
         }),
-    }).then(res => res.json()).then((res) => {
+    }).then(res => res.json()).then(() => {
         location.reload();   
     });
 }

@@ -26,6 +26,6 @@ app.use((req, res, next) => {
     next();
 });
 
-app.use(require('./render'))
+app.use(require('./render'));
 
 app.listen(port, () => console.log(`frontend app listening on ${process.env.HOST}:${port}!`));

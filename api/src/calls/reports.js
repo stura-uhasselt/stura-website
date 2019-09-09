@@ -13,6 +13,6 @@ module.exports = express.Router({mergeParams: true})
         const data = req.query;
         const reports = await drive.listFiles(data);
         res.json(reports);
-    })
+    });
 
 

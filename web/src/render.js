@@ -13,7 +13,7 @@ module.exports =  express.Router()
 
         res.render(`pages${url}`, options);
     })
-    .use((err, req, res, next) => {
+    .use((err, req, res) => {
         const options = renderOptions(req);
 
         res.status(404).render('pages/index', options);
