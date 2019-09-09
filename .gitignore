@@ -1,0 +1,9 @@
+.certs/
+.logs/
+.database/
+
+.env*
+
+node_modules/
+
+package-lock.json

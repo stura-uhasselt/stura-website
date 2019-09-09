@@ -1,3 +1,5 @@
+RewriteEngine on
+
 # Old StuMag 2018-2019
 Redirect /stumag https://nl.wiki.suhasselt.be/wiki/StuMag
 Redirect /international-council https://en.wiki.suhasselt.be/wiki/International_Council
@@ -10,6 +12,8 @@ Redirect /verenigingen /#verenigingen
 Redirect /groepen /#groepen
 Redirect /internationaal /#internationaal
 Redirect /contact /#contact
+Redirect /verkiezingen /#verkiezingen
+
 # Language
 Redirect /nl /index.html
 Redirect /en /index_en.html

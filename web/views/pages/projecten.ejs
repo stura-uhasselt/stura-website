@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title><%= text.page.projects.title %></title>
+    <% include ../partials/head %>
+</head>
+<!-- <body data-spy="scroll" data-target="#menu"> -->
+<body>
+    <header>
+        <% include ../partials/header %>
+    </header> 
+    <main>
+        <section id="projecten">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg">
+                        <h1><%= text.page.projects.current_projects %></h1>
+                        <p><%= text.page.projects.current_projects_desc %></p><br>
+                        <br>
+                        <% text.page.projects.current_projects_list.forEach( function(project) { %>
+                            <h4><%= project.title %></h4><br>
+                            <p><%- project.description %></p>
+                            <br>
+                            <br>
+                        <% }) %>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- <section id="vergaderverslagen">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg">
+                        <h2><%= text.page.projects.meeting_report %></h2>
+                        <p><%= text.page.projects.meeting_report_desc %></p>
+                        <div class="download-list">
+                            <a href="./vergaderverslagen/2018_10_08_OMT_bachelor_verslag.pdf" download>Voorbeeldverslag</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+    </main>
+    <footer>
+        <% include ../partials/footer %>
+    </footer>
+</body>
+</html>

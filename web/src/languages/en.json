@@ -1,0 +1,513 @@
+{
+    "page": {
+        "home": {
+            "what_stura": "Wat is StuRa?",
+            "what_stura_desc": "StuRa is de studentenraad van de UHasselt, net zoals elke andere universiteit en hogeschool zijn eigen studentenraad heeft. Wij zijn een gemotiveerde groep studenten die de mening van alle studenten vertegenwoordigt en verdedigt binnen onze universiteit. Doordat we actief zijn binnen verscheidene organen binnen onze universiteit hebben we inspraak op verschillende niveau's. Dit gaat van kleine organen, zoals de Eetcomissie en de Bibliotheeksbeleidscomissie, tot en met de hoogste zoals de Onderwijsraad en de Raad van Bestuur van de UHasselt. Omwille van deze inspraak worden wij gezien als medebestuur van de universiteit.<br><br>StuRa bestaat sinds 2004 en is sindsdien altijd actief bezig geweest met het oplossen van problemen en de mening van studenten binnen de universiteit. Neem gerust eens onze verslagen door of ons lijstje met projecten om te zien waar we momenteel mee bezig zijn! StuRa kun je altijd bereiken door leden te contacteren, door op onze open Algemene Vergaderingen binnen te springen, of via onze Stuver-overleggen, waar elke faculteitscoördinator met de studenten uit de evaluatievergaderingen en OMT's samenzit.",
+            "who_stura": "Wie is StuRa?",
+            "who_stura_desc": "StuRa telt momenteel 24 leden, waarvan je in onderstaand overzicht kunt zien welke functie ze beoefenen. Je kunt op twee manieren lid worden van StuRa.<br><br>Oftewel stel je je kandidaat tijdens de verkiezingen (kandidaatstelling 17 april t.e.m. 1 mei), waardoor je lid bent en stemrecht hebt, oftewel vraag je om gecoöpteerd te worden gedurende het academiejaar. Wanneer je gecoöpteerd wordt krijg je enkel stemrecht als je opkomt voor een functie, niet als je opkomt voor een mandaat. Dit neemt niet weg dat je je mening kunt geven op een vergadering!",
+            "list_functions": "Lijst van functies",
+            "list_mandates": "Lijst van mandaten",
+            "list_both": "Beide lijsten",
+            "list_more_info": "Meer info",
+            "functions": [
+                {
+                    "name": "Voorzitter",
+                    "desc": "Deze functie kun je vergelijken met een manager in een bedrijf. Je leidt een groep, met het verschil dat deze groep bestaat uit vrijwilligers. Een goede communicatie tussen jou, het rectoraat, je medebestuur en de leden van de studentenraad is essentieel.",
+                    "var": "info-voorzitter"
+                },
+                {
+                    "name": "Ondervoorzitter Onderwijs",
+                    "desc": "Het opvolgen van de faculteitscoördinatoren, contact met studieloopbaanbegeleidsters van elke faculteit en constructief mee denken aan oplossingen of verbeteringen binnen het onderwijs van de universiteit is de kern van deze functie. De onderwijsraad is voor jou een cruciaal orgaan. Je bent ook deel van het bestuur, wat inhoudt dat je mee overlegt en beslist over de richting die StuRa uit wil gaan.",
+                    "var": "info-ondervoorzitter-onderwijs"
+                },
+                {
+                    "name": "Ondervoorzitter Student",
+                    "desc": "Het belangrijkste orgaan waar je iets kunt realiseren is de Raad voor Studentenvoorzieningen (RvS), maar je dient ook contact te houden met de dienst stuvo, cultuur, het rectoraat… Binnen StuRa werk je samen met de verenigingscoördinator, sportcoördinator… je hoort het al, geen onderwijs dus 😉",
+                    "var": "info-ondervoorzitter-student"
+                },
+                {
+                    "name": "Secretaris",
+                    "desc": "Is plannen en organiseren echt iets voor jou? Als rechterhand van het StuRa bestuur, hou je zeer nauwkeurig notities bij tijdens de algemene vergaderingen, hou je de documentatie bij, plan je vergaderingen en bijkomende benodigdheden in etc. Je nodigt de leden, geïnteresseerden en eventuele externen uit en zorgt voor een vlotte communicatie tussen het bestuur en studenten/externen/UHasselt personeelsleden.",
+                    "var": "info-secretaris"
+                },
+                {
+                    "name": "Financieel beheerder",
+                    "desc": "Je volgt de financiën en ons budget hier nauwkeurig op. Je hebt contact met de dienst financiën van de universiteit, aangezien ons budget van hun komt.",
+                    "var": "info-financieel-beheerder"
+                },
+                {
+                    "name": "Verenigingscoördinator",
+                    "desc": "Sta je op goede voet met meerdere verenigingen en kun je je neutraal opstellen? In deze functie sta je centraal tussen de verenigingen (inclusief de niet studentikoze verenigingen), StuRa en de universiteit. De verenigings- en praesesraad zijn essentiële vergaderingen voor jou.",
+                    "var": "info-verenigingscoordinator"
+                },
+                {
+                    "name": "International Coördinator",
+                    "desc": "Ben jij iemand die graag contacten legt en geïnteresseerd is in andere culturen? Vanuit StuRa bestaat ook de International Council voor internationale studenten. In deze functie begeleid je deze (niet voorzitten!) en ben je een aanspreekpunt internationale studenten en tussenschakel studentenraad en DIOS en ESN.",
+                    "var": "info-international-coordinator"
+                },
+                {
+                    "name": "Communicatieverantwoordelijke",
+                    "desc": "StuRa heeft een account op meerdere social media. Voorlopig zijn we actief op Facebook, Instagram en hebben we een website. We hebben echter ook nog een LinkedIn en Twitter account. Heb jij het in je om regelmatig en gestructureerd iets interessants te laten weten over StuRa? Zit er ook wat humor bij jou verstopt? Dan is deze functie jou op het lijf geschreven. Je doet dit samen met de 2 mandaten binnen het communicatie team.",
+                    "var": "info-commveratnwoordelijke"
+                },
+                {
+                    "name": "Sport Coördinator",
+                    "desc": "In deze functie heb je contact met de sportdienst en denk je constructief na over verbeteringen binnen het sportaanbod.",
+                    "var": "info-sport-coordinator"
+                },
+                {
+                    "name": "ICT beheerder",
+                    "desc": "Je onderhoudt in de website en de ‘simpele’ ICT waar de meeste studenten moeilijkheden mee hebben.",
+                    "var": "info-ICT-beheerder"
+                },
+                {
+                    "name": "FUN manager",
+                    "desc": "Hou jij je graag bezig met het organiseren van leuke activiteiten? Deze functie heeft de verantwoordelijk voor zowel interne als externe StuRa activiteiten. Zo heb je onze weekends, filmavonden… onder jouw bewind een spectaculair event? Je doet dit samen met de 5 mandaten van het FUN overleg.",
+                    "var": "info-FUN-manager"
+                },
+                {
+                    "name": "Campuscoördinator (2: in Hasselt en Diepenbeek)",
+                    "desc": "In deze functie volg je de voorzieningen binnen jouw campus op. Zijn er bijvoorbeeld problemen met de infrastructuur of een of andere dienst, dan ben jij degene die hiervoor mailt naar de dienst MAT.",
+                    "var": "info-campuscoordinator"
+                },
+                {
+                    "name": "Faculteitscoördinator (7, ARK, BEW, GLW, IIW, RWS, MOB, WET, REC)",
+                    "desc": "Per faculteit, de tussenschakel tussen studenten in evaluatievergaderingen en OMT's, studieloopbaanbegeleiders en de studentenraad. Aanspreekpunt voor studenten in zijn/haar faculteit. Deze functie vereist dat je je sociaal kunt opstellen en je verantwoordelijk voelt voor je faculteit. Je bent hier helemaal op je plek als je kennissenkring veel studenten van je faculteit, en liefst over verscheidene jaren, bevat.",
+                    "var": "info-faccoordinator"
+                }
+            ],
+            "mandate_info": "Een mandaat dat je opneemt is minder zwaar dan een functie.",
+            "mandates": [
+                {
+                    "name": "Faculteitsraad (13, ARK (2), BEW(2), GLW(2), IIW(1), RWS(2), MOB(2), WET(2), REC(2)",
+                    "desc": "In dit orgaan sta je de faculteitscoördinator bij wanneer er onderwijs-gerelateerde topics aan bod komen.",
+                    "var": "info-faculteitsraad"
+                },
+                {
+                    "name": "Onderwijsraad",
+                    "desc": "In dit orgaan sta je de ondervoorzitter onderwijs bij met StuRa-standpunten. Je denkt constructief mee over het onderwijs binnen de universiteit.",
+                    "var": "info-onderwijsraad"
+                },
+                {
+                    "name": "Raad voor studentenoorzieningen (7, één per faculteit)",
+                    "desc": "studentvertegenwoordiging in de Raad voor Studentenvoorzieningen van de UHasselt. Hier komt alles over tafel dat met studentenaangelegenheden heeft te maken: van het restaurant en het kamerbestand tot en met de verenigingen. Hier is het belangrijk onze studenten te vertegenwoordigen omdat ze ons anders wel eens durven te vergeten 😉.",
+                    "var": "info-rvs"
+                },
+                {
+                    "name": "Verenigingsraad (2)",
+                    "desc": "In dit orgaan zijn er zowel studentikoze als niet-studentikoze verenigingen binnen de universiteit die dienen te worden opgevolgd. Je staat hier de verenigingscoördinator bij.",
+                    "var": "info-verenigingsraad"
+                },
+                {
+                    "name": "Studentenraad AUHL (4, Associatie Universiteit en Hogescholen Limburg)",
+                    "desc": "Onze StuRa UHasselt mee vertegenwoordigen in de Associatie Universiteit Hogescholen Limburg. Dit gaat voornamelijk over informatie-uitwisseling en met de andere instellingen wordt elk jaar gekeken naar gezamenlijke projecten die kunnen worden gerealiseerd. We zijn hier voorlopig bezig met de StudentHotspot.",
+                    "var": "info-AUHL"
+                },
+                {
+                    "name": "VVS (3, Vlaamse Vereniging van Studenten)",
+                    "desc": "Is een studentenraad niet genoeg voor jou? Vertegenwoordig onze StuRa in de Vlaamse Vereniging van Studenten! Een overkoepeling van alle studentenraden van hogescholen en universiteiten, die hun stem laten horen over het onderwijsbeleid.",
+                    "var": "info-VVS"
+                },
+                {
+                    "name": "Tuchtcomissie Student (2)",
+                    "desc": "Wanneer de tuchtcommissie samenkomt omwille van tuchtgedrag, dienen ook studenten aanwezig te zijn. Dit is echter een zeer occasioneel feit.",
+                    "var": "info-tuchcomissie"
+                },
+                {
+                    "name": "Eetcomissie (2)",
+                    "desc": "De veranderingen van Umami lagen menig student op de maag. In deze commissie ijveren wij voor verbeteringen. Je staat hier ook in contact met de campuscoördinator, die eventuele problemen mee opvolgt.",
+                    "var": "info-eetcomissie"
+                },
+                {
+                    "name": "Bibliotheekbeleidscomissie (2)",
+                    "desc": "Specifieke zaken over de bibliotheek worden hier aangehaald. Je staat hier ook in contact met de campuscoördinator, die eventuele problemen mee opvolgt.",
+                    "var": "info-bibcomissie"
+                },
+                {
+                    "name": "International Council (3)",
+                    "desc": "Je helpt de international coordinator bij het begeleiden van deze raad en je bent geïnteresseerd in internationale studenten.",
+                    "var": "info-international-council"
+                },
+                {
+                    "name": "FUN overleg (6)",
+                    "desc": "Organiseer je graag activiteiten? Hier worden deze besproken en gepland samen met de FUN manager.",
+                    "var": "info-FUN-overleg"
+                },
+                {
+                    "name": "Communicatie Team (3)",
+                    "desc": "In samenspraak met de communicatieverantwoordelijke verzorg je de onze communicatiekanalen van StuRa.",
+                    "var": "info-communicatie-team"
+                }
+            ],
+            "become_member": "Kom eens kijken",
+            "become_member_desc": "Wij zijn een team voor en door studenten van de UHasselt. Wil je toch graag wat meer info? Kom zeker eens langs op onze Algemene Vergadering! Deze is altijd toegankelijk voor studenten. De kalender kan je hieronder vinden.<br><br>Wat gebeurt er juist op zo'n vergadering? Soms komen er externen langs omtrent verschillende thema's: van personeelsleden tot en met mensen of studenten die iets komen voorstellen. Verslagen van vorige vergaderingen worden goedgekeurd en externe vergaderingen die hebben plaatsgevonden worden allemaal teruggekoppeld zodat iedereen op de hoogte is. Verder maken wij een onderscheid in lopende topics tussen onderwijs- en studentgerelateerde info. Ook de internationale studenten komen aan bod: hier koppelt de International Coordinator, die zit in de International Council, informatie over terug.<br><br>Buiten de Algemene Vergadering, organiseren we ook werkgroepen over verschillende thema's, met de bedoeling te brainstormen over een onderwerp en vervolgens met voorstellen naar de Algemene Vergadering te trekken.<br><br>Indien je graag nieuws krijgt over vergaderingen en werkgroepen, schrijf je dan in op onze maillijst!<br><br>Heb je zin om eens te komen kijken? Stuur een mailtje naar ons bestuur via <a href='mailto:stura@uhasselt.be'>stura@uhasselt.be</a>, of contacteer een stura-lid dat je kent. Indien dit tijdig gebeurt kunnen we een broodje voor je voorzien.",
+            "elections": "StuRa-verkiezingen",
+            "elections_desc": "Planning van de StuRa-verkiezingen<br><br>Elk jaar vinden onze verkiezingen plaats eind april tot en met midden mei. Hier worden studenten verkozen die het vólgende academiejaar in de studentenraad zullen zitten. De overdracht vindt officieel plaats op 1 augustus. De planning loopt als volgt:<br><br>1) een periode waar je je via je studentendossier kandidaat kunt stellen. Vorig academiejaar was dit van 17/04/2019 tot 01/05/2019.<br><br>2) een periode waar iedere UH-student kan stemmen op studenten binnen zijn/haar faculteit. Vorig academiejaar was dit van 03/05/2019 tot 13/05/2019. Binnen elke faculteit zijn er een beperkt aantal zetels, afhankelijk van hoe groot de faculteit is.<br>ARK: 3 zetels<br>BEW: 4 zetels<br>GLW: 2 zetels<br>IIW: 4 zetels<br>MOB: 1 zetel<br>REC: 3 zetels<br>RWS: 2 zetels<br>WET: 3 zetels<br>SES: 1 zetel<br><br>3) functievergadering(en) waarin alle verkozen leden kunnen stemmen op zij die willen opkomen voor een functie of mandaat. Indien je niet bent verkozen tijdens de verkiezingen, kan je hier ook opkomen voor functies en/of mandaten die niet ingevuld geraken. Waag je kans! Vorig academiejaar waren er 2 functievergaderingen voor de examenperiode. Functies of mandaten die niet ingevuld geraken of waar geen tijd meer voor is worden verplaatst naar de eerstvolgende algemene vergadering van het volgende academiejaar. <br><br>! Wat er dit jaar verandert !<br><br>Normaalgezien worden alle functies en mandaten in de beperkte groep van al reeds verkozen leden bepaald door middel van (anonieme) stemming. In het academiejaar 2019-2020 maken we hier echter één uitzondering op voor de functie van faculteitscoördinator. Deze laten we vanaf nu rechtstreeks verkiezen door alle studenten van de faculteit. <br><br><br>Ben je niet verkozen tijdens de verkiezingen of de functievergaderingen? Niet getreurd! Doorheen het academiejaar kunnen wij jou nog steeds coöpteren. Je kunt hierbij opkomen voor een mandaat of voor een functie. We maken een onderscheid tussen leden, met stemrecht, en medewerkers, zonder stemrecht, bij de studentenraad. Wanneer je je verkiesbaar stelt in mei en vervolgens wordt verkozen, ben je automatisch lid. Indien je geen lid bent geworden tijdens de verkiezingen kun je doorheen het academiejaar gecoöpteerd worden tot lid. Dit kan enkel wanneer je met een goede motivatie opkomt voor een functie, en de Algemene Vergadering (AV) je vervolgens verkiest. Er kunnen maximaal 2 leden per faculteit worden gecoöpteerd bovenop het maximaal aantal leden van een faculteit. Je kan ook gecoöpteerd worden tot medewerker, wanneer je met een goede motivatie opkomt voor een mandaat en de AV je verkiest. Je kan ook opkomen voor medewerker zonder een mandaat op te nemen. Het voordeel van gecoöpteerd te worden is dat je toegang krijgt tot de drive en onze interne communicatie.<br><br>Heb je nog vragen? Stuur gerust een mailtje naar <a href='mailto:stura@uhasselt.be'>stura@uhasselt.be</a><br>"
+        },
+        "members": {
+            "title": "Leden | StuRa UHasselt",
+            "members_stura": "Leden van de studentenraad",
+            "desc": "Hier hebben we een overzicht gemaakt van alle leden van de studentenraad. We hebben iedereen per faculteit gesorteerd",
+            "list": [
+                {
+                    "name": "Rechten",
+                    "list": [
+                        {
+                            "img": "/assets/img/leden/An-Sofie Peeters.jpg",
+                            "img_alt": "An-Sofie Peeters",
+                            "name": "An-Sofie Peeters",
+                            "desc": "Faculteitscoördinator"
+                        },
+                        {
+                            "img": "/assets/img/leden/Chelsey Thijs.jpg",
+                            "img_alt": "Chelsey Thijs",
+                            "name": "Chelsey Thijs",
+                            "desc": "Lid"
+                        },
+                        {
+                            "img": "/assets/img/leden/Robbe Vos.jpg",
+                            "img_alt": "Robbe Vos",
+                            "name": "Robbe Vos",
+                            "desc": "Lid"
+                        }
+                    ]
+                },
+                {
+                    "name": "Bedrijfseconomische wetenschappen",
+                    "list": [
+                        {
+                            "img": "/assets/img/leden/Lisa Colinet.jpg",
+                            "img_alt": "Lisa Colinet",
+                            "name": "Lisa Colinet",
+                            "desc": "Voorzitster"
+                        },
+                        {
+                            "img": "/assets/img/leden/Yann Ceccarelli.png",
+                            "img_alt": "Yann Ceccarelli",
+                            "name": "Yann Ceccarelli",
+                            "desc": "Faculteitscoördinator"
+                        },
+                        {
+                            "img": "/assets/img/leden/Xhoana Trezhnjeva.jpg",
+                            "img_alt": "Xhoana Trezhnjeva",
+                            "name": "Xhoana Trezhnjeva",
+                            "desc": "Internationale coördinator"
+                        },
+                        {
+                            "img": "/assets/img/leden/Niek Schoenman.jpg",
+                            "img_alt": "Niek Schoenman",
+                            "name": "Niek Schoenman",
+                            "desc": "Lid"
+                        },
+                        {
+                            "img": "/assets/img/leden/Ahsan Chuhan.jpg",
+                            "img_alt": "Ahsan Chuhan",
+                            "name": "Ahsan Chuhan",
+                            "desc": "Lid"
+                        }
+                        
+                    ]
+                },
+                {
+                    "name": "Geneeskunde en levenswetenschappen",
+                    "list": [
+                        {
+                            "img": "/assets/img/leden/Stijn Dilissen.jpg",
+                            "img_alt": "Stijn Dilissen",
+                            "name": "Stijn Dilissen",
+                            "desc": "Verenigingscoördinator"
+                        },
+                        {
+                            "img": "/assets/img/leden/Emma Ceulemans.jpg",
+                            "img_alt": "Emma Ceulemans",
+                            "name": "Emma Ceulemans",
+                            "desc": "Lid"
+                        }
+                    ]
+                },
+                {
+                    "name": "Industriële ingenieurswetenschappen",
+                    "list": [
+                        {
+                            "img": "/assets/img/leden/Jordi Schreurs.jpg",
+                            "img_alt": "Jordi Schreurs",
+                            "name": "Jordi Schreurs",
+                            "desc": "Ondervoorzitter onderwijs"
+                        },
+                        {
+                            "img": "/assets/img/leden/Rainier Hermans.jpg",
+                            "img_alt": "Rainier Hermans",
+                            "name": "Rainier Hermans",
+                            "desc": "Faculteitscoördinator"
+                        },
+                        {
+                            "img": "/assets/img/leden/Bram Claessen.jpg",
+                            "img_alt": "Bram Claessen",
+                            "name": "Bram Claessen",
+                            "desc": "Lid"
+                        },
+                        {
+                            "img": "/assets/img/leden/Toon Vekemans.jpg",
+                            "img_alt": "Toon Vekemans",
+                            "name": "Toon Vekemans",
+                            "desc": "Lid"
+                        }
+                    ]
+                },
+                {
+                    "name": "Mobiliteitswetenschappen",
+                    "list": [
+                        {
+                            "img": "/assets/img/leden/Tim Vervoort.jpg",
+                            "img_alt": "Tim Vervoort",
+                            "name": "Tim Vervoort",
+                            "desc": "Ondervoorzitter student"
+                        },
+                        {
+                            "img": "/assets/img/leden/Len Van Ocken.jpg",
+                            "img_alt": "Len Van Ocken",
+                            "name": "Len Van Ocken",
+                            "desc": "Secretaris"
+                        },
+                        {
+                            "img": "/assets/img/leden/Ines Damen.jpg",
+                            "img_alt": "Ines Damen",
+                            "name": "Ines Damen",
+                            "desc": "Lid"
+                        }
+                    ]
+                },
+                {
+                    "name": "Revaliditeitswetenschappen",
+                    "list": [
+                        {
+                            "img": "/assets/img/ionicons/person.svg",
+                            "img_alt": "Jij?",
+                            "name": "Jij?",
+                            "desc": "Interesse? Stuur snel naar stura@uhasselt.be!"
+                        }
+                    ]
+                },
+                {
+                    "name": "Architectuur",
+                    "list": [
+                        {
+                            "img": "/assets/img/leden/Zjef Van Den Bruel.jpg",
+                            "img_alt": "Zjef Van Den Bruel",
+                            "name": "Zjef Van Den Bruel",
+                            "desc": "Faculteitscoördinator"
+                        }
+                    ]
+                },
+                {
+                    "name": "Wetenschappen",
+                    "list": [
+                        {
+                            "img": "/assets/img/leden/Jasper Steegmans.jpg",
+                            "img_alt": "Jasper Steegmans",
+                            "name": "Jasper Steegmans",
+                            "desc": "Faculteitscoördinator"
+                        },
+                        {
+                            "img": "/assets/img/leden/Victor Smet.jpg",
+                            "img_alt": "Victor Smet",
+                            "name": "Victor Smet",
+                            "desc": "FUN-manager"
+                        }
+                    ]
+                }
+            ]
+        },
+        "associations": {
+            "title": "Verenigingen | StuRa UHasselt",
+            "heading": "Verenigingen aan de UHasselt",
+            "description": "Ook onze kleine universiteit kent een uitgebreid verenigingsleven! Heel het jaar door kun je naar td's, fakbars, maar ook andere interessante activiteiten van deze verenigingen. Indien je je bij een vereniging wilt aansluiten, hoeft dit niet een van je faculteit te zijn, je kan je zelfs aansluiten bij meerdere verenigingen. Wel biedt elke vereniging voordelen voor zijn leden in verband met studies en examens.<br><br>PS. Wist je dat je als lid van StuRa gratis binnen mag op alle td's?",
+            "list": [
+                {
+                    "img": "/assets/img/verenigingen_fotos/Ambifaarke.png",
+                    "img_alt": "Het wapenschild van Ambifaarke",
+                    "name": "Ambifaarke",
+                    "desc": "Ambifaarke is een studentenvereniging. Deze vereniging is de studentenfanfare van de UHasselt."
+                },
+                {
+                    "img": "/assets/img/verenigingen_fotos/ASG.jpg",
+                    "img_alt": "Het wapenschild van A.S.G.",
+                    "name": "A.S.G",
+                    "desc": "A.S.G. Diepenbeek is een studentenvereniging voor studenten industriële ingenieurswetenschappen."
+                },
+                {
+                    "img": "/assets/img/verenigingen_fotos/BeMSA.png",
+                    "img_alt": "Het logo van BeMSA",
+                    "name": "BeMSA",
+                    "desc": "Belgian Medical Students' Association, of BeMSA, is een studentenvereniging voor geneeskundestudenten."
+                },
+                {
+                    "img": "/assets/img/verenigingen_fotos/Biomedica.png",
+                    "img_alt": "Het wapenschild van Biomedica",
+                    "name": "Biomedica",
+                    "desc": "Biomedica is een studentenvereniging voor de studenten biomedische wetenschappen."
+                },
+                {
+                    "img": "/assets/img/verenigingen_fotos/CCG.png",
+                    "img_alt": "Het wapenschild van CCG",
+                    "name": "CCG",
+                    "desc": "Christelijke Campusgemeenschap, of CCG, is een studentenvereniging. Het is de enige studentenvereniging met een godsdienstige achtergrond."
+                },
+                {
+                    "img": "/assets/img/verenigingen_fotos/Commeatus.png",
+                    "img_alt": "Het wapenschild van Commeatus",
+                    "name": "Commeatus",
+                    "desc": "Commeatus is een Studentenvereniging voor de studenten mobiliteitswetenschappen."
+                },
+                {
+                    "img": "/assets/img/verenigingen_fotos/DIPs.jpg",
+                    "img_alt": "Het wapenschild van DIP's",
+                    "name": "DIP's",
+                    "desc": "DIP's is een studentenvereniging voor de studenten biologie en chemie."
+                },
+                {
+                    "img": "/assets/img/verenigingen_fotos/ELSA.png",
+                    "img_alt": "Het logo van ELSA",
+                    "name": "ELSA",
+                    "desc": "European Law Students' Association, of ELSA, is een studentenvereniging voor rechtenstudenten."
+                },
+                {
+                    "img": "/assets/img/verenigingen_fotos/ESN.png",
+                    "img_alt": "Het logo van ESN",
+                    "name": "ESN",
+                    "desc": "Erasmus Student Network, of ESN, is een studentenvereniging voor de buitenlandse studenten die aan de UHasselt studeren."
+                },
+                {
+                    "img": "/assets/img/verenigingen_fotos/Filii_Lamberti.png",
+                    "img_alt": "Het wapenschild van Filii Lamberti",
+                    "name": "Filii Lamberti",
+                    "desc": "Filii Lamberti is een studentenvereniging voor de studenten informatica, wiskunde en fysica."
+                },
+                {
+                    "img": "/assets/img/verenigingen_fotos/Hermes.png",
+                    "img_alt": "Het wapenschild van Hermes",
+                    "name": "Hermes",
+                    "desc": "Hermes is een studentenvereniging voor de studenten bedrijfseconomische wetenschappen."
+                },
+                {
+                    "img": "#",
+                    "img_alt": "Het logo van JOSS",
+                    "name": "JOSS",
+                    "desc": "Joint Organisation of Statistic Scholars, of JOSS, is een studentenvereniging. Sommige leden van deze vereniging zijn aangesloten bij CenStat. JOSS is een groepering van biostatistici."
+                },
+                {
+                    "img": "/assets/img/verenigingen_fotos/LVSV.jpg",
+                    "img_alt": "Het wapenschild van LVSV",
+                    "name": "LVSV",
+                    "desc": "Liberaal Vlaams StudentenVerbond, of LVSV, is een studentenvereniging. De vereniging is een partijonafhankelijke, maar politiek-ideologische vereniging, namelijk liberaal-ideologisch, die deel uitmaakt van LVSV Nationaal."
+                },
+                {
+                    "img": "/assets/img/verenigingen_fotos/Miezerik.png",
+                    "img_alt": "Het wapenschild van Miezerik",
+                    "name": "Miezerik",
+                    "desc": "Miezerik is een studentenvereniging voor de studenten geneeskunde."
+                },
+                {
+                    "img": "/assets/img/verenigingen_fotos/Rekinea.png",
+                    "img_alt": "Het wapenschild van Rekinea",
+                    "name": "Rekinea",
+                    "desc": "Rekinéa is een studentenvereniging voor de studenten Revalidatiewetenschappen en Kinesitherapie."
+                },
+                {
+                    "img": "/assets/img/verenigingen_fotos/SOFA.png",
+                    "img_alt": "Het wapenschild van SOFA",
+                    "name": "SOFA",
+                    "desc": "SOFA is een studentenvereniging voor studenten van de Faculteit Architectuur en Kunst."
+                },
+                {
+                    "img": "/assets/img/verenigingen_fotos/Themis.svg",
+                    "img_alt": "Het wapenschild van Themis",
+                    "name": "Themis",
+                    "desc": "Themis is een studentenvereniging voor de studenten rechten."
+                }
+            ]
+        },
+        "projects": {
+            "title": "Projecten | StuRa UHasselt",
+            "current_projects": "Huidige projecten",
+            "current_projects_desc": "Hieronder vind je een handgreep uit lopende projecten waar we ijverig aan werken.",
+            "current_projects_list": [
+                {
+                    "title": "Student-Hotspot",
+                    "description": "Veel studenten van buitenaf denken dat het uitgaansleven op onze universiteit bestaat uit schapen tellen en koeien melken, maar niets is minder waar! In Diepenbeek kun je uitgaan in de Fitlink, de Borly en 't Stiemerke, in Hasselt zijn er diverse café's.<br>Toch missen studenten nog een andere feestplek die voldoet aan de eisen van de buurtbewoners, evenals een plek waar plaats is voor andere hobby's en activiteiten. Zo kunnen weinig studenten op kot hun muziekinstrument vastnemen wegens dunne muren, of is er niet dat speciale studentenwinkeltje, hebben studenten te weinig studieplekken.<br>Hiervoor is de Student-Hotspot de oplossing. Een multifunctionele, gezellige en vooral, studentikoze plek die gerund wordt voor en door studenten. Waar wij nog aan werken: gemeente Hasselt en Diepenbeek die hun schouders onder het project steken en een geschikte locatie. Hopelijk kun je hier volgend jaar al eens komen chillen!"
+                },
+                {
+                    "title": "Mobiliteit op en rond de campus",
+                    "description": "We kennen allemaal het parking-probleem rond zowel campus Hasselt als Diepenbeek. Al enkele jaren ijvert de studentenraad voor frequentere buslijnen en een efficiënter parkingbeleid. Hier hoor je het komende academiejaar ongetwijfeld nog meer over! Werk jij hier dit jaar aan mee?"
+                },
+                {
+                    "title": "Het mailverkeer van de UHasselt",
+                    "description": "Na enkele weken zul je als nieuwe student al snel door hebben dat je mailbox je terroriseert met dagelijkse berichten over alles wat er op en rond de universiteit te doen is. Studenten en personeelsleden ervaren deze overvloed als informatie als storend en het resultaat is dat er (on)bewust niet wordt geantwoord op mails en dat interessante mails evensnel worden verwijderd dan minder relevante mails.<br>Hier zijn meerdere oplossingen voor. Een idee waar StuRa sterk achterstaat is het gebruik van een nieuwsbrief (via mail), die één of twee keer in de maand relevante informatie bundelt en werkt met doorkliklinks om meer informatie over een bepaald onderwerp te kunnen zien. Om de nieuwsbrief interessant te houden kunnen er ook de data van td's voor de komende maand in staan."
+                },
+                {
+                    "title": "Beschikbaarheid examenresultaten",
+                    "description": "Wanneer komen jouw examenresultaten online? Moet je hier lang op wachten? In het OER (onderwijs-, examen- en rechtspositieregeling) staat een adviesperiode waarin de resultaten worden beschikbaar worden gesteld van 10 dagen na de examenperiode. Dit is echter geen verplichting, waardoor er vorig academiejaar richtingen waren waarbij studenten tot wel 20 dagen moesten wachten vooraleer ze hun punten te zien kregen. Dit betekent al dat het volgende semester begint, je je hebt ingeschreven voor vakken, je deelneemt aan groepswerken etc., zonder zeker te zijn dat je op je vorige punten geslaagd bent. Hierdoor zou je je studietraject misschien anders willen samenstellen, zoals het opnemen van andere vakken, meer of minder vakken, het organiseren van hobby's in je tweede semester etc.<br>StuRa ijverde vorig jaar al om de adviesperiode bindend te maken. Dit werd afgewezen in de Onderwijsraad omwille van de werkoverlast die het zou veroorzaken. Wij vragen ons echter af waarom dit dan wel kan bij onze student-collega's op andere universiteiten, of waarom onze eigen, grootste faculteit (BEW) zich wel al aan de adviesperiode houdt, of waarom resultaten na het 2e semester veel sneller online komen te staan. Dit jaar wensen we deze argumenten te versterken door middel van een debat en enquête, waar je ongetwijfeld nog iets over zult zien in de wandelgangen!"
+                },
+                {
+                    "title": "Onze dagelijke kost",
+                    "description": "Wie hier al enkele jaren studeert heeft de veranderingen bij cateraar Umami vast en zeker opgemerkt. Naast verbouwingen, was er ook een periode waar de kwaliteit van onze geliefde broodjes en vidée er op achteruitging. Na een Umami-enquête door StuRa en een goede samenwerking in de eetcommissie, zijn er naast het gewone aanbod ook pizza-ovens en andere opties bijgekomen. Ook wordt er veel minder plastic gebruikt in de verpakkingen en is er een groter aanbod voor de vegetariërs onder ons. Deze samenwerking moet natuurlijk worden onderhouden. Heb jij leuke suggesties voor je lunchpauze tot een waar eetfestijn te maken, stuur gerust je ideeën door!"
+                },
+                {
+                    "title": "Aftekenbaar examenbewijsje",
+                    "description": "In sommige richtingen aan onze universiteit hangt er aan het examen een aftekenbewijsje, dat je ondertekent wanneer je je pagina's hebt geteld en het examen hebt ingevuld. Bij het afgeven van je examens wordt de helft van het blad afgescheurd en dit krijg je mee naar huis, de andere helft is het bewijs voor de prof van het vak. Wanneer je examen op mysterieuze wijze zou verdwijnen, kun jij nog altijd bewijzen dat je je examen hebt afgelegd. Hiermee verlies je geen examenkans en kun je jezelf verdedigen in de examencommissie. Niet elke richting past dit toe. Met StuRa ijveren we echter om dit zowel bij mondelinge als schriftelijke examens toe te passen, als een extra verzekering voor de student, maar ook voor de prof."
+                }
+            ],
+            "meeting_report": "Vergaderverslagen",
+            "meeting_report_desc": "Hier staan al onze vergaderverslagen in pdf vorm om te downloaden.",
+            "meeting_report_list": [
+                ""
+            ]
+        },
+        "international": {
+            "title": "Projecten | StuRa UHasselt",
+            "international_students": "International Students",
+            "international_students_desc": "For international students we have the International Council as een extentions of the student council. The International Council is the official participatory platform for non-Dutch speaking students' enrolled in international programmes. The Council organises meetings and networks with students, and in turn advises and consults with StuRa.",
+            "contact_name": "Our international council this year is Xhoana Trezhnjeva",
+            "contact_email": [
+                "xhoana.trezhnjeva@student.uhasselt.be",
+                "internationalcouncil@uhasselt.be"
+            ]
+        }        
+    },
+    "fn_vars": {
+        "change_lang": "nl"
+    },
+    "other_lang": "Nederlands",
+    "head": {
+        "description": "Website van de studentenraad van de UHasselt.",
+        "keywords": "UHasselt,Student,Studenten,StuRa,Studentenraad",
+        "author": "StuRa UHasselt",
+        "title": "StuRa UHasselt"
+    },
+    "header": {
+        "stura_uhasselt": "StuRa UHasselt",
+        "projects": "Projecten",
+        "associations": "Verenigingen",
+        "international": "Internationaal",
+        "members": "Leden"
+    },
+    "footer": {
+        "contact_us": "Contacteer ons",
+        "executive_committee": "Dagelijks bestuur",
+        "executive_committee_members": [
+            "Lisa Colinet, voorzitster",
+            "Jordi Schreurs, ondervoorzitter onderwijs",
+            "Tim Vervoort, ondervoorzitter student",
+            "Len Van Ocken, secretaris"
+        ],
+        "locations": [
+            "Locatie campus Diepenbeek: lokaal J12, in de gang bij de verenigingslokalen",
+            "Locatie campus Hasselt: laatste lokaal in de roze gang"
+        ],
+        "postal_address": "Postadres:",
+        "postal_address_actual": "Studentenraad Universiteit Hasselt,<br>Martelarenlaan 42,<br>3500 Hasselt<br>",
+        "img": "/assets/img/photo/bestuur.jpg",
+        "img_alt": "Dagelijks bestuur",
+        "img_desc": "Jordi, Lisa, Tim, Len (van links naar rechts)"
+    }
+}

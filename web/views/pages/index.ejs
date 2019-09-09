@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title><%= text.page.home.title %></title>
+    <% include ../partials/head %>
+</head>
+<body data-spy="scroll" data-target="#menu">
+    <header style="width: 100%; height: 100%">
+        <% include ../partials/header %>
+        <section id="home" class="">
+            <div class="section-image" style="background-image: url('/assets/img/background/1.jpg');"></div>
+            <div class="container text-center header-logo">
+                <img src="/assets/img/StuRa_Full.svg" class="header-logo-img">
+                <div class="header-bottom">
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/sturauhasselt"><img src="/assets/img/ionicons/social-facebook.svg" alt="Facebook Pagina"/></a>
+                        <a href="https://www.instagram.com/sturauhasselt/"><img src="/assets/img/ionicons/social-instagram.svg" alt="Instagram Pagina"/></a>
+                        <a href="https://www.linkedin.com/company/student-council-university-of-hasselt/"><img src="/assets/img/ionicons/social-linkedin.svg" alt="LinkedIn Pagina"/></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </header>
+    <main>
+        <section id="stura">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg">
+                        <img src="/assets/img/photo/stura_part_2017-2018.jpg" width="500px" align="right" class="inlineImg"/>
+                        <h1><%= text.page.home.what_stura %></h1>
+                        <p><%- text.page.home.what_stura_desc %></p>
+                    </div>
+                </div>
+            </div>
+        </section> 
+        <section id="wie-stura">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg">
+                        <h2><%= text.page.home.who_stura %></h2>
+                        <p><%- text.page.home.who_stura_desc %></p><br>
+                        <p>
+                            <a class="btn btn-primary" data-toggle="collapse" data-target="#lijst-functies" role="button"
+                                aria-expanded="false" aria-controls="lijst-functies"><%= text.page.home.list_functions %></a>
+                            <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#lijst-mandaten"
+                                aria-expanded="false" aria-controls="lijst-mandaten"><%= text.page.home.list_mandates %></button>
+                            <button class="btn btn-primary" type="button" data-toggle="collapse" data-target=".multi-collapse"
+                                aria-expanded="false" aria-controls="lijst-functies lijst-mandaten"><%= text.page.home.list_both %></button>
+                        </p><br>
+                        <div class="row">
+                            <div class="col">
+                                <div class="collapse multi-collapse" id="lijst-functies">
+                                    <div class="card card-body" style="background-color: #d16e00">
+                                        <ul class="more-info-list">
+                                            <% text.page.home.functions.forEach(function(func) { %>
+                                            <li>
+                                                <%= func.name %>
+                                                <a class="btn btn-info more-info-btn" data-toggle="collapse" data-target="#<%= func.var %>"
+                                                    role="button" aria-expanded="false" aria-controls="<%= func.var %>">
+                                                    <%= text.page.home.list_more_info %>
+                                                </a>
+                                                <div class="collapse more-info" id="<%= func.var %>">
+                                                    <%= func.desc %>
+                                                </div>
+                                            </li>
+                                            <% }) %>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="collapse multi-collapse" id="lijst-mandaten">
+                                    <div class="card card-body" style="background-color: #d16e00">
+                                        <%= text.page.home.mandate_info %>
+                                        <ul class="more-info-list">
+                                            <% text.page.home.mandates.forEach(function(mandate) { %>
+                                            <li>
+                                                <%= mandate.name %>
+                                                <a class="btn btn-info more-info-btn" data-toggle="collapse" data-target="#<%= mandate.var %>"
+                                                    role="button" aria-expanded="false" aria-controls="<%= mandate.var %>">
+                                                    <%= text.page.home.list_more_info %>
+                                                </a>
+                                                <div class="collapse more-info" id="<%= mandate.var %>">
+                                                    <%= mandate.desc %>
+                                                </div>
+                                            </li>
+                                            <% }) %>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="lidworden">
+            <div class="section-image" style="background-image: url('/assets/img/background/stura_av_2017.jpg');">
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-5 box">
+                        <h2><%= text.page.home.become_member %></h2>
+                        <p><%- text.page.home.become_member_desc %></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="verkiezingen">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg">
+                        <h2><%= text.page.home.elections %></h2>
+                        <p><%- text.page.home.elections_desc %></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <% include ../partials/footer %>
+    </footer>
+</body>
+</html> 

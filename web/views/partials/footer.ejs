@@ -1,0 +1,74 @@
+<section id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <h2><%= text.footer.contact_us %></h2>
+                <p>
+                    <%= text.footer.executive_committee %>:<br>
+                    <% text.footer.executive_committee_members.forEach(function(member) { %>
+                    <%= member %><br>
+                    <% }) %>
+                    <br>
+                    <% text.footer.locations.forEach(function(location) { %>
+                    <%= location %><br>
+                    <% }) %>
+                    <br>
+                    <%= text.footer.postal_address %><br>
+                    <%- text.footer.postal_address_actual %><br>
+                </p>
+                <div class="media-links">
+                    <a href="https://www.facebook.com/sturauhasselt"><img src="/assets/img/ionicons/social-facebook.svg" alt="Facebook Link"/></a>
+                    <a href="https://www.instagram.com/sturauhasselt/"><img src="/assets/img/ionicons/social-instagram.svg" alt="Instagram Link"/></a>
+                    <!-- <a href="https://www.youtube.com/user/sturauhasselt"><img src="/assets/img/ionicons/social-youtube.svg" alt="YouTube Link"/></a> -->
+                    <!-- <a href="https://twitter.com/sturauhasselt"><img src="/assets/img/ionicons/social-twitter.svg" alt="Twitter Link"/></a> -->
+                    <a href="https://www.linkedin.com/company/student-council-university-of-hasselt/"><img src="/assets/img/ionicons/social-linkedin.svg" alt="LinkedIn Link"/></a>
+                    <a href="mailto:stura@uhasselt.be"><img src="/assets/img/ionicons/social-mail.svg" alt="Mail Link" /></a>
+                </div>
+            </div>
+            <div class="col-lg-6 text-center">
+                <img class="footer-image" src="<%= text.footer.img %>" alt="<%= text.footer.img_alt %>">
+                <p><%= text.footer.img_desc %></p>
+                <!-- <iframe id="streetmap" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
+                    src="https://www.openstreetmap.org/export/embed.html?bbox=5.386723279953004%2C50.923924860557676%2C5.3956711292266855%2C50.92693089029205&amp;layer=mapnik"
+                    ></iframe> -->
+            </div>
+        </div>
+    </div>
+</section>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<!-- <script src="/assets/js/jquery-3.3.1.min.js"></script>
+<script src="/assets/js/bootstrap.min.js"></script> -->
+
+<!-- code for scrolling and setting class that contains color for navbar -->
+<!-- <script>
+        $('body').scrollspy({ target: '#menu', offset: 56});
+        $("#menu a").on('click', function(event) {
+          if (this.hash !== "") {
+            event.preventDefault();
+            var hash = this.hash;
+            $('section').removeClass("focus");
+            $(hash).addClass("focus");
+            $('html, body').animate({
+              scrollTop: $(hash).offset().top
+            }, 600, function(){
+              window.location.hash = hash;
+            });
+          }
+        });
+        function checkScroll(){
+            var startY = $('#menu').height() * 3; //The point where the navbar changes in px
+            if($(window).scrollTop() > startY){
+                $('#menu').addClass("scrolled");
+            }else{
+                $('#menu').removeClass("scrolled");
+            }
+        }
+        if($('#menu').length > 0){
+            $(window).on("scroll load resize", function(){
+                checkScroll();
+            });
+        }
+</script> -->

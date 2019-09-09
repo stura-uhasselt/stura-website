@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title><%= text.page.international.title %></title>
+    <% include ../partials/head %>
+</head>
+<body data-spy="scroll" data-target="#menu">
+    <header>
+        <% include ../partials/header %>
+    </header> 
+    <main>
+        <section id="internationaal">
+            <div class="section-image" style="background-image: url('/assets/img/background/2.jpg');"></div>
+            <div class="container">
+                <div class="row justify-content-md-center">
+                    <div class="col-lg-5 box">
+                        <h1><%= text.page.international.international_students %></h1>
+                        <p>
+                            <%= text.page.international.international_students_desc %>
+                            <br><br>
+                            <%= text.page.international.contact_name %>
+                            <br>
+                            <% text.page.international.contact_email.forEach(function(email) { %>
+                            Email: <a href="mailto:<%= email %>"><%= email %></a><br>
+                            <% }) %>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <% include ../partials/footer %>
+    </footer>
+</body>
+</html>
