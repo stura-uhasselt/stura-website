@@ -13,7 +13,7 @@ const redirect_uris = [
     "http://localhost"
 ];
 
-const TOKEN_PATH = './src/utils/token.json';
+const TOKEN_PATH = './.certs/token.json';
 
 const oAuth2Client = new google.auth.OAuth2(
     process.env.DRIVE_CLIENT_ID,

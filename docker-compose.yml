@@ -28,5 +28,7 @@ services:
             - ./.env
         volumes:
             - ./api/src/:/usr/src/app/src/
+            - ./.certs/:/usr/src/app/.certs/
+
         restart: always
 
