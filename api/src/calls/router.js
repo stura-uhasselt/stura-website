@@ -5,6 +5,7 @@ module.exports =  express.Router()
         next();
     })
     .use('/language', require('./language'))
+    .use('/reports', require('./reports'))
     .all('*', (req, res) => {
         res.status(404).json({
             reason: 'api call not found',

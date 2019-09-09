@@ -3,6 +3,7 @@
 .database/
 
 .env*
+token*.json
 
 node_modules/
 
