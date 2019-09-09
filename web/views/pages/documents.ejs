@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title><%= text.page.documents.title %></title>
+    <% include ../partials/head %>
+</head>
+<body>
+    <header>
+        <% include ../partials/header %>
+    </header> 
+    <main>
+        <section id="vergaderverslagen">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg">
+                        <h2><%= text.page.documents.meeting_report %></h2>
+                        <p><%= text.page.documents.meeting_report_desc %></p>
+                        <div class="download-list">
+                            <div 
+                             v-for="report in reports.files" 
+                             class="download-item"
+                            >
+                                <a                                
+                                v-on:click="downloadItem(report)"
+                                href="#"
+                                download
+                                v-cloak
+                                >
+                                    {{report.name}}
+                                </a><br>
+                            </div>
+                            <a 
+                             v-if="reports.nextPageToken"
+                             v-on:click="loadNext"
+                             href="#"
+                             v-cloak
+                            >
+                                <%= text.page.documents.more %>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- <section id="stumag">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg">
+                        <h2></h2>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+    </main>
+    <footer>
+        <% include ../partials/footer %>
+    </footer>
+    <script>
+const app = new Vue({
+    el: 'main',
+    data: {
+        reports: {}
+    },
+    async beforeMount() {
+        const reports = await fetch(`https://api.${location.host}/reports`, {
+            method: 'GET',
+            headers: {
+                'Content-Type': 'Application/json'
+            }
+        }).then(res => res.json());
+        console.log('aa', reports);
+
+        this.reports = reports;
+    },
+    methods: {
+        loadNext: async function() {
+            if (!this.reports.nextPageToken) return;
+
+            const reports = await fetch(`https://api.${location.host}/reports?next=${this.reports.nextPageToken}`, {
+                method: 'GET',
+                headers: {
+                    'Content-Type': 'Application/json'
+                }
+            }).then(res => res.json());
+
+            this.reports.files.push(...reports.files);
+            this.reports.nextPageToken = reports.nextPageToken;
+        }
+    }
+});
+    </script>
+</body>
+</html>

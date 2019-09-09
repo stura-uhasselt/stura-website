@@ -457,11 +457,6 @@
                     "title": "Aftekenbaar examenbewijsje",
                     "description": "In sommige richtingen aan onze universiteit hangt er aan het examen een aftekenbewijsje, dat je ondertekent wanneer je je pagina's hebt geteld en het examen hebt ingevuld. Bij het afgeven van je examens wordt de helft van het blad afgescheurd en dit krijg je mee naar huis, de andere helft is het bewijs voor de prof van het vak. Wanneer je examen op mysterieuze wijze zou verdwijnen, kun jij nog altijd bewijzen dat je je examen hebt afgelegd. Hiermee verlies je geen examenkans en kun je jezelf verdedigen in de examencommissie. Niet elke richting past dit toe. Met StuRa ijveren we echter om dit zowel bij mondelinge als schriftelijke examens toe te passen, als een extra verzekering voor de student, maar ook voor de prof."
                 }
-            ],
-            "meeting_report": "Vergaderverslagen",
-            "meeting_report_desc": "Hier staan al onze vergaderverslagen in pdf vorm om te downloaden.",
-            "meeting_report_list": [
-                ""
             ]
         },
         "international": {
@@ -473,7 +468,13 @@
                 "xhoana.trezhnjeva@student.uhasselt.be",
                 "internationalcouncil@uhasselt.be"
             ]
-        }        
+        },
+        "documents": {
+            "title": "Documenten | StuRa UHasselt",
+            "meeting_report": "Vergaderverslagen",
+            "meeting_report_desc": "Hier staan al onze vergaderverslagen in pdf vorm om te downloaden.",
+            "more": "Meer..."
+        }
     },
     "fn_vars": {
         "change_lang": "en"
@@ -490,7 +491,8 @@
         "projects": "Projecten",
         "associations": "Verenigingen",
         "international": "Internationaal",
-        "members": "Leden"
+        "members": "Leden",
+        "documents": "Documenten"
     },
     "footer": {
         "contact_us": "Contacteer ons",

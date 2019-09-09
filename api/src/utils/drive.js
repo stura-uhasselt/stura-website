@@ -35,7 +35,6 @@ oAuth2Client.on('tokens', async (tokens) => {
 
 async function setup() {
     const token = await fs.readFile(TOKEN_PATH).catch((err) => {
-        console.log(err);
         return getAccessToken(oAuth2Client);
     });
     oAuth2Client.setCredentials(JSON.parse(token));
@@ -64,12 +63,14 @@ async function getAccessToken(oAuth2Client) {
     });
 }
 
-async function listFiles() {
+async function listFiles(query) {
     const files = await drive.files.list({
         corpora: 'allDrives',
         includeItemsFromAllDrives: true,
         supportsAllDrives: true,
-        pageSize: 1,
+        pageSize: 5,
+        pageToken: query.next,
+        orderBy: 'name desc',
         q: '"1Mtjv5-PvQHKfcmP19fV_M5f1XcSa209-" in parents',
     });
     return files.data;
@@ -84,7 +85,6 @@ function getFile(fileId, dest) {
     }, {responseType: 'stream'}, function(err, res){
         res.data
         .on('end', () => {
-            console.log('Done');
         })
         .on('error', err => {
             console.log('Error', err);

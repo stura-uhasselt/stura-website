@@ -10,7 +10,8 @@ module.exports = express.Router({mergeParams: true})
         drive.getFile(req.params.id, res);
     })
     .get('/', async (req, res) => {
-        const reports = await drive.listFiles();
+        const data = req.query;
+        const reports = await drive.listFiles(data);
         res.json(reports);
     })
 
