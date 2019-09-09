@@ -13,8 +13,10 @@ module.exports =  express.Router()
 
         res.render(`pages${url}`, options);
     })
-    .use((err, req, res) => {
-        res.status(404).render('pages/notfound');
+    .use((err, req, res, next) => {
+        const options = renderOptions(req);
+
+        res.status(404).render('pages/index', options);
     });
 
 function renderOptions(req) {
