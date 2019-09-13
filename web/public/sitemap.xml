@@ -2,8 +2,38 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
         <loc>https://sturauhasselt.be/</loc>
-        <lastmod>2019-09-03</lastmod>
-        <changefreq>always</changefreq>
+        <lastmod>2019-09-13</lastmod>
+        <changefreq>weekly</changefreq>
         <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://sturauhasselt.be/projecten</loc>
+        <lastmod>2019-09-13</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://sturauhasselt.be/verenigingen</loc>
+        <lastmod>2019-09-13</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    <url>
+        <loc>https://sturauhasselt.be/internationaal</loc>
+        <lastmod>2019-09-13</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.4</priority>
+    </url>
+    <url>
+        <loc>https://sturauhasselt.be/leden</loc>
+        <lastmod>2019-09-13</lastmod>
+        <changefreq>always</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://sturauhasselt.be/documents</loc>
+        <lastmod>2019-09-13</lastmod>
+        <changefreq>always</changefreq>
+        <priority>0.7</priority>
     </url>
 </urlset> 
