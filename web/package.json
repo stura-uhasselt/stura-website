@@ -5,7 +5,9 @@
   "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon src/index.js"
+    "start": "nodemon src/index.js",
+    "i18n": "sync-i18n --files '**/locales/*.json' --primary nl --languages en --space 2",
+    "check-i18n": "npm run i18n -- --check"
   },
   "author": "",
   "license": "ISC",
@@ -15,5 +17,8 @@
     "ejs": "^2.7.1",
     "express": "^4.17.1",
     "nodemon": "^1.19.2"
+  },
+  "devDependencies": {
+    "i18next-json-sync": "^2.3.1"
   }
 }

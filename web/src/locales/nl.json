@@ -151,30 +151,18 @@
             "desc": "Hier hebben we een overzicht gemaakt van alle leden van de studentenraad. We hebben iedereen per faculteit gesorteerd",
             "list": [
                 {
-                    "name": "Rechten",
+                    "name": "Architectuur (ARK)",
                     "list": [
                         {
-                            "img": "/assets/img/leden/An-Sofie Peeters.jpg",
-                            "img_alt": "An-Sofie Peeters",
-                            "name": "An-Sofie Peeters",
+                            "img": "/assets/img/leden/Zjef Van Den Bruel.jpg",
+                            "img_alt": "Zjef Van Den Bruel",
+                            "name": "Zjef Van Den Bruel",
                             "desc": "Faculteitscoördinator"
-                        },
-                        {
-                            "img": "/assets/img/leden/Chelsey Thijs.jpg",
-                            "img_alt": "Chelsey Thijs",
-                            "name": "Chelsey Thijs",
-                            "desc": "Lid"
-                        },
-                        {
-                            "img": "/assets/img/leden/Robbe Vos.jpg",
-                            "img_alt": "Robbe Vos",
-                            "name": "Robbe Vos",
-                            "desc": "Lid"
                         }
                     ]
                 },
                 {
-                    "name": "Bedrijfseconomische wetenschappen",
+                    "name": "Bedrijfseconomische wetenschappen (BEW)",
                     "list": [
                         {
                             "img": "/assets/img/leden/Lisa Colinet.jpg",
@@ -210,7 +198,7 @@
                     ]
                 },
                 {
-                    "name": "Geneeskunde en levenswetenschappen",
+                    "name": "Geneeskunde en levenswetenschappen (GLW)",
                     "list": [
                         {
                             "img": "/assets/img/leden/Stijn Dilissen.jpg",
@@ -227,7 +215,7 @@
                     ]
                 },
                 {
-                    "name": "Industriële ingenieurswetenschappen",
+                    "name": "Industriële ingenieurswetenschappen (IIW)",
                     "list": [
                         {
                             "img": "/assets/img/leden/Jordi Schreurs.jpg",
@@ -252,11 +240,23 @@
                             "img_alt": "Toon Vekemans",
                             "name": "Toon Vekemans",
                             "desc": "Lid"
+                        },
+                        {
+                            "img": "/assets/img/ionicons/person.svg",
+                            "img_alt": "Joren Vandeweyer",
+                            "name": "Joren Vandeweyer",
+                            "desc": "ICT-beheerder"
+                        },
+                        {
+                            "img": "/assets/img/ionicons/person.svg",
+                            "img_alt": "Michiel Danasovsky",
+                            "name": "Michiel Danasovsky",
+                            "desc": "Medewerker"
                         }
                     ]
                 },
                 {
-                    "name": "Mobiliteitswetenschappen",
+                    "name": "Mobiliteitswetenschappen (MOB)",
                     "list": [
                         {
                             "img": "/assets/img/leden/Tim Vervoort.jpg",
@@ -275,33 +275,57 @@
                             "img_alt": "Ines Damen",
                             "name": "Ines Damen",
                             "desc": "Lid"
+                        },
+                        {
+                            "img": "/assets/img/ionicons/person.svg",
+                            "img_alt": "Lennert Vromans",
+                            "name": "Lennert Vromans",
+                            "desc": "Communicatieverantwoordelijke"
+                        },
+                        {
+                            "img": "/assets/img/ionicons/person.svg",
+                            "img_alt": "Jordi Boulet",
+                            "name": "Jordi Boulet",
+                            "desc": "Medewerker"
                         }
                     ]
                 },
                 {
-                    "name": "Revaliditeitswetenschappen",
+                    "name": "Rechten (REC)",
+                    "list": [
+                        {
+                            "img": "/assets/img/leden/An-Sofie Peeters.jpg",
+                            "img_alt": "An-Sofie Peeters",
+                            "name": "An-Sofie Peeters",
+                            "desc": "Faculteitscoördinator REC"
+                        },
+                        {
+                            "img": "/assets/img/leden/Chelsey Thijs.jpg",
+                            "img_alt": "Chelsey Thijs",
+                            "name": "Chelsey Thijs",
+                            "desc": "Lid"
+                        },
+                        {
+                            "img": "/assets/img/leden/Robbe Vos.jpg",
+                            "img_alt": "Robbe Vos",
+                            "name": "Robbe Vos",
+                            "desc": "Campuscoördinator Hasselt"
+                        }
+                    ]
+                },
+                {
+                    "name": "Revaliditeitswetenschappen (RWS)",
                     "list": [
                         {
                             "img": "/assets/img/ionicons/person.svg",
-                            "img_alt": "Jij?",
-                            "name": "Jij?",
-                            "desc": "Interesse? Stuur snel naar stura@uhasselt.be!"
+                            "img_alt": "Timo Meus",
+                            "name": "Timo Meus",
+                            "desc": "Faculteitscoördinator RWS"
                         }
                     ]
                 },
                 {
-                    "name": "Architectuur",
-                    "list": [
-                        {
-                            "img": "/assets/img/leden/Zjef Van Den Bruel.jpg",
-                            "img_alt": "Zjef Van Den Bruel",
-                            "name": "Zjef Van Den Bruel",
-                            "desc": "Faculteitscoördinator"
-                        }
-                    ]
-                },
-                {
-                    "name": "Wetenschappen",
+                    "name": "Wetenschappen (WET)",
                     "list": [
                         {
                             "img": "/assets/img/leden/Jasper Steegmans.jpg",
@@ -314,6 +338,12 @@
                             "img_alt": "Victor Smet",
                             "name": "Victor Smet",
                             "desc": "FUN-manager"
+                        },
+                        {
+                            "img": "/assets/img/ionicons/person.svg",
+                            "img_alt": "Dore Staquet",
+                            "name": "Dore Staquet",
+                            "desc": "Medewerker"
                         }
                     ]
                 }

@@ -2,8 +2,8 @@ const express = require('express');
 const Url = require('url');
 
 const languages = {
-    en: require('./languages/en'),
-    nl: require('./languages/nl')
+    en: require('./locales/en'),
+    nl: require('./locales/nl')
 };
 
 module.exports =  express.Router()
