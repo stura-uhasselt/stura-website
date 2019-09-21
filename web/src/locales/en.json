@@ -154,7 +154,7 @@
                     "name": "Architectuur (ARK)",
                     "list": {
                         "zjef": {
-                            "img": "/assets/img/leden/Zjef Van Den Bruel.jpg",
+                            "img": "/assets/img/leden/zjef_van_den_bruel.jpg",
                             "img_alt": "Zjef Van Den Bruel",
                             "name": "Zjef Van Den Bruel",
                             "desc": "Faculteitscoördinator"
@@ -165,31 +165,31 @@
                     "name": "Bedrijfseconomische wetenschappen (BEW)",
                     "list": {
                         "lisa": {
-                            "img": "/assets/img/leden/Lisa Colinet.jpg",
+                            "img": "/assets/img/leden/lisa_colinet.jpg",
                             "img_alt": "Lisa Colinet",
                             "name": "Lisa Colinet",
                             "desc": "Voorzitster"
                         },
                         "yann": {
-                            "img": "/assets/img/leden/Yann Ceccarelli.png",
+                            "img": "/assets/img/leden/yann_ceccarelli.png",
                             "img_alt": "Yann Ceccarelli",
                             "name": "Yann Ceccarelli",
                             "desc": "Faculteitscoördinator"
                         },
                         "xhoana": {
-                            "img": "/assets/img/leden/Xhoana Trezhnjeva.jpg",
+                            "img": "/assets/img/leden/xhoana_trezhnjeva.jpg",
                             "img_alt": "Xhoana Trezhnjeva",
                             "name": "Xhoana Trezhnjeva",
                             "desc": "Internationale coördinator"
                         },
                         "niek": {
-                            "img": "/assets/img/leden/Niek Schoenman.jpg",
+                            "img": "/assets/img/leden/niek_schoenman.jpg",
                             "img_alt": "Niek Schoenman",
                             "name": "Niek Schoenman",
                             "desc": "Lid"
                         },
                         "ahsan": {
-                            "img": "/assets/img/leden/Ahsan Chuhan.jpg",
+                            "img": "/assets/img/leden/ahsan_chuhan.jpg",
                             "img_alt": "Ahsan Chuhan",
                             "name": "Ahsan Chuhan",
                             "desc": "Lid"
@@ -200,13 +200,13 @@
                     "name": "Geneeskunde en levenswetenschappen (GLW)",
                     "list": {
                         "stijn": {
-                            "img": "/assets/img/leden/Stijn Dilissen.jpg",
+                            "img": "/assets/img/leden/stijn_dilissen.jpg",
                             "img_alt": "Stijn Dilissen",
                             "name": "Stijn Dilissen",
                             "desc": "Verenigingscoördinator"
                         },
                         "emma": {
-                            "img": "/assets/img/leden/Emma Ceulemans.jpg",
+                            "img": "/assets/img/leden/emma_ceulemans.jpg",
                             "img_alt": "Emma Ceulemans",
                             "name": "Emma Ceulemans",
                             "desc": "Lid"
@@ -217,31 +217,31 @@
                     "name": "Industriële ingenieurswetenschappen (IIW)",
                     "list": {
                         "jordi": {
-                            "img": "/assets/img/leden/Jordi Schreurs.jpg",
+                            "img": "/assets/img/leden/jordi_schreurs.jpg",
                             "img_alt": "Jordi Schreurs",
                             "name": "Jordi Schreurs",
                             "desc": "Ondervoorzitter onderwijs"
                         },
                         "rainier": {
-                            "img": "/assets/img/leden/Rainier Hermans.jpg",
+                            "img": "/assets/img/leden/rainier_hermans.jpg",
                             "img_alt": "Rainier Hermans",
                             "name": "Rainier Hermans",
                             "desc": "Faculteitscoördinator"
                         },
                         "bram": {
-                            "img": "/assets/img/leden/Bram Claessen.jpg",
+                            "img": "/assets/img/leden/bram_claessen.jpg",
                             "img_alt": "Bram Claessen",
                             "name": "Bram Claessen",
                             "desc": "Lid"
                         },
                         "toon": {
-                            "img": "/assets/img/leden/Toon Vekemans.jpg",
+                            "img": "/assets/img/leden/toon_vekemans.jpg",
                             "img_alt": "Toon Vekemans",
                             "name": "Toon Vekemans",
                             "desc": "Lid"
                         },
                         "4": {
-                            "img": "/assets/img/leden/Joren_Vandeweyer.jpg",
+                            "img": "/assets/img/leden/joren_vandeweyer.jpg",
                             "img_alt": "Joren Vandeweyer",
                             "name": "Joren Vandeweyer",
                             "desc": "ICT-beheerder"
@@ -258,19 +258,19 @@
                     "name": "Mobiliteitswetenschappen (MOB)",
                     "list": {
                         "tim": {
-                            "img": "/assets/img/leden/Tim Vervoort.jpg",
+                            "img": "/assets/img/leden/tim_vervoort.jpg",
                             "img_alt": "Tim Vervoort",
                             "name": "Tim Vervoort",
                             "desc": "Ondervoorzitter student"
                         },
                         "len": {
-                            "img": "/assets/img/leden/Len Van Ocken.jpg",
+                            "img": "/assets/img/leden/len_van_ocken.jpg",
                             "img_alt": "Len Van Ocken",
                             "name": "Len Van Ocken",
                             "desc": "Secretaris"
                         },
                         "ines": {
-                            "img": "/assets/img/leden/Ines Damen.jpg",
+                            "img": "/assets/img/leden/ines_damen.jpg",
                             "img_alt": "Ines Damen",
                             "name": "Ines Damen",
                             "desc": "Faculteitscoördinator MOB"
@@ -293,19 +293,19 @@
                     "name": "Rechten (REC)",
                     "list": {
                         "ansofie": {
-                            "img": "/assets/img/leden/An-Sofie Peeters.jpg",
+                            "img": "/assets/img/leden/an-sofie_peeters.jpg",
                             "img_alt": "An-Sofie Peeters",
                             "name": "An-Sofie Peeters",
                             "desc": "Faculteitscoördinator REC"
                         },
                         "chelsey": {
-                            "img": "/assets/img/leden/Chelsey Thijs.jpg",
+                            "img": "/assets/img/leden/chelsey_thijs.jpg",
                             "img_alt": "Chelsey Thijs",
                             "name": "Chelsey Thijs",
                             "desc": "Lid"
                         },
                         "robbe": {
-                            "img": "/assets/img/leden/Robbe Vos.jpg",
+                            "img": "/assets/img/leden/robbe_vos.jpg",
                             "img_alt": "Robbe Vos",
                             "name": "Robbe Vos",
                             "desc": "Campuscoördinator Hasselt"
@@ -327,13 +327,13 @@
                     "name": "Wetenschappen (WET)",
                     "list": {
                         "jasper": {
-                            "img": "/assets/img/leden/Jasper Steegmans.jpg",
+                            "img": "/assets/img/leden/jasper_steegmans.jpg",
                             "img_alt": "Jasper Steegmans",
                             "name": "Jasper Steegmans",
                             "desc": "Faculteitscoördinator"
                         },
                         "victor": {
-                            "img": "/assets/img/leden/Victor Smet.jpg",
+                            "img": "/assets/img/leden/victor_smet.jpg",
                             "img_alt": "Victor Smet",
                             "name": "Victor Smet",
                             "desc": "FUN-manager"
