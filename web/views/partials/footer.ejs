@@ -5,11 +5,11 @@
                 <h2><%= text.footer.contact_us %></h2>
                 <p>
                     <%= text.footer.executive_committee %>:<br>
-                    <% text.footer.executive_committee_members.forEach(function(member) { %>
+                    <% Object.values(text.footer.executive_committee_members).forEach(function(member) { %>
                     <%= member %><br>
                     <% }) %>
                     <br>
-                    <% text.footer.locations.forEach(function(location) { %>
+                    <% Object.values(text.footer.locations).forEach(function(location) { %>
                     <%= location %><br>
                     <% }) %>
                     <br>

@@ -20,7 +20,7 @@
                             <br><br>
                             <%= text.page.international.contact_name %>
                             <br>
-                            <% text.page.international.contact_email.forEach(function(email) { %>
+                            <% Object.values(text.page.international.contact_email).forEach(function(email) { %>
                             Email: <a href="mailto:<%= email %>"><%= email %></a><br>
                             <% }) %>
                         </p>

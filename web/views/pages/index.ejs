@@ -52,7 +52,7 @@
                                 <div class="collapse multi-collapse" id="lijst-functies">
                                     <div class="card card-body" style="background-color: #d16e00">
                                         <ul class="more-info-list">
-                                            <% text.page.home.functions.forEach(function(func) { %>
+                                            <% Object.values(text.page.home.functions).forEach(function(func) { %>
                                             <li>
                                                 <%= func.name %>
                                                 <a class="btn btn-info more-info-btn" data-toggle="collapse" data-target="#<%= func.var %>"
@@ -73,7 +73,7 @@
                                     <div class="card card-body" style="background-color: #d16e00">
                                         <%= text.page.home.mandate_info %>
                                         <ul class="more-info-list">
-                                            <% text.page.home.mandates.forEach(function(mandate) { %>
+                                            <% Object.values(text.page.home.mandates).forEach(function(mandate) { %>
                                             <li>
                                                 <%= mandate.name %>
                                                 <a class="btn btn-info more-info-btn" data-toggle="collapse" data-target="#<%= mandate.var %>"

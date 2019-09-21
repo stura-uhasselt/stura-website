@@ -17,7 +17,7 @@
                         <p><%- text.page.associations.description %></p>
                         <br>
                         <div class="row justify-content-center">
-                            <% text.page.associations.list.forEach(function(ass) { %>
+                            <% Object.values(text.page.associations.list).forEach(function(ass) { %>
                             <div class="col-md-6 associations">
                                 <div class="row">
                                     <div class="col-4 association-banner" style="text-align: right;">
