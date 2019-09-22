@@ -1,10 +1,9 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const cookie = require('cookie');
+const db = require('./database');
 
 const router = require('./calls/router');
-
-// require('./database');
 
 const app = express();
 const port = 8080;
@@ -24,9 +23,16 @@ app.use((req, res, next) => {
 });
 
 app.use(require('./cors'));
-// app.use(require('./errors'));
-// app.use(require('./auth'));
+app.use(require('./errors'));
+app.use(require('./auth'));
 
 app.use(router);
 
 app.listen(port, () => console.log(`Running ${process.env.SERVER_ENV} in: ${process.env.NODE_ENV} on api.${process.env.HOST}:${port}`));
+
+db.setup(
+    process.env.MONGO_USER,
+    process.env.MONGO_PASSWORD,
+    process.env.MONGO_HOST,
+    process.env.MONGO_DB
+);

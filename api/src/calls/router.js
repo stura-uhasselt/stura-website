@@ -4,6 +4,7 @@ module.exports =  express.Router()
         req.computed = {};
         next();
     })
+    .use('/account', require('./account/router'))
     .use('/language', require('./language'))
     .use('/reports', require('./reports'))
     .all('*', (req, res) => {

@@ -6,6 +6,10 @@ const SCOPES = [
     'https://www.googleapis.com/auth/drive.metadata.readonly',
     'https://www.googleapis.com/auth/drive.readonly',
     'https://www.googleapis.com/auth/drive.file',
+    'https://mail.google.com/',
+    'https://www.googleapis.com/auth/gmail.modify',
+    'https://www.googleapis.com/auth/gmail.compose',
+    'https://www.googleapis.com/auth/gmail.send',
 ];
 
 const redirect_uris = [
@@ -16,14 +20,19 @@ const redirect_uris = [
 const TOKEN_PATH = './.certs/token.json';
 
 const oAuth2Client = new google.auth.OAuth2(
-    process.env.DRIVE_CLIENT_ID,
-    process.env.DRIVE_CLIENT_SECRET,
+    process.env.G_CLIENT_ID,
+    process.env.G_CLIENT_SECRET,
     redirect_uris[0],
 );
 
 const drive = google.drive({
     version: 'v3', 
     auth: oAuth2Client
+});
+
+const gmail = google.gmail({
+    version: 'v1',
+    auth: oAuth2Client,
 });
 
 oAuth2Client.on('tokens', async (tokens) => {
@@ -102,9 +111,41 @@ function getFileInfo(fileId) {
     });
 }
 
+async function sendMail(object) {
+    const subject = object.subject;
+    const utf8Subject = `=?utf-8?B?${Buffer.from(subject).toString('base64')}?=`;
+    const messageParts = [
+        'From: StuRa NoReply <studentenraad@student.uhasselt.be>',
+        `To: ${object.receiver_name} <${object.receiver_email}>`,
+        'Content-Type: text/html; charset=utf-8',
+        'MIME-Version: 1.0',
+        `Subject: ${utf8Subject}`,
+        '',
+        object.content,
+    ];
+    const message = messageParts.join('\n');
+  
+    // The body needs to be base64url encoded.
+    const encodedMessage = Buffer.from(message)
+        .toString('base64')
+        .replace(/\+/g, '-')
+        .replace(/\//g, '_')
+        .replace(/=+$/, '');
+  
+    const res = await gmail.users.messages.send({
+        userId: 'me',
+        requestBody: {
+            raw: encodedMessage,
+        },
+    });
+    console.log(res.data);
+    return res.data;
+}
+
 module.exports = {
     setup,
     listFiles,
     getFile,
     getFileInfo,
+    sendMail,
 };
