@@ -16,8 +16,8 @@ const redirect_uris = [
 const TOKEN_PATH = './.certs/token.json';
 
 const oAuth2Client = new google.auth.OAuth2(
-    process.env.DRIVE_CLIENT_ID,
-    process.env.DRIVE_CLIENT_SECRET,
+    process.env.G_CLIENT_ID,
+    process.env.G_CLIENT_SECRET,
     redirect_uris[0],
 );
 
