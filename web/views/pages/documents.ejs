@@ -9,29 +9,43 @@
         <% include ../partials/header %>
     </header> 
     <main>
-        <section id="vergaderverslagen">
+        <section id="vergaderverslagen" v-show="loading">
             <div class="container">
                 <div class="row">
                     <div class="col-lg">
-                        <h2><%= text.page.documents.meeting_report %></h2>
-                        <p><%= text.page.documents.meeting_report_desc %></p>
+                        <div class="download-list" style="text-align: center;">
+                            <div class="lds-ring"><div></div><div></div><div></div><div></div></div>
+                        </div> 
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section 
+            v-for="folder in folder.folders"
+            id="vergaderverslagen"
+            v-cloak
+        >
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg">
+                        <h2>{{folder.name}}</h2>
+                        <p>{{folder.description}}</p>
                         <div class="download-list">
                             <div 
-                             v-for="report in reports.files" 
+                             v-for="file in folder.files" 
                              class="download-item"
                             >
                                 <a                                
-                                v-on:click="downloadItem(report)"
-                                v-bind:href="'https://api.'+ host + '/reports/' + report.id"
+                                v-bind:href="'https://api.'+ host + '/documents/' + file.id"
                                 download
                                 v-cloak
                                 >
-                                    {{report.name}}
+                                    {{file.name}}
                                 </a><br>
                             </div>
                             <a 
-                             v-if="reports.nextPageToken"
-                             v-on:click="loadNext"
+                             v-if="folder.pageToken"
+                             v-on:click="folder.loadNext"
                              href="#"
                              v-cloak
                             >
@@ -42,15 +56,6 @@
                 </div>
             </div>
         </section>
-        <!-- <section id="stumag">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg">
-                        <h2></h2>
-                    </div>
-                </div>
-            </div>
-        </section> -->
     </main>
     <footer>
         <% include ../partials/footer %>
@@ -59,35 +64,61 @@
 const app = new Vue({
     el: 'main',
     data: {
-        reports: {},
+        folder: {
+            name,
+            files: [],
+            folders: [],
+            parent,
+        },
         host: location.host,
+        loading: true
     },
     async beforeMount() {
-        const reports = await fetch(`https://api.${location.host}/reports`, {
+        const folder = await fetch(`https://api.${location.host}/documents`, {
             method: 'GET',
             headers: {
                 'Content-Type': 'Application/json'
             }
         }).then(res => res.json());
 
-        this.reports = reports;
+        this.folder = new Folder(folder);
+        this.loading = false;
     },
-    methods: {
-        loadNext: async function() {
-            if (!this.reports.nextPageToken) return;
-
-            const reports = await fetch(`https://api.${location.host}/reports?next=${this.reports.nextPageToken}`, {
-                method: 'GET',
-                headers: {
-                    'Content-Type': 'Application/json'
-                }
-            }).then(res => res.json());
-
-            this.reports.files.push(...reports.files);
-            this.reports.nextPageToken = reports.nextPageToken;
-        }
-    }
 });
+
+class Folder {
+    constructor(folder) {
+        this.files = folder.files;
+        this.pageToken = folder.pageToken;
+        this.folders = folder.folders.map(folder => new Folder(folder));
+        this.name = folder.name;
+        this.parent = folder.parent;
+        this.order();
+    }
+
+    async loadNext() {
+        if (!this.pageToken) return;
+        
+        const result = await fetch(`https://api.${location.host}/documents?pageToken=${this.pageToken}&parent=${this.parent}&pageSize=5`, {
+            method: 'GET',
+            headers: {
+                'Content-Type': 'Application/json'
+            }
+        }).then(res => res.json());
+
+        this.files.push(...result.files);
+        this.folders.push(...result.folders);
+        this.pageToken = result.pageToken;
+        this.order();
+    }
+
+    order() {
+        this.folders.sort((a, b) => {
+            if (a.name > b.name) return 1;
+            return -1;
+        });
+    }
+}
     </script>
 </body>
 </html>

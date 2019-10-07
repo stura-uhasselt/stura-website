@@ -63,15 +63,15 @@ async function getAccessToken(oAuth2Client) {
     });
 }
 
-async function listFiles(query) {
+async function listFiles(parent='118PRmD81epxBEp6DeNfSQI9GxxdQ2r-p', pageSize, pageToken) {
     const files = await drive.files.list({
         corpora: 'allDrives',
         includeItemsFromAllDrives: true,
         supportsAllDrives: true,
-        pageSize: 5,
-        pageToken: query.next,
+        pageSize,
+        pageToken,
         orderBy: 'name desc',
-        q: '"1Mtjv5-PvQHKfcmP19fV_M5f1XcSa209-" in parents',
+        q: `"${parent}" in parents`,
     });
     return files.data;
 }
