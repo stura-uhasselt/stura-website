@@ -209,10 +209,19 @@ img {
 
 .member-image {
     max-width: 200px;
+    height: auto;
 }
 
 .shield-image {
     max-width: 100px;
+    height: auto;
+}
+
+@media (max-width: 500px) {
+    .member-image {
+        max-width: 60%;
+        height: auto;
+    }
 }
 
 h2 {
