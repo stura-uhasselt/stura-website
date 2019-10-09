@@ -162,26 +162,6 @@ section a{
     object-fit: contain;
 }
 
-/* Sudoku */
-.sudoku td {
-    height:30px;
-    width:30px;
-    border:1px solid;
-    text-align:center;
-}
-.sudoku td:first-child {
-    border-left:solid;
-}
-.sudoku td:nth-child(3n) {
-    border-right:solid ;
-}
-.sudoku tr:first-child {
-    border-top:solid;
-}
-.sudoku tr:nth-child(3n) td {
-    border-bottom:solid ;
-}
-
 .more-info {
     background-color: #8b4c04;
     border-radius: 0.5rem;
@@ -224,7 +204,7 @@ section a{
 
 .member-image {
     max-width: 200px;
-    max-height: auto;
+    min-height: auto;
     display: block;
 }
 
