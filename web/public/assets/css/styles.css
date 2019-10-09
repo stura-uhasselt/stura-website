@@ -204,7 +204,7 @@ section a{
 
 .member-image {
     max-width: 200px;
-    min-height: auto;
+    max-height: auto;
     display: block;
 }
 
