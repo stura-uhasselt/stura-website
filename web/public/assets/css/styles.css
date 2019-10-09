@@ -202,16 +202,17 @@ section a{
     margin-bottom: 30px;
 }
 
+img {
+    max-width:100%;
+    height:auto;
+}
+
 .member-image {
     max-width: 200px;
-    max-height: auto;
-    display: block;
 }
 
 .shield-image {
     max-width: 100px;
-    max-height: auto;
-    display: block;
 }
 
 h2 {

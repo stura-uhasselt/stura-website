@@ -23,7 +23,9 @@
                                 <% Object.values(fac.list).forEach(function(member) { %>
                                 <div class="col-md member">
                                     <div class="row justify-content-center">
-                                            <img class="member-image" src="<%= member.img %>" alt="<%= member.img_alt %>">
+                                        <div class="member-image">
+                                            <img src="<%= member.img %>" alt="<%= member.img_alt %>">
+                                        </div>
                                     </div>
                                     <div class="row justify-content-center">
                                         <h5><%= member.name %></h5>
