@@ -222,6 +222,18 @@ section a{
     margin-bottom: 30px;
 }
 
+.member-image {
+    width: 200px;
+    height: auto;
+    display: block;
+}
+
+.shield-image {
+    width: 100px;
+    height: auto;
+    display: block;
+}
+
 h2 {
     margin-left: 15px;
 }
