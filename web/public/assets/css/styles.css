@@ -224,13 +224,13 @@ section a{
 
 .member-image {
     max-width: 200px;
-    height: auto;
+    max-height: auto;
     display: block;
 }
 
 .shield-image {
     max-width: 100px;
-    height: auto;
+    max-height: auto;
     display: block;
 }
 
