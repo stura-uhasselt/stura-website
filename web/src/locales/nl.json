@@ -157,7 +157,7 @@
                             "img": "/assets/img/leden/zjef_van_den_bruel.jpg",
                             "img_alt": "Zjef Van Den Bruel",
                             "name": "Zjef Van Den Bruel",
-                            "desc": "Faculteitscoördinator"
+                            "desc": "Faculteitscoördinator ARK"
                         }
                     }
                 },
@@ -174,7 +174,7 @@
                             "img": "/assets/img/leden/yann_ceccarelli.png",
                             "img_alt": "Yann Ceccarelli",
                             "name": "Yann Ceccarelli",
-                            "desc": "Faculteitscoördinator"
+                            "desc": "Faculteitscoördinator BEW"
                         },
                         "xhoana": {
                             "img": "/assets/img/leden/xhoana_trezhnjeva.jpg",
@@ -210,6 +210,12 @@
                             "img_alt": "Emma Ceulemans",
                             "name": "Emma Ceulemans",
                             "desc": "Lid"
+                        },
+                        "ilse": {
+                            "img": "/assets/img/leden/ilse_bouwman.jpg",
+                            "img_alt": "Ilse Bouwman",
+                            "name": "Ilse Bouwman",
+                            "desc": "Financieel beheerder"
                         }
                     }
                 },
@@ -226,7 +232,7 @@
                             "img": "/assets/img/leden/rainier_hermans.jpg",
                             "img_alt": "Rainier Hermans",
                             "name": "Rainier Hermans",
-                            "desc": "Faculteitscoördinator"
+                            "desc": "Faculteitscoördinator IIW"
                         },
                         "bram": {
                             "img": "/assets/img/leden/bram_claessen.jpg",
@@ -240,7 +246,7 @@
                             "name": "Toon Vekemans",
                             "desc": "Lid"
                         },
-                        "4": {
+                        "joren": {
                             "img": "/assets/img/leden/joren_vandeweyer.jpg",
                             "img_alt": "Joren Vandeweyer",
                             "name": "Joren Vandeweyer",
@@ -250,6 +256,12 @@
                             "img": "/assets/img/leden/michiel_danasovsky.jpg",
                             "img_alt": "Michiel Danasovsky",
                             "name": "Michiel Danasovsky",
+                            "desc": "Medewerker"
+                        },
+                        "nicolas": {
+                            "img": "/assets/img/leden/nicolas_derom.jpg",
+                            "img_alt": "Nicolas Derom",
+                            "name": "Nicalos Derom",
                             "desc": "Medewerker"
                         }
                     }
@@ -296,7 +308,7 @@
                             "img": "/assets/img/leden/an-sofie_peeters.jpg",
                             "img_alt": "An-Sofie Peeters",
                             "name": "An-Sofie Peeters",
-                            "desc": "Faculteitscoördinator REC"
+                            "desc": "Lid"
                         },
                         "chelsey": {
                             "img": "/assets/img/leden/chelsey_thijs.jpg",
@@ -320,6 +332,12 @@
                             "img_alt": "Timo Meus",
                             "name": "Timo Meus",
                             "desc": "Faculteitscoördinator RWS"
+                        },
+                        "victorine": {
+                            "img": "/assets/img/leden/victorine_coopman.jpg",
+                            "img_alt": "Victorine Coopman",
+                            "name": "Victorine Coopman",
+                            "desc": "Medewerker"
                         }
                     }
                 },
@@ -330,7 +348,7 @@
                             "img": "/assets/img/leden/jasper_steegmans.jpg",
                             "img_alt": "Jasper Steegmans",
                             "name": "Jasper Steegmans",
-                            "desc": "Faculteitscoördinator"
+                            "desc": "Faculteitscoördinator WET"
                         },
                         "victor": {
                             "img": "/assets/img/leden/victor_smet.jpg",
