@@ -45,7 +45,7 @@
                             </div>
                             <a 
                              v-if="folder.pageToken"
-                             v-on:click="folder.loadNext"
+                             v-on:click="loadNext(folder)"
                              href="#"
                              v-cloak
                             >
@@ -84,6 +84,23 @@ const app = new Vue({
         this.folder = new Folder(folder);
         this.loading = false;
     },
+    methods: {
+        loadNext: async function(folder) {
+            if (!folder.pageToken) return;
+            
+            const result = await fetch(`https://api.${location.host}/documents?pageToken=${folder.pageToken}&parent=${folder.parent}&pageSize=5`, {
+                method: 'GET',
+                headers: {
+                    'Content-Type': 'Application/json'
+                }
+            }).then(res => res.json());
+
+            folder.files.push(...result.files);
+            folder.folders.push(...result.folders);
+            folder.pageToken = result.pageToken;
+            folder.order();
+        }
+    }
 });
 
 class Folder {
@@ -93,22 +110,6 @@ class Folder {
         this.folders = folder.folders.map(folder => new Folder(folder));
         this.name = folder.name;
         this.parent = folder.parent;
-        this.order();
-    }
-
-    async loadNext() {
-        if (!this.pageToken) return;
-        
-        const result = await fetch(`https://api.${location.host}/documents?pageToken=${this.pageToken}&parent=${this.parent}&pageSize=5`, {
-            method: 'GET',
-            headers: {
-                'Content-Type': 'Application/json'
-            }
-        }).then(res => res.json());
-
-        this.files.push(...result.files);
-        this.folders.push(...result.folders);
-        this.pageToken = result.pageToken;
         this.order();
     }
 
