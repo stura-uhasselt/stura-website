@@ -239,3 +239,20 @@ h2 {
 [v-cloak] { 
     display: none;
 }
+
+.calendar-frame {
+    height: 500px;
+    width: 300px;
+    border: 0;
+}
+
+@media (min-width: 900px) {
+    .calendar-frame {
+        width: 720px;
+        height: 600px;
+    }
+}
+
+.text-url {
+    margin: 0px;
+}
