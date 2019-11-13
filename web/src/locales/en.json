@@ -170,23 +170,11 @@
                             "name": "Lisa Colinet",
                             "desc": "President"
                         },
-                        "yann": {
-                            "img": "/assets/img/leden/yann_ceccarelli.png",
-                            "img_alt": "Yann Ceccarelli",
-                            "name": "Yann Ceccarelli",
-                            "desc": "Faculty Coordinator BEW"
-                        },
                         "xhoana": {
                             "img": "/assets/img/leden/xhoana_trezhnjeva.jpg",
                             "img_alt": "Xhoana Trezhnjeva",
                             "name": "Xhoana Trezhnjeva",
                             "desc": "International Coordinator"
-                        },
-                        "niek": {
-                            "img": "/assets/img/leden/niek_schoenman.jpg",
-                            "img_alt": "Niek Schoenman",
-                            "name": "Niek Schoenman",
-                            "desc": "Member"
                         },
                         "ahsan": {
                             "img": "/assets/img/leden/ahsan_chuhan.jpg",
@@ -205,17 +193,17 @@
                             "name": "Stijn Dilissen",
                             "desc": "Association Coordinator"
                         },
-                        "emma": {
-                            "img": "/assets/img/leden/emma_ceulemans.jpg",
-                            "img_alt": "Emma Ceulemans",
-                            "name": "Emma Ceulemans",
-                            "desc": "Member"
-                        },
                         "ilse": {
                             "img": "/assets/img/leden/ilse_bouwman.jpg",
                             "img_alt": "Ilse Bouwman",
                             "name": "Ilse Bouwman",
                             "desc": "Financial administrator"
+                        },
+                        "martin": {
+                            "img": "/assets/img/ionicons/person.svg",
+                            "img_alt": "no picture yet",
+                            "name": "Martin Wyckmans",
+                            "desc": "Faculty Coordinator GLW"
                         }
                     }
                 },
@@ -308,7 +296,7 @@
                             "img": "/assets/img/leden/an-sofie_peeters.jpg",
                             "img_alt": "An-Sofie Peeters",
                             "name": "An-Sofie Peeters",
-                            "desc": "Member"
+                            "desc": "Collaborator"
                         },
                         "chelsey": {
                             "img": "/assets/img/leden/chelsey_thijs.jpg",
@@ -338,6 +326,12 @@
                             "img_alt": "Victorine Coopman",
                             "name": "Victorine Coopman",
                             "desc": "Collaborator"
+                        },
+                        "laurens": {
+                            "img": "/assets/img/ionicons/person.svg",
+                            "img_alt": "no picture yet",
+                            "name": "Laurens Vanderzande",
+                            "desc": "Sports Coordinator"
                         }
                     }
                 },
