@@ -515,6 +515,11 @@
             "meeting_report": "Vergaderverslagen",
             "meeting_report_desc": "Hier staan al onze vergaderverslagen in pdf vorm om te downloaden.",
             "more": "Meer..."
+        },
+        "mobility": {
+            "title": "Mobiliteits Project | StuRa UHasselt",
+            "h1": "Mobiliteits project!",
+            "stay_tuned": "Stay tuned, binnenkort info over onze mobiliteitsactie!"
         }
     },
     "fn_vars": {
@@ -533,7 +538,8 @@
         "associations": "Verenigingen",
         "international": "Internationaal",
         "members": "Leden",
-        "documents": "Documenten"
+        "documents": "Documenten",
+        "mobility": "Mobiliteit"
     },
     "footer": {
         "contact_us": "Contacteer ons",
