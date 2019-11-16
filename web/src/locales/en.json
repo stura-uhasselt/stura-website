@@ -515,6 +515,11 @@
             "meeting_report": "Meeting reports",
             "meeting_report_desc": "Here you can download al our meeting reports as a PDF.",
             "more": "More..."
+        },
+        "mobility": {
+            "title": "Mobility Project | StuRa UHasselt",
+            "h1": "Mobility project!",
+            "stay_tuned": "Stay tuned, soon more info about our mobility project!"
         }
     },
     "fn_vars": {
@@ -533,7 +538,8 @@
         "associations": "Associations",
         "international": "International",
         "members": "Members",
-        "documents": "Documents"
+        "documents": "Documents",
+        "mobility": "Mobility"
     },
     "footer": {
         "contact_us": "Contact us",
