@@ -519,7 +519,8 @@
         "mobility": {
             "title": "Mobiliteits Project | StuRa UHasselt",
             "h1": "Mobiliteits project!",
-            "stay_tuned": "Stay tuned, binnenkort info over onze mobiliteitsactie!"
+            "stay_tuned": "Stay tuned, binnenkort info over onze mobiliteitsactie!",
+            "sign": "Teken onze mobiliteits actie!"
         }
     },
     "fn_vars": {

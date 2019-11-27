@@ -519,7 +519,8 @@
         "mobility": {
             "title": "Mobility Project | StuRa UHasselt",
             "h1": "Mobility project!",
-            "stay_tuned": "Stay tuned, soon more info about our mobility project!"
+            "stay_tuned": "Stay tuned, soon more info about our mobility project!",
+            "sign": "Sign our mobility project!"
         }
     },
     "fn_vars": {

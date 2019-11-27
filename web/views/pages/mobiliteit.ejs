@@ -17,11 +17,88 @@
                         <p><%= text.page.mobility.stay_tuned %></p><br>
                     </div>
                 </div>
+                <div class="row">
+                    <div class="col-lg">
+                        <div class="card mx-auto" style="max-width: 400px;">
+                            <div class="card-header"><b><%= text.page.mobility.sign %></b></div>
+                            <div class="card-body">
+                                <div class="input-group mb-3">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text"><i class="fas fa-user"></i></span>
+                                    </div>
+                                    <input
+                                        class="form-control"
+                                        type="text"
+                                        placeholder="naam@student.uhasselt.be"
+                                        v-model="email"
+                                        @keydown.enter="login()"
+                                    >
+                                </div>
+                                <div class="input-group mb-3">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text"><i class="fas fa-user"></i></span>
+                                    </div>
+                                    <input
+                                        class="form-control"
+                                        type="text"
+                                        placeholder="student number"
+                                        v-model="studentnumber"
+                                        @keydown.enter="submit()"
+                                    >
+                                </div>
+                                <div class="input-group">
+                                    <button
+                                        class="btn btn-primary"
+                                        @click="submit()"
+                                        style="margin-left: auto;"
+                                    >
+                                        Submit
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
     </main>
     <footer>
         <% include ../partials/footer %>
     </footer>
+    <script>
+const app = new Vue({
+    el: 'main',
+    data: {
+        email: '',
+        studentnumber: '',
+        project: 'mobility'
+    },
+    methods: {
+        submit: async function() {
+            console.log(this.email, this.studentnumber)
+            if (!this.email || !this.studentnumber) return;
+
+            const result = await fetch(`https://api.${location.host}/sign`, {
+                credentials: 'include',
+                method: 'POST',
+                headers: {
+		            'content-type': 'application/json',
+                },
+                headers: {
+                    'Content-Type': 'Application/json'
+                },
+                body: JSON.stringify({
+                    email: this.email,
+                    project: this.project,
+                    studentnumber: this.studentnumber,
+                }),
+            }).then(res => res.json());
+
+            this.email = '';
+            this.studentnumber = '';
+        }
+    }
+});
+    </script>
 </body>
 </html>

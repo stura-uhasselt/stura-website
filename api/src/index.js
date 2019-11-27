@@ -4,7 +4,10 @@ const cookie = require('cookie');
 
 const router = require('./calls/router');
 
-// require('./database');
+require('./database');
+
+const db = require('./database');
+db.setup(process.env.MONGO_USER, process.env.MONGO_PASS, process.env.MONGO_HOST, process.env.MONGO_DB);
 
 const app = express();
 const port = 8080;
