@@ -1,8 +1,6 @@
 const express = require('express');
 const drive = require('../utils/drive');
 
-drive.setup();
-
 module.exports = express.Router({mergeParams: true})
     .get('/:id', async (req, res) => {
         const file = await drive.getFileInfo(req.params.id);
