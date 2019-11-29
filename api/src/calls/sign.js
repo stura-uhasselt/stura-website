@@ -58,9 +58,9 @@ module.exports = express.Router({mergeParams: true})
                 email: signature.email,
             });
         } catch(e) {
+            console.log(email, e);
             res.json({
                 success: false,
-                e,
             });
         }
     });

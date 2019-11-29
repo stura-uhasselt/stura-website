@@ -25,7 +25,7 @@ async function send(subject, to, name, content) {
             raw: encodedMessage,
         },
     });
-    console.log(res.data);
+
     return res.data;
 }
 
