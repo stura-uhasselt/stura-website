@@ -63,9 +63,9 @@
                                         <%= text.page.mobility.sign_button %>
                                     </button>
                                 </div>
-                                <!-- <div>
-                                    <p>134 anderen tekenden al dit plan!</p>
-                                </div> -->
+                                <div>
+                                    <p>{{ count }} anderen tekenden al!</p>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -86,7 +86,18 @@ const app = new Vue({
     el: 'main',
     data: {
         email: '',
-        project: 'mobility'
+        project: 'mobility',
+        count: 0,
+    },
+    async beforeMount() {
+        const result = await fetch(`https://api.${location.host}/sign`, {
+            method: 'GET',
+            headers: {
+                'Content-Type': 'application/json',
+            }
+        }).then(res => res.json());
+
+        if (result && result.count) this.count = result.count;
     },
     methods: {
         submit: async function() {
