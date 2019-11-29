@@ -517,10 +517,25 @@
             "more": "Meer..."
         },
         "mobility": {
-            "title": "Mobiliteits Project | StuRa UHasselt",
-            "h1": "Mobiliteits project!",
+            "title": "Mobiliteitsactie | StuRa UHasselt",
+            "h1": "Mobiliteitsactie!",
             "stay_tuned": "Stay tuned, binnenkort info over onze mobiliteitsactie!",
-            "sign": "Teken onze mobiliteits actie!"
+            "description": "En awel, wat vind jij van onze Mobiliteit? Wij zijn alvast niet content!<br><br>Onderstaande korte en lange termijn-oplossingen vormen de kern van ons mobiliteitsplan, dat je ook in uitgebreide versie kunt bekijken. Ondertussen hebben Diepenbeek, Hasselt en de UHasselt positief gereageerd op enkele aspecten van ons mobiliteitsplan. Dit is natuurlijk niet voldoende! Zet je handtekening onder deze actiepunten en ondersteun onze voorstellen! Hiermee creëren we meer druk voor zowel politici als de nieuwe rector, er zullen immers rectoraatsverkiezingen plaatsvinden in 2020.",
+            "list_desc": "Onze verlanglijst aan de Sint:", 
+            "list": {
+                "bus": "Meer bussen die regelmatig rijden én tot 's avonds laat blijven rijden.",
+                "car_alternative": "Een beter alternatief voor kotstudenten die de auto gebruiken, zoals meer mobit-dropzones en voldoende parking.",
+                "park_ride": "Een park-en-ride ter hoogte van de Versus/Grenslandhallen met deelbare steps en busjes die de 'last mile' overbruggen.",
+                "spartacus": "Spartacus ZO SNEL MOGELIJK tot in Diepenbeek.",
+                "kothopper": "De Kothopper, een zondagavondbus die de koten in Hasselt en Diepenbeek bedient met goede aansluiting op de treinen.",
+                "water": "Weg met de wateroverlast en slechte verlichting op fietspaden tussen Hasselt en Diepenbeek.",
+                "walk": "Verharde wandelpaden en shortcuts van de parkings naar de universiteit",
+                "bike": "een uitbreiding van de fietsenstalling waar wordt ingezet op toegankelijkheid en droge fietsen"
+            },
+            "questions": "Vragen of opmerkingen?<br>Neem zeker het volledige plan door en aarzel niet om ons te contacteren! Ook staan we gedurende de week van 2-6 december elke dag op de campus in Diepenbeek, je ziet ons wel passeren met warme chocomelk of iets anders lekkers...<br><br>Het tekenen van ons mobiliteitsplan gaat als volgt:<br><br>1) vul je studentenmail in. Dit mag ook als je geen UH-student of personeelslid bent. Deze gegevens worden in geen geval openbaar gemaakt of gebruikt voor andere doeleinden dan deze mobiliteitsactie. Voor vragen hierover kun je altijd terecht bij stura@uhasselt.be<br><br>2) Je krijgt een email voor bevestiging van je handtekening. Hier kun je op de knop 'bevestig handtekening' klikken. Je komt nu op de website van StuRa terecht en je handtekeninig wordt geregistreerd.<br><br>3) Breng je vrienden op de hoogte!",
+            "sign": "Teken onze mobiliteitsactie!",
+            "sign_button": "Teken!",
+            "button": "Het mobiliteitsplan"
         }
     },
     "fn_vars": {
