@@ -14,7 +14,24 @@
                 <div class="row">
                     <div class="col-sm-6">
                         <h1><%= text.page.mobility.h1 %></h1>
-                        <p><%= text.page.mobility.stay_tuned %></p><br>
+                        <p><%- text.page.mobility.description %></p>
+                        <div style="text-align: center;">
+                            <button 
+                             class="btn btn-primary"
+                             @click="open()"
+                             style="margin: 15px;"
+                            >
+                            <%= text.page.mobility.button %>
+                            </button>
+                        </div>
+                        <p><%= text.page.mobility.list_desc %></p><br>
+                        <ul>
+                        <% Object.values(text.page.mobility.list).forEach(function(point) { %>
+                            <li>
+                                <%= point %>
+                            </li>
+                        <% }) %>
+                        </ul>
                     </div>
                     <div class="col-sm-6 text-img">
                         <img src="/assets/img/mobility_car.jpg">
@@ -22,7 +39,7 @@
                 </div>
                 <div class="row">
                     <div class="col-lg">
-                        <div class="card mx-auto" style="max-width: 400px;">
+                        <div class="card mx-auto" style="max-width: 350px;">
                             <div class="card-header"><b><%= text.page.mobility.sign %></b></div>
                             <div class="card-body">
                                 <div class="input-group mb-3">
@@ -37,29 +54,25 @@
                                         @keydown.enter="submit()"
                                     >
                                 </div>
-                                <div class="input-group mb-3">
-                                    <div class="input-group-prepend">
-                                        <span class="input-group-text"><i class="fas fa-user"></i></span>
-                                    </div>
-                                    <input
-                                        class="form-control"
-                                        type="text"
-                                        placeholder="student number"
-                                        v-model="studentnumber"
-                                        @keydown.enter="submit()"
-                                    >
-                                </div>
                                 <div class="input-group">
                                     <button
                                         class="btn btn-primary"
                                         @click="submit()"
                                         style="margin-left: auto;"
                                     >
-                                        Submit
+                                        <%= text.page.mobility.sign_button %>
                                     </button>
                                 </div>
+                                <!-- <div>
+                                    <p>134 anderen tekenden al dit plan!</p>
+                                </div> -->
                             </div>
                         </div>
+                    </div>
+                </div><br>
+                <div class="row">
+                    <div class="col">
+                        <p><%- text.page.mobility.questions %></p>
                     </div>
                 </div>
             </div>
@@ -73,13 +86,11 @@ const app = new Vue({
     el: 'main',
     data: {
         email: '',
-        studentnumber: '',
         project: 'mobility'
     },
     methods: {
         submit: async function() {
-            console.log(this.email, this.studentnumber)
-            if (!this.email || !this.studentnumber) return;
+            if (!this.email) return;
 
             const result = await fetch(`https://api.${location.host}/sign`, {
                 credentials: 'include',
@@ -93,12 +104,14 @@ const app = new Vue({
                 body: JSON.stringify({
                     email: this.email,
                     project: this.project,
-                    studentnumber: this.studentnumber,
                 }),
             }).then(res => res.json());
 
             this.email = '';
             this.studentnumber = '';
+        },
+        open: function() {
+            window.open('/assets/files/20191102-Mobiliteit-op-en-rond-de-campussen.pdf', '_blank');
         }
     }
 });
