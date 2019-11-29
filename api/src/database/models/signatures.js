@@ -6,6 +6,10 @@ const schema = new mongoose.Schema({
         required: true,
         unique: true,
     },
+    confirmed: {
+        type: Boolean,
+        default: false,
+    },
     timestamp: {
         type: Date,
         default: Date.now,
