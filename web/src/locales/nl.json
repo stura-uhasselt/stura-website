@@ -363,7 +363,7 @@
         "associations": {
             "title": "Verenigingen | StuRa UHasselt",
             "heading": "Verenigingen aan de UHasselt",
-            "description": "Ook onze kleine universiteit kent een uitgebreid verenigingsleven! Heel het jaar door kun je naar td's, fakbars, maar ook andere interessante activiteiten van deze verenigingen. Indien je je bij een vereniging wilt aansluiten, hoeft dit niet een van je faculteit te zijn, je kan je zelfs aansluiten bij meerdere verenigingen. Wel biedt elke vereniging voordelen voor zijn leden in verband met studies en examens.<br><br>PS. Wist je dat je als lid van StuRa gratis binnen mag op alle td's?",
+            "description": "Ook onze kleine universiteit kent een uitgebreid verenigingsleven! Heel het jaar door kun je naar td's, fakbars, maar ook andere interessante activiteiten van deze verenigingen. Indien je je bij een vereniging wilt aansluiten, hoeft dit niet een van je faculteit te zijn, je kan je zelfs aansluiten bij meerdere verenigingen. Wel biedt elke vereniging voordelen voor zijn leden in verband met studies en examens.<br><br>PS. Wist je dat je alst StuRa-lid gratis binnen mag op td's van deze verenigingen?",
             "list": {
                 "ambi": {
                     "img": "/assets/img/verenigingen_fotos/Ambifaarke.png",
@@ -535,7 +535,11 @@
             "questions": "Vragen of opmerkingen?<br>Neem zeker het volledige plan door en aarzel niet om ons te contacteren! Ook staan we gedurende de week van 2-6 december elke dag op de campus in Diepenbeek, je ziet ons wel passeren met warme chocomelk of iets anders lekkers...<br><br>Het tekenen van ons mobiliteitsplan gaat als volgt:<br><br>1) vul je studentenmail in. Dit mag ook als je geen UH-student of personeelslid bent. Deze gegevens worden in geen geval openbaar gemaakt of gebruikt voor andere doeleinden dan deze mobiliteitsactie. Voor vragen hierover kun je altijd terecht bij stura@uhasselt.be<br><br>2) Je krijgt een email voor bevestiging van je handtekening. Hier kun je op de knop 'bevestig handtekening' klikken. Je komt nu op de website van StuRa terecht en je handtekeninig wordt geregistreerd.<br><br>3) Breng je vrienden op de hoogte!",
             "sign": "Teken onze mobiliteitsactie!",
             "sign_button": "Teken!",
-            "button": "Het mobiliteitsplan"
+            "button": "Het mobiliteitsplan",
+            "sign_confirmed": "Bedankt, nu nog even bevestigen in je mailbox!",
+            "sign_success": "Bedankt, je handtekening is nu geregistreerd!",
+            "sign_fail": "Deze email is al in gebruik of niet geldig.",
+            "sign_nomail": "Dit is geen geldige email."
         }
     },
     "fn_vars": {
