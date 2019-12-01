@@ -536,7 +536,7 @@
             "sign": "Teken onze mobiliteitsactie!",
             "sign_button": "Teken!",
             "button": "Het mobiliteitsplan",
-            "sign_confirmed": "Bedankt, nu nog even bevestigen in je mailbox!",
+            "sign_confirm": "Bedankt, nu nog even bevestigen in je mailbox!",
             "sign_success": "Bedankt, je handtekening is nu geregistreerd!",
             "sign_fail": "Deze email is al in gebruik of niet geldig.",
             "sign_nomail": "Dit is geen geldige email."
