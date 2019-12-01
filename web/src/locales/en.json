@@ -363,7 +363,7 @@
         "associations": {
             "title": "Associations | StuRa UHasselt",
             "heading": "Associations at UHasselt",
-            "description": "The association's events are widespread and extensive at our small university! You can attend TDs, fakbars and other interesting activities all year round. If you want to join an association, this does not necessarily have to be one of your own faculty. You can even join multiple associations! Joining an association gives a lot of benefits regarding studying and exams.<br><br>PS. Did you know that, as a StuRa member, you can enter every TD for free?",
+            "description": "The association's events are widespread and extensive at our small university! You can attend TDs, fakbars and other interesting activities all year round. If you want to join an association, this does not necessarily have to be one of your own faculty. You can even join multiple associations! Joining an association gives a lot of benefits regarding studying and exams.<br><br>PS. Did you know that, as a StuRa member, you can enter every TD for free of these associations?",
             "list": {
                 "ambi": {
                     "img": "/assets/img/verenigingen_fotos/Ambifaarke.png",
@@ -480,23 +480,23 @@
                 },
                 "mobility": {
                     "title": "Mobility on and around the campus",
-                    "description": ""
+                    "description": "We kennen allemaal het parking-probleem rond zowel campus Hasselt als Diepenbeek. Al enkele jaren ijvert de studentenraad voor frequentere buslijnen en een efficiënter parkingbeleid. Hier hoor je het komende academiejaar ongetwijfeld nog meer over! Werk jij hier dit jaar aan mee?"
                 },
                 "mails": {
                     "title": "The mailtraffic of UHasselt",
-                    "description": ""
+                    "description": "Na enkele weken zul je als nieuwe student al snel door hebben dat je mailbox je terroriseert met dagelijkse berichten over alles wat er op en rond de universiteit te doen is. Studenten en personeelsleden ervaren deze overvloed als informatie als storend en het resultaat is dat er (on)bewust niet wordt geantwoord op mails en dat interessante mails even snel worden verwijderd dan minder relevante mails.<br>Hier zijn meerdere oplossingen voor. Een idee waar StuRa sterk achterstaat is het gebruik van een nieuwsbrief (via mail), die één of twee keer in de maand relevante informatie bundelt en werkt met doorkliklinks om meer informatie over een bepaald onderwerp te kunnen zien. Om de nieuwsbrief interessant te houden kunnen er ook de data van td's voor de komende maand in staan."
                 },
                 "examresults": {
                     "title": "Availability of exam results",
-                    "description": ""
+                    "description": "Wanneer komen jouw examenresultaten online? Moet je hier lang op wachten? In het OER (onderwijs-, examen- en rechtspositieregeling) staat een adviesperiode waarin de resultaten worden beschikbaar worden gesteld van 10 dagen na de examenperiode. Dit is echter geen verplichting, waardoor er vorig academiejaar richtingen waren waarbij studenten tot wel 20 dagen moesten wachten vooraleer ze hun punten te zien kregen. Dit betekent al dat het volgende semester begint, je je hebt ingeschreven voor vakken, je deelneemt aan groepswerken etc., zonder zeker te zijn dat je op je vorige punten geslaagd bent. Hierdoor zou je je studietraject misschien anders willen samenstellen, zoals het opnemen van andere vakken, meer of minder vakken, het organiseren van hobby's in je tweede semester etc.<br>StuRa ijverde vorig jaar al om de adviesperiode bindend te maken. Dit werd afgewezen in de Onderwijsraad omwille van de werkoverlast die het zou veroorzaken. Wij vragen ons echter af waarom dit dan wel kan bij onze student-collega's op andere universiteiten, of waarom onze eigen, grootste faculteit (BEW) zich wel al aan de adviesperiode houdt, of waarom resultaten na het 2e semester veel sneller online komen te staan. Dit jaar wensen we deze argumenten te versterken door middel van een debat en enquête, waar je ongetwijfeld nog iets over zult zien in de wandelgangen!"
                 },
                 "food": {
                     "title": "Our daily food",
-                    "description": ""
+                    "description": "Wie hier al enkele jaren studeert heeft de veranderingen bij cateraar Umami vast en zeker opgemerkt. Naast verbouwingen, was er ook een periode waar de kwaliteit van onze geliefde broodjes en vidée er op achteruitging. Na een Umami-enquête door StuRa en een goede samenwerking in de eetcommissie, zijn er naast het gewone aanbod ook pizza-ovens en andere opties bijgekomen. Ook wordt er veel minder plastic gebruikt in de verpakkingen en is er een groter aanbod voor de vegetariërs onder ons. Deze samenwerking moet natuurlijk worden onderhouden. Heb jij leuke suggesties om je lunchpauze tot een waar eetfestijn te maken, stuur gerust je ideeën door!"
                 },
                 "sign_exams": {
                     "title": "Proof of taking an exam",
-                    "description": ""
+                    "description": "In sommige richtingen aan onze universiteit hangt er aan het examen een aftekenbewijsje, dat je ondertekent wanneer je je pagina's hebt geteld en het examen hebt ingevuld. Bij het afgeven van je examens wordt de helft van het blad afgescheurd en dit krijg je mee naar huis, de andere helft is het bewijs voor de prof van het vak. Wanneer je examen op mysterieuze wijze zou verdwijnen, kun jij nog altijd bewijzen dat je je examen hebt afgelegd. Hiermee verlies je geen examenkans en kun je jezelf verdedigen in de examencommissie. Niet elke richting past dit toe. Met StuRa ijveren we echter om dit zowel bij mondelinge als schriftelijke examens toe te passen, als een extra verzekering voor de student, maar ook voor de prof."
                 }
             }
         },
@@ -535,7 +535,11 @@
             "questions": "Vragen of opmerkingen?<br>Neem zeker het volledige plan door en aarzel niet om ons te contacteren! Ook staan we gedurende de week van 2-6 december elke dag op de campus in Diepenbeek, je ziet ons wel passeren met warme chocomelk of iets anders lekkers...<br><br>Het tekenen van ons mobiliteitsplan gaat als volgt:<br><br>1) vul je studentenmail in. Dit mag ook als je geen UH-student of personeelslid bent. Deze gegevens worden in geen geval openbaar gemaakt of gebruikt voor andere doeleinden dan deze mobiliteitsactie. Voor vragen hierover kun je altijd terecht bij stura@uhasselt.be<br><br>2) Je krijgt een email voor bevestiging van je handtekening. Hier kun je op de knop 'bevestig handtekening' klikken. Je komt nu op de website van StuRa terecht en je handtekeninig wordt geregistreerd.<br><br>3) Breng je vrienden op de hoogte!",
             "sign": "Sign our mobility action!",
             "sign_button": "Sign!",
-            "button": "The mobility plan"
+            "button": "The mobility plan",
+            "sign_confirm": "Thanks, please confirm the email in your mailbox!",
+            "sign_success": "Thanks, your signature is registered!",
+            "sign_fail": "This email is already used or not valid.",
+            "sign_nomail": "This is not a valid email."
         }
     },
     "fn_vars": {

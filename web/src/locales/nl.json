@@ -234,17 +234,17 @@
                             "name": "Toon Vekemans",
                             "desc": "Lid"
                         },
-                        "joren": {
-                            "img": "/assets/img/leden/joren_vandeweyer.jpg",
-                            "img_alt": "Joren Vandeweyer",
-                            "name": "Joren Vandeweyer",
-                            "desc": "ICT-beheerder"
-                        },
                         "michiel": {
                             "img": "/assets/img/leden/michiel_danasovsky.jpg",
                             "img_alt": "Michiel Danasovsky",
                             "name": "Michiel Danasovsky",
                             "desc": "Medewerker"
+                        },
+                        "joren": {
+                            "img": "/assets/img/leden/joren_vandeweyer.jpg",
+                            "img_alt": "Joren Vandeweyer",
+                            "name": "Joren Vandeweyer",
+                            "desc": "ICT-beheerder"
                         },
                         "nicolas": {
                             "img": "/assets/img/leden/nicolas_derom.jpg",
@@ -315,12 +315,6 @@
                 "RWS": {
                     "name": "Revaliditeitswetenschappen (RWS)",
                     "list": {
-                        "laurens": {
-                            "img": "/assets/img/ionicons/person.svg",
-                            "img_alt": "no picture yet",
-                            "name": "Laurens Vanderzande",
-                            "desc": "Sportcoördinator"
-                        },
                         "timo": {
                             "img": "/assets/img/leden/timo_meus.jpg",
                             "img_alt": "Timo Meus",
@@ -332,6 +326,12 @@
                             "img_alt": "Victorine Coopman",
                             "name": "Victorine Coopman",
                             "desc": "Medewerker"
+                        },
+                        "laurens": {
+                            "img": "/assets/img/ionicons/person.svg",
+                            "img_alt": "no picture yet",
+                            "name": "Laurens Vanderzande",
+                            "desc": "Sportcoördinator"
                         }
                     }
                 },
@@ -363,7 +363,7 @@
         "associations": {
             "title": "Verenigingen | StuRa UHasselt",
             "heading": "Verenigingen aan de UHasselt",
-            "description": "Ook onze kleine universiteit kent een uitgebreid verenigingsleven! Heel het jaar door kun je naar td's, fakbars, maar ook andere interessante activiteiten van deze verenigingen. Indien je je bij een vereniging wilt aansluiten, hoeft dit niet een van je faculteit te zijn, je kan je zelfs aansluiten bij meerdere verenigingen. Wel biedt elke vereniging voordelen voor zijn leden in verband met studies en examens.<br><br>PS. Wist je dat je alst StuRa-lid gratis binnen mag op td's van deze verenigingen?",
+            "description": "Ook onze kleine universiteit kent een uitgebreid verenigingsleven! Heel het jaar door kun je naar td's, fakbars, maar ook andere interessante activiteiten van deze verenigingen. Indien je je bij een vereniging wilt aansluiten, hoeft dit niet een van je faculteit te zijn, je kan je zelfs aansluiten bij meerdere verenigingen. Wel biedt elke vereniging voordelen voor zijn leden in verband met studies en examens.<br><br>PS. Wist je dat je als StuRa-lid gratis binnen mag op td's van deze verenigingen?",
             "list": {
                 "ambi": {
                     "img": "/assets/img/verenigingen_fotos/Ambifaarke.png",
