@@ -15,7 +15,7 @@ module.exports = express.Router({mergeParams: true})
             signature.confirmed = true;
             await signature.save();
 
-            return res.redirect(url);
+            return res.redirect(url + '?success');
         } catch(e) {
             res.redirect(url);
         }

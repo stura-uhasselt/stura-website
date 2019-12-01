@@ -54,6 +54,18 @@
                                         @keydown.enter="submit()"
                                     >
                                 </div>
+                                <div v-show="sign_confirm" class="alert alert-primary" role="alert" v-cloak>
+                                    <%= text.page.mobility.sign_confirm %>
+                                </div>
+                                <div v-show="sign_success" class="alert alert-success" role="alert" v-cloak>
+                                    <%= text.page.mobility.sign_success %>
+                                </div>
+                                <div v-show="sign_fail" class="alert alert-danger" role="alert" v-cloak>
+                                    <%= text.page.mobility.sign_fail %>
+                                </div>
+                                <div v-show="sign_noemail" class="alert alert-danger" role="alert" v-cloak>
+                                    <%= text.page.mobility.sign_nomail %>
+                                </div>
                                 <div class="input-group">
                                     <button
                                         class="btn btn-primary"
@@ -63,8 +75,9 @@
                                         <%= text.page.mobility.sign_button %>
                                     </button>
                                 </div>
+
                                 <div>
-                                    <p>{{ count }} anderen tekenden al!</p>
+                                    <p v-cloak>{{ count }} anderen tekenden al!</p>
                                 </div>
                             </div>
                         </div>
@@ -88,8 +101,15 @@ const app = new Vue({
         email: '',
         project: 'mobility',
         count: 0,
+        sign_success: false,
+        sign_confirm: false,
+        sign_fail: false,
+        sign_noemail: false,
     },
     async beforeMount() {
+        const params = new URLSearchParams(window.location.search);
+        this.sign_success = params.has('success');
+
         const result = await fetch(`https://api.${location.host}/sign`, {
             method: 'GET',
             headers: {
@@ -101,7 +121,17 @@ const app = new Vue({
     },
     methods: {
         submit: async function() {
+            this.sign_success = false;
+            this.sign_confirm = false;
+            this.sign_fail = false;
+            this.sign_noemail = false;
+
             if (!this.email) return;
+
+            if (!this.email.includes('@')) {
+                this.sign_noemail = true;
+                return;
+            }
 
             const result = await fetch(`https://api.${location.host}/sign`, {
                 credentials: 'include',
@@ -113,13 +143,18 @@ const app = new Vue({
                     'Content-Type': 'Application/json'
                 },
                 body: JSON.stringify({
-                    email: this.email,
+                    email: this.email.toLowerCase(),
                     project: this.project,
                 }),
             }).then(res => res.json());
 
+            if (result.success) {
+                this.sign_confirm = true;
+            } else {
+                this.sign_fail = true;
+            }
+
             this.email = '';
-            this.studentnumber = '';
         },
         open: function() {
             window.open('/assets/files/20191102-Mobiliteit-op-en-rond-de-campussen.pdf', '_blank');
