@@ -41,14 +41,13 @@ module.exports = express.Router({mergeParams: true})
             });
 
             await gmail.send(
-                'StuRa: Bevestig handtekening mobiliteitsplan',
+                'StuRa - Bevestig handtekening mobiliteitsplan',
                 email,
                 '',
                 [
                     'Wauw, super dat je ons mobiliteitsplan tekent! Bevestig je handtekening nog snel hier:<br>',
                     `<a href="https://api.${process.env.HOST}/sign/confirm?id=${signature._id}">Bevestig handtekening</a><br>`,
-                    '<br>',
-                    '<br>',
+                    '<br><br>',
                     `<small>Werkt de knop niet? Kopieer deze link in je browser: https://api.${process.env.HOST}/sign/confirm?id=${signature._id}</small>`
                 ]
             );
