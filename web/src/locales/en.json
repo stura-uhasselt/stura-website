@@ -540,6 +540,35 @@
             "sign_success": "Thanks, your signature is registered!",
             "sign_fail": "This email is already used or not valid.",
             "sign_nomail": "This is not a valid email."
+        },
+        "workshops": {
+            "title": "Workshops | StuRa UHasselt",
+            "h1": "Workshops",
+            "question": "Ready for a new phase in your life?",
+            "answers": {
+                "place": "A new place to call home",
+                "decide": "Decide by yourself which food comes on your table and how you manage your household",
+                "live": "Enjoy single life to the fullest extent, or dream of living together or marrying someone",
+                "job": "A fun job with your own spendable income "
+            },
+            "subtitle": "Mild panic attack? StuRa & Ferm come to the rescue!",
+            "description": "With interesting workshops and info sessions in both Dutch and English, filled to the brim with useful tips & tricks and practical examples.",
+            "events": {
+                "cook": {
+                    "date": "Wednesday 26th of February",
+                    "title": "Quick, healthy and tasty cooking",
+                    "image": "/assets/img/workshops/image2.jpg",
+                    "content": "<p>by Laurence Bemelmans, tv-chef and blogger @AsCookedByGinger   <br>&amp; Annemie Morris, part of the Ferm team, known from Ons Kookboek  <br>  <br><strong>Cooking conversations by Annemie&nbsp;</strong>  <br><strong>In the mood for healthy food</strong>  <br><strong>Cooking conversations by Annemie</strong>  <br>Session 1 at 13h00. (Agora)  <br>Session 2 at 17h00. (Agora)</p><ul>  <li>Everyone is welcome even without registration&nbsp;</li>  <li>Participation is completely free</li>  <li><strong>Win win win!&nbsp;</strong>Be a part of the event and have a chance to win Ons Kookboek®</li></ul><p><strong>Cooking workshops&nbsp;</strong>  <br>Om 14, 15 en 16u.        Easy peasy veggie spreads, by Annemie (J30a)  <br>Om 14u. Winner winner healthy dinner, by Laurence (Agora)  <br>Om 15u.                       Quino-what? Cooking with quinoa, by Laurence (Agora)   <br>Om 16u.                       No take-out take-out food, by Laurence (Agora)  <br>   <br>Register fast <strong><a class=\"normal-link\" href=\"https://docs.google.com/forms/d/e/1FAIpQLSd6dihiITrL3GXJi0mF-dO2ZsNopayl3CVsPU7dyYRQIuY62w/viewform\">Deze Link</a></strong>  <br>Participation costs EUR 5 including ingredients and materials</p>"
+                },
+                "finance": {
+                    "date": "Tuesday 3rd of March",
+                    "title": "Financial and legal do’s and don’ts",
+                    "image": "/assets/img/workshops/image3.jpg",
+                    "content": "<p><strong>Interactive sessions by An Deneffe, legal advisor at Ferm&nbsp;</strong>  <br>Session 1 at 14h00 – 16h00.  <br>Session 1 at 19h00 – 21h00.  <br>  <br><strong>A place to call home&nbsp;</strong>(60 min.)  <br>About buying and renting. Contracts and pitfalls. Getting a bank loan. The role of a real estate agency. Getting the right insurance. Donating to your children as a parent. Co-housing. Buying a car or furniture. Taxes and so much more.   <br><strong>+</strong>  <br><strong>Money, money, money</strong> (60 min.)  <br>About your first payslip. Extra legal advantages. Becoming self-employed. Professional expenses. Vacation days. Sick leave. Working part-time and the effects on your rights. Working from home. Social security and taxes. Pension saving. Unemployment benefits. Income guarantees and so much more.   <br><strong>+</strong>  <br><strong>Follow-up individual advice session&nbsp;</strong>  <br>  <br>Register fast via <strong><a class=\"normal-link\" href=\"https://docs.google.com/forms/d/e/1FAIpQLSd6dihiITrL3GXJi0mF-dO2ZsNopayl3CVsPU7dyYRQIuY62w/viewform\">Deze Link</a></strong>  <br>Participation is free of charge&nbsp;</p>"
+                }
+            },
+            "closing_title": "Looking for even more inspiration or other fun workshops? Discover at <a class=\"normal-link\" href=\"www.SamenFerm.be\">www.SamenFerm.be</a>",
+            "closing_desc": "These activities are a cooperation between Ferm vzw and Studentenraad UHasselt"
         }
     },
     "fn_vars": {

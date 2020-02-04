@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title><%= text.page.workshops.title %></title>
+    <% include ../partials/head %>
+</head>
+<body>
+    <header>
+        <% include ../partials/header %>
+    </header> 
+    <main>
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <h1><%= text.page.workshops.h1 %></h1>
+                        <h2><%= text.page.workshops.question %></h2>
+                        <ul>
+                        <% Object.values(text.page.workshops.answers).forEach(function(point) { %>
+                            <li>
+                                <%= point %>
+                            </li>
+                        <% }) %>
+                        </ul>
+                        <h2><%= text.page.workshops.subtitle %></h2>
+                        <p><%= text.page.workshops.description %></p>
+                        <div style="text-align: center;">
+                        </div>
+
+                    </div>
+                    <div class="col-sm-6 text-img-2">
+                        <img src="/assets/img/workshops/image1.jpg">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <% Object.values(text.page.workshops.events).forEach(function(event) { %>
+            <section>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <h2><%= event.date %></h2><br>
+                        <h2><%= event.title %></h2>
+                        <%- event.content %>
+                        <div style="text-align: center;">
+                        </div>
+
+                    </div>
+                    <div class="col-sm-6 text-img-2">
+                        <img src="<%= event.image %>">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <%}) %>
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <h2><%- text.page.workshops.closing_title %></h2>
+                        <p><%= text.page.workshops.closing_desc %></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <% include ../partials/footer %>
+    </footer>
+</body>
+</html>

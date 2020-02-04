@@ -161,6 +161,12 @@ section a{
     margin: 0 5px;
 }
 
+.normal-link {
+    color: black;
+    text-decoration: underline;
+    margin: 0;
+}
+
 .inlineImage {
     display: inline;
 }
@@ -174,6 +180,12 @@ section a{
 
 .text-img {
     max-width: 250px;
+    max-height: 100%;
+    margin: 20px auto;
+}
+
+.text-img-2 {
+    max-width: 400px;
     max-height: 100%;
     margin: 20px auto;
 }

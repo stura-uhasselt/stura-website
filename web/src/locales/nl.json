@@ -540,6 +540,35 @@
             "sign_success": "Bedankt, je handtekening is nu geregistreerd!",
             "sign_fail": "Deze email is al in gebruik of niet geldig.",
             "sign_nomail": "Dit is geen geldige email."
+        },
+        "workshops": {
+            "title": "Workshops | StuRa UHasselt",
+            "h1": "Workshops",
+            "question": "Klaar voor een nieuwe fase in je leven?",
+            "answers": {
+                "place": "Een nieuwe plek om thuis te noemen",
+                "decide": "Zelf beslissen wat er op tafel komt en hoe je je huishouden runt",
+                "live": "Volop genieten van het leven als single, of dromen van samenwonen of trouwen",
+                "job": "Een leuke job met je eigen inkomen"
+            },
+            "subtitle": "Lichte paniekaanval? StuRa & Ferm come to the rescue!",
+            "description": "Met interessante workshops en infosessies in het Nederlands en Engels, boordevol concrete tips en voorbeelden.",
+            "events": {
+                "cook": {
+                    "date": "Woensdag 26 februari",
+                    "title": "Snel, gezond én lekker koken",
+                    "image": "/assets/img/workshops/image2.jpg",
+                    "content": "<p>door Laurence Bemelmans, tv-kok en blogster @AsCookedByGinger &amp; Annemie Morris, medewerker van Ferm, bekend van o.a. Ons Kookboek  <br>  <br><strong>Kookpraatje door Annemie</strong>  <br><strong>In the mood for healthy food</strong>  <br>Sessie 1 om 13u. (Agora)  <br>Sessie 2 om 17u. (Agora)</p><ul>  <li>Welkom zonder inschrijving</li>  <li>Deelnemen is helemaal gratis</li>  <li><strong>Win win win!&nbsp;</strong>Neem deel en maak kans op een exemplaar van Ons Kookboek®</li></ul><p><strong>Kookworkshops</strong>  <br>Om 14, 15 en 16u.        Easy peasy veggie spreads, door Annemie (J30a)  <br>Om 14u.                       Winner winner healthy dinner, door Laurence (Agora)  <br>Om 15u.                       Quino-what? Cooking with quinoa, door Laurence (Agora)  <br>Om 16u.                       No take-out take-out food, door Laurence (Agora)  <br>  <br>Schrijf je snel in via <strong><a class=\"normal-link\" href=\"https://docs.google.com/forms/d/e/1FAIpQLSd6dihiITrL3GXJi0mF-dO2ZsNopayl3CVsPU7dyYRQIuY62w/viewform\">Deze Link</a></strong>  <br>Deelnemen kost € 5, incl. ingrediënten &amp; materiaal  <br>Max. 15 deelnemers per sessie</p>"
+                },
+                "finance": {
+                    "date": "Dinsdag 3 maart",
+                    "title": "Financiële en juridische do’s en don’ts",
+                    "image": "/assets/img/workshops/image3.jpg",
+                    "content": "<p><strong>Interactieve sessie door An Deneffe, jurist bij Ferm</strong>  <br>Sessie 1 om 14 – 16u.  <br>Sessie 2 om 19 – 21u.  <br>  <br><strong>A place to call home&nbsp;</strong>(60 min.)  <br>Over kopen en huren. Contracten en addertjes. Lenen bij de bank. Rol van immobiliënkantoor. Goed verzekerd zijn. Schenkingen van ouders. Co-housing. Aankoop van auto of meubels. Belastingen. En nog veel meer.  <br><strong>+</strong>  <br><strong>Money, money, money</strong> (60 min.)  <br>Over je eerste loonbrief. Extralegale voordelen. Werken als zelfstandigen. Onkostenvergoedingen. Vakantie. Ziekte. Deeltijds werken en de effecten op je rechten. Thuiswerk. Sociale zekerheid en belastingen. Pensioensparen. Werkloosheidsvergoedingen. Inkomensgarantie.   <br>En nog veel meer.  <br><strong>+</strong>  <br><strong>Aansluitend individueel advies</strong>  <br>  <br>Schrijf je snel in via <strong><a class=\"normal-link\" href=\"https://docs.google.com/forms/d/e/1FAIpQLSd6dihiITrL3GXJi0mF-dO2ZsNopayl3CVsPU7dyYRQIuY62w/viewform\">Deze Link</a></strong>  <br>Deelnemen is helemaal gratis</p>"
+                }
+            },
+            "closing_title": "Op zoek naar nóg meer inspiratie of andere leuke workshops? Ontdek het op <a class=\"normal-link\" href=\"www.SamenFerm.be\">www.SamenFerm.be</a>",
+            "closing_desc": "Deze activiteiten zijn een samenwerking van Ferm vzw met Studentenraad UHasselt"
         }
     },
     "fn_vars": {
