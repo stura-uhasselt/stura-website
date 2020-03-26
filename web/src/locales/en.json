@@ -174,13 +174,13 @@
                             "img": "/assets/img/leden/xhoana_trezhnjeva.jpg",
                             "img_alt": "Xhoana Trezhnjeva",
                             "name": "Xhoana Trezhnjeva",
-                            "desc": "International Coordinator"
+                            "desc": "Member"
                         },
                         "ahsan": {
                             "img": "/assets/img/leden/ahsan_chuhan.jpg",
                             "img_alt": "Ahsan Chuhan",
                             "name": "Ahsan Chuhan",
-                            "desc": "Member"
+                            "desc": "International Coordinator"
                         }
                     }
                 },
@@ -504,9 +504,9 @@
             "title": "Projects | StuRa UHasselt",
             "international_students": "International Students",
             "international_students_desc": "For international students we have the International Council as an extentions of the student council. The International Council is the official participatory platform for non-Dutch speaking students enrolled in international programmes. The Council organises meetings and networks with students, and in turn advises and consults with StuRa.",
-            "contact_name": "Our international coordinator this year is Xhoana Trezhnjeva",
+            "contact_name": "Our international coordinator this year is Ahsan Chuhan",
             "contact_email": {
-                "line_1": "xhoana.trezhnjeva@student.uhasselt.be",
+                "line_1": "ahsan.chucan@student.uhasselt.be",
                 "line_2": "internationalcouncil@uhasselt.be"
             }
         },
