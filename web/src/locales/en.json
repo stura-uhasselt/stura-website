@@ -5,7 +5,7 @@
             "what_stura": "What is StuRa?",
             "what_stura_desc": "StuRa is the student council of Hasselt University, just like every other university and college has its own student council. We are a motivated group of students who represent and defend the opinion of all students within our university. Because we are active within various organisms within our university, we have a say on different levels. This ranges from small organisms, such as the 'Food Committee' and the 'Library Policy Committee', to the highest, such as the 'Education council' and the 'UHasselt Board of Directors'. Because of this participation, we are seen as the co-administration of the university.<br><br>StuRa exists since 2004 and has always been actively solving problems and defending the opinion of students within the university. Feel free to read our reports or our list of projects to see what we are currently doing! You can always reach StuRa by contacting members, by visiting our open General Meetings, or through our 'Stuver' consultations, where each faculty coordinator meets the students from the evaluation meetings and OMTs.",
             "who_stura": "Who is StuRa?",
-            "who_stura_desc": "StuRa currently consist of 24 members, which you can see in the overview below what position they are fulfilling. You can become a member of StuRa in two ways.<br><br>You can nominate yourself as a candidate during the elections (nomination April 17 to May 1), which means you can become a member and have the right to vote, or you ask to be co-opted during the academic year. When you are co-opted, you only get voting rights if you take up a function, not if you take up a mandate. This does not alter the fact that you can give your opinion at a meeting!",
+            "who_stura_desc": "StuRa currently consist of 24 members, which you can see in the overview below what position they are fulfilling. You can become a member of StuRa in two ways.<br><br>You can nominate yourself as a candidate during the elections (nomination April 10 to April 22), which means you can become a member and have the right to vote, or you ask to be co-opted during the academic year. When you are co-opted, you only get voting rights if you take up a function, not if you take up a mandate. This does not alter the fact that you can give your opinion at a meeting!",
             "list_functions": "List of functions",
             "list_mandates": "List of mandates",
             "list_both": "Both lists",
@@ -143,7 +143,7 @@
             "become_member": "Come take a look",
             "become_member_desc": "We are a team for and by UHasselt students. Would you like some more information? Be sure to visit our General Meeting! These are always accessible for students. You can find the calendar <a class='text-url' href='/agenda'>here</a>.<br><br>What exactly happens at such meetings? Sometimes external parties come along on different topics: from staff members to people or students who come to present a topic. Reports from previous meetings are approved and external meetings that have taken place are all fed back so that everyone is informed. We also make a distinction between current topics between education and student-related information. International students are also discussed: the International Coordinator, who sits on the International Council, provides feedback on this.<br><br>Beside the General Assembly, we also organise working groups on various topics, with the intention of brainstorming about a topic and then go to the General Meeting with proposals.<br><br>If you would like to receive news about meetings and working groups, subscribe to our mailing list!<br><br>Would you like to come and see us? Send an email to our board via<a class='text-url' href='mailto:stura@uhasselt.be'>stura@uhasselt.be</a>, or contact a stura member you know. If this happens on time, we can provide a sandwich for you.",
             "elections": "StuRa Elections",
-            "elections_desc": "Planning of the StuRa-elections<br><br>Every year, our elections take place from the end of April through half May. The students that will be a member of next year's student council are elected here. The handover takes place on the 1st of August. The planning is as follows:<br><br>1) A period where you can apply as a candidate. Last academic year, this was from 17/04/2019 until 01/05/2019.<br><br>2) A period where every HU-student can vote for students from his or her faculty. Last academic year, this was from 03/05/2019 until 13/05/2019. Every faculty has a limited number of seats, depending on how many students the faculty counts.br>ARK: 3 seats<br>BEW: 4 seats<br>GLW: 2 seats<br>IIW: 4 seats<br>MOB: 1 seat<br>REC: 3 seats<br>RWS: 2 seats<br>WET: 3 seats<br>SES: 1 seat<br><br>3) Function meeting(s) where all elected members can vote for those who want to apply for a function or mandate within the student council. NOG VERDERWERKEN!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+            "elections_desc": "Planning of the StuRa-elections<br><br>Every year, our elections take place from the end of April through half May. The students that will be a member of next year's student council are elected here. The handover takes place on the 1st of August. The planning is as follows:<br><br>1) A period where you can apply as a candidate. Last academic year, this was from 17/04/2019 until 01/05/2019.<br><br>2) A period where every HU-student can vote for students from his or her faculty. Last academic year, this was from 03/05/2019 until 13/05/2019. Every faculty has a limited number of seats, depending on how many students the faculty counts.br>ARK: 3 seats<br>BEW: 4 seats<br>GLW: 2 seats<br>IIW: 4 seats<br>MOB: 1 seat<br>REC: 3 seats<br>RWS: 2 seats<br>WET: 3 seats<br>SES: 1 seat<br><br>3) Function meeting(s) where all elected members can vote for those who want to apply for a function or mandate within the student council. If you weren't elected, you can apply for a function or mandate that has not been filled. Give it a shot! There were 2 function meetings before the exam period last academic year. Functions or mandates for which there is not time, will be moved to the first general meeting of the next academic year.<br><br>You weren't elected during elections or function meetings? Don't worry! Throughout the academic year you can still be co-opted. You can stand up for a mandate or for a function. We make a distinction between members, with voting rights, and collaborators, without voting rights, at the student council. If you stand for election in May and are subsequently elected, you are automatically a member. If you did not become a member during the elections, you can be co-opted as a member throughout the academic year. This is only possible if you stand up for a position with good motivation and the General Meeting (AV) subsequently elects you. A maximum of 2 members per faculty can be co-opted in addition to the maximum number of members of a faculty. You can also be co-opted as an collaborator if you argue for a mandate with good motivation and the AV elects you. You can also stand up for collaborator without taking a mandate. The advantage of being co-opted is that you get access to the drive and our internal communication."
         },
         "members": {
             "title": "Members | StuRa UHasselt",
@@ -244,7 +244,7 @@
                             "img": "/assets/img/leden/joren_vandeweyer.jpg",
                             "img_alt": "Joren Vandeweyer",
                             "name": "Joren Vandeweyer",
-                            "desc": "Member"
+                            "desc": "Collaborator"
                         },
                         "nicolas": {
                             "img": "/assets/img/leden/nicolas_derom.jpg",
@@ -540,35 +540,6 @@
             "sign_success": "Thanks, your signature is registered!",
             "sign_fail": "This email is already used or not valid.",
             "sign_nomail": "This is not a valid email."
-        },
-        "workshops": {
-            "title": "Workshops | StuRa UHasselt",
-            "h1": "Workshops",
-            "question": "Ready for a new phase in your life?",
-            "answers": {
-                "place": "A new place to call home",
-                "decide": "Decide by yourself which food comes on your table and how you manage your household",
-                "live": "Enjoy single life to the fullest extent, or dream of living together or marrying someone",
-                "job": "A fun job with your own spendable income "
-            },
-            "subtitle": "Mild panic attack? StuRa & Ferm come to the rescue!",
-            "description": "With interesting workshops and info sessions in both Dutch and English, filled to the brim with useful tips & tricks and practical examples.",
-            "events": {
-                "cook": {
-                    "date": "Wednesday 26th of February",
-                    "title": "Quick, healthy and tasty cooking",
-                    "image": "/assets/img/workshops/image2.jpg",
-                    "content": "<p>by Laurence Bemelmans, tv-chef and blogger @AsCookedByGinger   <br>&amp; Annemie Morris, part of the Ferm team, known from Ons Kookboek  <br>  <br><strong>Cooking conversations by Annemie&nbsp;</strong>  <br><strong>In the mood for healthy food</strong>  <br><strong>Cooking conversations by Annemie</strong>  <br>Session 1 at 13h00. (Agora)  <br>Session 2 at 17h00. (Agora)</p><ul>  <li>Everyone is welcome even without registration&nbsp;</li>  <li>Participation is completely free</li>  <li><strong>Win win win!&nbsp;</strong>Be a part of the event and have a chance to win Ons Kookboek®</li></ul><p><strong>Cooking workshops&nbsp;</strong>  <br>Om 14, 15 en 16u.        Easy peasy veggie spreads, by Annemie (J30a)  <br>Om 14u. Winner winner healthy dinner, by Laurence (Agora)  <br>Om 15u.                       Quino-what? Cooking with quinoa, by Laurence (Agora)   <br>Om 16u.                       No take-out take-out food, by Laurence (Agora)  <br>   <br>Register fast <strong><a class=\"normal-link\" href=\"https://docs.google.com/forms/d/e/1FAIpQLSd6dihiITrL3GXJi0mF-dO2ZsNopayl3CVsPU7dyYRQIuY62w/viewform\">This Link</a></strong>  <br>Participation costs EUR 5 including ingredients and materials</p>"
-                },
-                "finance": {
-                    "date": "Tuesday 3rd of March",
-                    "title": "Financial and legal do’s and don’ts",
-                    "image": "/assets/img/workshops/image3.jpg",
-                    "content": "<p><strong>Interactive sessions by An Deneffe, legal advisor at Ferm&nbsp;</strong>  <br>Session 1 at 14h00 – 16h00.  <br>Session 1 at 19h00 – 21h00.  <br>  <br><strong>A place to call home&nbsp;</strong>(60 min.)  <br>About buying and renting. Contracts and pitfalls. Getting a bank loan. The role of a real estate agency. Getting the right insurance. Donating to your children as a parent. Co-housing. Buying a car or furniture. Taxes and so much more.   <br><strong>+</strong>  <br><strong>Money, money, money</strong> (60 min.)  <br>About your first payslip. Extra legal advantages. Becoming self-employed. Professional expenses. Vacation days. Sick leave. Working part-time and the effects on your rights. Working from home. Social security and taxes. Pension saving. Unemployment benefits. Income guarantees and so much more.   <br><strong>+</strong>  <br><strong>Follow-up individual advice session&nbsp;</strong>  <br>  <br>Register fast via <strong><a class=\"normal-link\" href=\"https://docs.google.com/forms/d/e/1FAIpQLSd8EiXXGn9F-lFIqOShxRGxGRTkGf08Plw-7I2iJROutR_Rlw/viewform\">This Link</a></strong>  <br>Participation is free of charge&nbsp;</p>"
-                }
-            },
-            "closing_title": "Looking for even more inspiration or other fun workshops? Discover at <a class=\"normal-link\" href=\"www.SamenFerm.be\">www.SamenFerm.be</a>",
-            "closing_desc": "These activities are a cooperation between Ferm vzw and Studentenraad UHasselt"
         }
     },
     "fn_vars": {
