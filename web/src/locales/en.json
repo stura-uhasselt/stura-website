@@ -516,6 +516,12 @@
             "meeting_report_desc": "Here you can download al our meeting reports as a PDF.",
             "more": "More..."
         },
+        "covid": {
+            "title": "COVID-19 | StuRa UHasselt",
+            "survey_title": "StuRa bevraging",
+            "survey_desc": "The survey we prepared is currently only available in Dutch. Our members are working on an English survey.<br>Stay safe!",
+            "survey_link_name": "Click here to fill in the Dutch version of the survey"
+        },
         "mobility": {
             "title": "Mobility Project | StuRa UHasselt",
             "h1": "Mobility project!",
@@ -559,6 +565,7 @@
         "international": "International",
         "members": "Members",
         "documents": "Documents",
+        "covid": "COVID-19",
         "mobility": "Mobility"
     },
     "footer": {

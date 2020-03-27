@@ -516,6 +516,12 @@
             "meeting_report_desc": "Hier staan al onze vergaderverslagen in pdf vorm om te downloaden.",
             "more": "Meer..."
         },
+        "covid": {
+            "title": "COVID-19 | StuRa UHasselt",
+            "survey_title": "StuRa bevraging",
+            "survey_desc": "Tegenwoordig zit je niet meer gewoon thuis of op kot maar verplicht ‘in uw kot’. Lukt het studeren daar een beetje? Heb je een goed studieritme gevonden? Volg je de online lessen? Of ben je heel Netflix aan het bingewatchen… <br> <br> Wij willen graag weten hoe onze medestudenten het maken! Via deze enquête kan je ons laten weten hoe het afstandsonderwijs van jouw opleiding wordt georganiseerd, of het effectief is, of je problemen ondervindt, maar bijvoorbeeld ook of je in financiële nood raakt door de huidige situatie. Momenteel worden immers op verschillende niveaus gesprekken gevoerd om te zien wat er gedaan kan worden aan de kosten die studenten oplopen door de coronacrisis.<br><br>Het invullen van de enquête duurt een tiental minuten. We hopen dat je hier de tijd voor vindt!",
+            "survey_link_name": "Vul hier de enquête in!"
+        },
         "mobility": {
             "title": "Mobiliteitsactie | StuRa UHasselt",
             "h1": "Mobiliteitsactie!",
@@ -559,6 +565,7 @@
         "international": "Internationaal",
         "members": "Leden",
         "documents": "Documenten",
+        "covid": "COVID-19",
         "mobility": "Mobiliteit"
     },
     "footer": {
