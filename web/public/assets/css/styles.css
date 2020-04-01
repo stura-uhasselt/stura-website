@@ -124,6 +124,10 @@ section a{
     color: black;
     text-decoration: underline;
 }
+#verkiezingen a{
+    color: black;
+    text-decoration: underline;
+}
 #leden{
     background-color: white;
     color: black;
