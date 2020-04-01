@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
         <loc>https://sturauhasselt.be/</loc>
-        <lastmod>2019-09-13</lastmod>
+        <lastmod>2019-04-01</lastmod>
         <changefreq>weekly</changefreq>
         <priority>1.0</priority>
     </url>
@@ -27,19 +27,25 @@
     <url>
         <loc>https://sturauhasselt.be/leden</loc>
         <lastmod>2019-09-13</lastmod>
-        <changefreq>always</changefreq>
+        <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
         <loc>https://sturauhasselt.be/documents</loc>
         <lastmod>2019-09-13</lastmod>
-        <changefreq>always</changefreq>
+        <changefreq>weekly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://sturauhasselt.be/covid</loc>
         <lastmod>2020-03-27</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.6</priority>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://sturauhasselt.be/verkiezingen</loc>
+        <lastmod>2020-04-1</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.8</priority>
     </url>
 </urlset> 

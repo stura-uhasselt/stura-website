@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title><%= text.page.elections.title %></title>
+    <% include ../partials/head %>
+</head>
+<body>
+    <header>
+        <% include ../partials/header %>
+    </header> 
+    <main>
+        <section id="verkiezingen">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg">
+                        <h1><%= text.page.elections.main_title %></h1>
+                        <p><%- text.page.elections.main_desc %></p><br>
+                        <br>
+                            <h4><%= text.page.elections.schedule_title %></h4><br>
+                            <p><%- text.page.elections.schedule_desc %></p>
+                            <br>
+                            <br>
+                            <h4><%= text.page.elections.movies_title %></h4><br>
+                            <p><%- text.page.elections.movies_desc %></p>
+                            <br>
+                            <br>
+                            <h4><%= text.page.elections.members_title %></h4><br>
+                            <p><%- text.page.elections.members_desc %></p>
+                            <br>
+                            <br>
+                            <h4><%= text.page.elections.help_not_elected_title %></h4><br>
+                            <p><%- text.page.elections.help_not_elected_desc %></p>
+                            <br>
+                            <br>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <% include ../partials/footer %>
+    </footer>
+</body>
+</html>
