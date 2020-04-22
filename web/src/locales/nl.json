@@ -469,6 +469,23 @@
                 }
             }
         },
+        "candidates": {
+            "title": "Candidates | StuRa UHasselt",
+            "electable_candidates": "Candidates for the 2020 student council elections",
+            "desc": "All candidates for the elections are shown here, with their video, sorted by their faculties.",
+            "list": {
+                "ARK": {
+                    "name": "Architecture (ARK)",
+                    "list": {
+                        "zjef": {
+                            "video": "/assets/img/video/Zjef_Van_den_Bruel.mp4",
+                            "name": "Zjef Van Den Bruel",
+                            "desc": "Faculty Coordinator ARK"
+                        }
+                    }
+                }
+            }
+        },
         "projects": {
             "title": "Projecten | StuRa UHasselt",
             "current_projects": "Huidige projecten",
