@@ -360,6 +360,113 @@
                 }
             }
         },
+        "candidates": {
+            "title": "Kandidaten | StuRa UHasselt",
+            "electable_candidates": "Kandidaten voor de 2020 studentenraad verkiezingen",
+            "desc": "Al de kandidaten staan hier opgelijst per faculteit of school, met hun motivatie",
+            "list": {
+                "ARK": {
+                    "name": "Architectuur (ARK)",
+                    "list": {
+                        "zjef": {
+                            "video": "/assets/img/video/Zjef_Van_den_Bruel.mp4",
+                            "name": "Zjef Van Den Bruel"
+                        }
+                    }
+                },
+                "BEW": {
+                    "name": "Bedrijfseconomische wetenschappen (BEW)",
+                    "list": {
+                        "ahsan": {
+                            "video": "/assets/img/video/Geen_Video.mp4",
+                            "name": "Ahsan Chuhan"
+                        },
+                        "steuwie": {
+                            "video": "/assets/img/video/Geen_Video.mp4",
+                            "name": "Steuwie Fonke"
+                        }
+                    }
+                },
+                "GLW": {
+                    "name": "Geneeskunde en levenswetenschappen (GLW)",
+                    "list": {
+                        "katelyn": {
+                            "video": "/assets/img/video/Katelyn_Bleyens.mp4",
+                            "name": "Katelyn Bleyens",
+                            "control": "control"
+                        },
+                        "Ibtissam": {
+                            "video": "/assets/img/video/Ibtissam_El_Ouakili.mp4",
+                            "name": "Ibtissam El Ouakili"
+                        },
+                        "Emiel": {
+                            "video": "/assets/img/video/Emiel_Ruts.mp4",
+                            "name": "Emiel Ruts"
+                        }
+                    }
+                },
+                "IIW": {
+                    "name": "Industriële ingenieurswetenschappen (IIW)",
+                    "list": {
+                        "Jelle": {
+                            "video": "/assets/img/video/Geen_Video.mp4",
+                            "name": "Jelle Degeest"
+                        },
+                        "Lukas": {
+                            "video": "/assets/img/video/Geen_Video.mp4",
+                            "name": "Lukas Degrande"
+                        },
+                        "Nicolas": {
+                            "video": "/assets/img/video/Geen_Video.mp4",
+                            "name": "Nicolas Derom"
+                        },
+                        "Søren": {
+                            "video": "/assets/img/video/Geen_Video.mp4",
+                            "name": "Søren Nikolajsen"
+                        },
+                        "Toon S": {
+                            "video": "/assets/img/video/Geen_Video.mp4",
+                            "name": "Toon Schuerwegen"
+                        },
+                        "Toon V": {
+                            "video": "/assets/img/video/Geen_Video.mp4",
+                            "name": "Toon Vekemans"
+                        }
+                    }
+                },
+                "RWS": {
+                    "name": "Revalidatie wetenschappen (RWS)",
+                    "list": {
+                        "Timo": {
+                            "video": "/assets/img/video/Timo_Meus.mp4",
+                            "name": "Timo Meus"
+                        }
+                    }
+                },
+                "SvM": {
+                    "name": "School voor mobiliteit (SvM)",
+                    "list": {
+                        "Benter": {
+                            "video": "/assets/img/video/Geen_Video.mp4",
+                            "name": "Benter Agutu"
+                        },
+                        "Wieter": {
+                            "video": "/assets/img/video/Wieter_Van_den_Brande.MOV",
+                            "name": "Wieter Van den Branden"
+                        }
+                    }
+                },
+                "WET": {
+                    "name": "Wetenschappen (WET)",
+                    "list": {
+                        "Dore": {
+                            "video": "/assets/img/video/Dore_Staquet.mp4",
+                            "name": "Dore Staquet"
+                        }
+                    }
+                }
+            }                        
+        },
         "associations": {
             "title": "Verenigingen | StuRa UHasselt",
             "heading": "Verenigingen aan de UHasselt",
@@ -466,23 +573,6 @@
                     "img_alt": "Het wapenschild van Themis",
                     "name": "Themis",
                     "desc": "Themis is een studentenvereniging voor de studenten rechten."
-                }
-            }
-        },
-        "candidates": {
-            "title": "Candidates | StuRa UHasselt",
-            "electable_candidates": "Candidates for the 2020 student council elections",
-            "desc": "All candidates for the elections are shown here, with their video, sorted by their faculties.",
-            "list": {
-                "ARK": {
-                    "name": "Architecture (ARK)",
-                    "list": {
-                        "zjef": {
-                            "video": "/assets/img/video/Zjef_Van_den_Bruel.mp4",
-                            "name": "Zjef Van Den Bruel",
-                            "desc": "Faculty Coordinator ARK"
-                        }
-                    }
                 }
             }
         },

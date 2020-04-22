@@ -145,6 +145,221 @@
             "elections": "StuRa Elections",
             "elections_desc": "Planning of the StuRa-elections<br><br>Every year, our elections take place from the end of April through half May. The students that will be a member of next year's student council are elected here. The handover takes place on the 1st of August. The planning is as follows:<br><br>1) A period where you can apply as a candidate. This academic year, this is from 10/04/2020 until 22/04/2020.<br><br>2) A period where every HU-student can vote for students from his or her faculty. This academic year, this is from 25/04/2020 until 12/05/2020. Every faculty has a limited number of seats, depending on how many students the faculty counts.<br>ARK: 3 seats<br>BEW: 4 seats<br>GLW: 2 seats<br>IIW: 4 seats<br>MOB: 1 seat<br>REC: 3 seats<br>RWS: 2 seats<br>WET: 3 seats<br>SES: 1 seat<br><br>3) Function meeting(s) where all elected members can vote for those who want to apply for a function or mandate within the student council. If you weren't elected, you can apply for a function or mandate that has not been filled. Give it a shot! There were 2 function meetings before the exam period last academic year. Functions or mandates for which there is not time, will be moved to the first general meeting of the next academic year.<br><br>You weren't elected during elections or function meetings? Don't worry! Throughout the academic year you can still be co-opted. You can stand up for a mandate or for a function. We make a distinction between members, with voting rights, and collaborators, without voting rights, at the student council. If you stand for election in May and are subsequently elected, you are automatically a member. If you did not become a member during the elections, you can be co-opted as a member throughout the academic year. This is only possible if you stand up for a position with good motivation and the General Meeting (AV) subsequently elects you. A maximum of 2 members per faculty can be co-opted in addition to the maximum number of members of a faculty. You can also be co-opted as an collaborator if you argue for a mandate with good motivation and the AV elects you. You can also stand up for collaborator without taking a mandate. The advantage of being co-opted is that you get access to the drive and our internal communication.<br><br>Questions? Send us and email! <a class='text-url' href='mailto:stura@uhasselt.be'>stura@uhasselt.be</a><br>"
         },
+        "members": {
+            "title": "Members | StuRa UHasselt",
+            "members_stura": "Members of the student council",
+            "desc": "All StuRa-members are shown here, sorted by their faculties.",
+            "list": {
+                "ARK": {
+                    "name": "Architecture (ARK)",
+                    "list": {
+                        "zjef": {
+                            "img": "/assets/img/leden/zjef_van_den_bruel.jpg",
+                            "img_alt": "Zjef Van Den Bruel",
+                            "name": "Zjef Van Den Bruel",
+                            "desc": "Faculty Coordinator ARK"
+                        }
+                    }
+                },
+                "BEW": {
+                    "name": "Business Economics (BEW)",
+                    "list": {
+                        "lisa": {
+                            "img": "/assets/img/leden/lisa_colinet.jpg",
+                            "img_alt": "Lisa Colinet",
+                            "name": "Lisa Colinet",
+                            "desc": "President"
+                        },
+                        "xhoana": {
+                            "img": "/assets/img/leden/xhoana_trezhnjeva.jpg",
+                            "img_alt": "Xhoana Trezhnjeva",
+                            "name": "Xhoana Trezhnjeva",
+                            "desc": "Member"
+                        },
+                        "ahsan": {
+                            "img": "/assets/img/leden/ahsan_chuhan.jpg",
+                            "img_alt": "Ahsan Chuhan",
+                            "name": "Ahsan Chuhan",
+                            "desc": "International Coordinator"
+                        }
+                    }
+                },
+                "GLW": {
+                    "name": "Medicine and Life Sciences (GLW)",
+                    "list": {
+                        "stijn": {
+                            "img": "/assets/img/leden/stijn_dilissen.jpg",
+                            "img_alt": "Stijn Dilissen",
+                            "name": "Stijn Dilissen",
+                            "desc": "Association Coordinator"
+                        },
+                        "ilse": {
+                            "img": "/assets/img/leden/ilse_bouwman.jpg",
+                            "img_alt": "Ilse Bouwman",
+                            "name": "Ilse Bouwman",
+                            "desc": "Financial administrator"
+                        },
+                        "martin": {
+                            "img": "/assets/img/ionicons/person.svg",
+                            "img_alt": "no picture yet",
+                            "name": "Martin Wyckmans",
+                            "desc": "Faculty Coordinator GLW"
+                        }
+                    }
+                },
+                "IIW": {
+                    "name": "Industrial engineering sciences (IIW)",
+                    "list": {
+                        "jordi": {
+                            "img": "/assets/img/leden/jordi_schreurs.jpg",
+                            "img_alt": "Jordi Schreurs",
+                            "name": "Jordi Schreurs",
+                            "desc": "Vice President Education"
+                        },
+                        "rainier": {
+                            "img": "/assets/img/leden/rainier_hermans.jpg",
+                            "img_alt": "Rainier Hermans",
+                            "name": "Rainier Hermans",
+                            "desc": "Faculty Coordinator IIW"
+                        },
+                        "bram": {
+                            "img": "/assets/img/leden/bram_claessen.jpg",
+                            "img_alt": "Bram Claessen",
+                            "name": "Bram Claessen",
+                            "desc": "ICT manager"
+                        },
+                        "toon": {
+                            "img": "/assets/img/leden/toon_vekemans.jpg",
+                            "img_alt": "Toon Vekemans",
+                            "name": "Toon Vekemans",
+                            "desc": "Member"
+                        },
+                        "michiel": {
+                            "img": "/assets/img/leden/michiel_danasovsky.jpg",
+                            "img_alt": "Michiel Danasovsky",
+                            "name": "Michiel Danasovsky",
+                            "desc": "collaborator"
+                        },
+                        "joren": {
+                            "img": "/assets/img/leden/joren_vandeweyer.jpg",
+                            "img_alt": "Joren Vandeweyer",
+                            "name": "Joren Vandeweyer",
+                            "desc": "Collaborator"
+                        },
+                        "nicolas": {
+                            "img": "/assets/img/leden/nicolas_derom.jpg",
+                            "img_alt": "Nicolas Derom",
+                            "name": "Nicolas Derom",
+                            "desc": "Collaborator"
+                        }
+                    }
+                },
+                "MOB": {
+                    "name": "Transportation Sciences (MOB)",
+                    "list": {
+                        "tim": {
+                            "img": "/assets/img/leden/tim_vervoort.jpg",
+                            "img_alt": "Tim Vervoort",
+                            "name": "Tim Vervoort",
+                            "desc": "Vice President Student"
+                        },
+                        "len": {
+                            "img": "/assets/img/leden/len_van_ocken.jpg",
+                            "img_alt": "Len Van Ocken",
+                            "name": "Len Van Ocken",
+                            "desc": "Secretary"
+                        },
+                        "ines": {
+                            "img": "/assets/img/leden/ines_damen.jpg",
+                            "img_alt": "Ines Damen",
+                            "name": "Ines Damen",
+                            "desc": "Faculty Coordinator MOB"
+                        },
+                        "lennert": {
+                            "img": "/assets/img/leden/lennert_vromans.jpg",
+                            "img_alt": "Lennert Vromans",
+                            "name": "Lennert Vromans",
+                            "desc": "Communication Officer"
+                        },
+                        "jordi": {
+                            "img": "/assets/img/leden/jordi_boulet.jpg",
+                            "img_alt": "Jordi Boulet",
+                            "name": "Jordi Boulet",
+                            "desc": "Collaborator"
+                        }
+                    }
+                },
+                "REC": {
+                    "name": "Law (REC)",
+                    "list": {
+                        "ansofie": {
+                            "img": "/assets/img/leden/an-sofie_peeters.jpg",
+                            "img_alt": "An-Sofie Peeters",
+                            "name": "An-Sofie Peeters",
+                            "desc": "Collaborator"
+                        },
+                        "chelsey": {
+                            "img": "/assets/img/leden/chelsey_thijs.jpg",
+                            "img_alt": "Chelsey Thijs",
+                            "name": "Chelsey Thijs",
+                            "desc": "Member"
+                        },
+                        "robbe": {
+                            "img": "/assets/img/leden/robbe_vos.jpg",
+                            "img_alt": "Robbe Vos",
+                            "name": "Robbe Vos",
+                            "desc": "Campus Coordinator Hasselt"
+                        }
+                    }
+                },
+                "RWS": {
+                    "name": "Revalidation Sciences (RWS)",
+                    "list": {
+                        "timo": {
+                            "img": "/assets/img/leden/timo_meus.jpg",
+                            "img_alt": "Timo Meus",
+                            "name": "Timo Meus",
+                            "desc": "Faculty Coordinator RWS"
+                        },
+                        "victorine": {
+                            "img": "/assets/img/leden/victorine_coopman.jpg",
+                            "img_alt": "Victorine Coopman",
+                            "name": "Victorine Coopman",
+                            "desc": "Collaborator"
+                        },
+                        "laurens": {
+                            "img": "/assets/img/ionicons/person.svg",
+                            "img_alt": "no picture yet",
+                            "name": "Laurens Vanderzande",
+                            "desc": "Sports Coordinator"
+                        }
+                    }
+                },
+                "WET": {
+                    "name": "Sciences (WET)",
+                    "list": {
+                        "jasper": {
+                            "img": "/assets/img/leden/jasper_steegmans.jpg",
+                            "img_alt": "Jasper Steegmans",
+                            "name": "Jasper Steegmans",
+                            "desc": "Faculty Coordinator WET"
+                        },
+                        "victor": {
+                            "img": "/assets/img/leden/victor_smet.jpg",
+                            "img_alt": "Victor Smet",
+                            "name": "Victor Smet",
+                            "desc": "FUN manager"
+                        },
+                        "dore": {
+                            "img": "/assets/img/leden/dore_staquet.jpg",
+                            "img_alt": "Dore Staquet",
+                            "name": "Dore Staquet",
+                            "desc": "Collaborator"
+                        }
+                    }
+                }
+            }
+        },
         "candidates": {
             "title": "Candidates | StuRa UHasselt",
             "electable_candidates": "Candidates for the 2020 student council elections",
@@ -155,12 +370,102 @@
                     "list": {
                         "zjef": {
                             "video": "/assets/img/video/Zjef_Van_den_Bruel.mp4",
-                            "name": "Zjef Van Den Bruel",
-                            "desc": "Faculty Coordinator ARK"
+                            "name": "Zjef Van Den Bruel"
+                        }
+                    }
+                },
+                "BEW": {
+                    "name": "Business Economics (BEW)",
+                    "list": {
+                        "ahsan": {
+                            "video": "/assets/img/video/Geen_Video.mp4",
+                            "name": "Ahsan Chuhan"
+                        },
+                        "steuwie": {
+                            "video": "/assets/img/video/Geen_Video.mp4",
+                            "name": "Steuwie Fonke"
+                        }
+                    }
+                },
+                "GLW": {
+                    "name": "Medicine and Life Sciences (GLW)",
+                    "list": {
+                        "katelyn": {
+                            "video": "/assets/img/video/Katelyn_Bleyens.mp4",
+                            "name": "Katelyn Bleyens",
+                            "control": "control"
+                        },
+                        "Ibtissam": {
+                            "video": "/assets/img/video/Ibtissam_El_Ouakili.mp4",
+                            "name": "Ibtissam El Ouakili"
+                        },
+                        "Emiel": {
+                            "video": "/assets/img/video/Emiel_Ruts.mp4",
+                            "name": "Emiel Ruts"
+                        }
+                    }
+                },
+                "IIW": {
+                    "name": "Industrial engineering sciences (IIW)",
+                    "list": {
+                        "Jelle": {
+                            "video": "/assets/img/video/Geen_Video.mp4",
+                            "name": "Jelle Degeest"
+                        },
+                        "Lukas": {
+                            "video": "/assets/img/video/Geen_Video.mp4",
+                            "name": "Lukas Degrande"
+                        },
+                        "Nicolas": {
+                            "video": "/assets/img/video/Geen_Video.mp4",
+                            "name": "Nicolas Derom"
+                        },
+                        "Søren": {
+                            "video": "/assets/img/video/Geen_Video.mp4",
+                            "name": "Søren Nikolajsen"
+                        },
+                        "Toon S": {
+                            "video": "/assets/img/video/Geen_Video.mp4",
+                            "name": "Toon Schuerwegen"
+                        },
+                        "Toon V": {
+                            "video": "/assets/img/video/Geen_Video.mp4",
+                            "name": "Toon Vekemans"
+                        }
+                    }
+                },
+                "RWS": {
+                    "name": "Revalidation Sciences (RWS)",
+                    "list": {
+                        "Timo": {
+                            "video": "/assets/img/video/Timo_Meus.mp4",
+                            "name": "Timo Meus"
+                        }
+                    }
+                },
+                "SvM": {
+                    "name": "School for mobility (SvM)",
+                    "list": {
+                        "Benter": {
+                            "video": "/assets/img/video/Geen_Video.mp4",
+                            "name": "Benter Agutu"
+                        },
+                        "Wieter": {
+                            "video": "/assets/img/video/Wieter_Van_den_Brande.MOV",
+                            "name": "Wieter Van den Branden"
+                        }
+                    }
+                },
+                "WET": {
+                    "name": "Sciences (WET)",
+                    "list": {
+                        "Dore": {
+                            "video": "/assets/img/video/Dore_Staquet.mp4",
+                            "name": "Dore Staquet"
                         }
                     }
                 }
-            }
+            }                        
         },
         "associations": {
             "title": "Associations | StuRa UHasselt",
