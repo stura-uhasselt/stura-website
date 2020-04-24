@@ -363,7 +363,7 @@
         "candidates": {
             "title": "Candidates | StuRa UHasselt",
             "electable_candidates": "Candidates for the 2020 student council elections",
-            "desc": "Time to vote! Below you can see the candidates per faculty or school. You can ONLY vote for students who come up in your own faculty or school. You can vote via your <a class='text-url' href='https://uhintra02.uhasselt.be/studdosst/'>academic file</a>! <br> <br> Regret you didn't apply as candidate? Or do you want to know more? Do not hesitate and send an email to stura@uhasselt.be!",
+            "desc": "Time to vote! Below you can see the candidates per faculty or school. You can ONLY vote for students who come up in your own faculty or school. You can vote via your academic file! <br> <br> Regret you didn't apply as candidate? Or do you want to know more? Do not hesitate and send an email to stura@uhasselt.be!",
             "list": {
                 "ARK": {
                     "name": "Architecture (ARK)",
@@ -412,6 +412,10 @@
                             "video": "/assets/img/video/Geen_Video.mp4",
                             "name": "Jelle Degeest"
                         },
+                        "Mathias": {
+                            "video": "/assets/img/video/Geen_Video.mp4",
+                            "name": "Mathias Beerden"
+                        },
                         "Lukas": {
                             "video": "/assets/img/video/Geen_Video.mp4",
                             "name": "Lukas Degrande"
@@ -440,6 +444,19 @@
                         "Timo": {
                             "video": "/assets/img/video/Timo_Meus.mp4",
                             "name": "Timo Meus"
+                        },
+                        "Gunter": {
+                            "video": "/assets/img/video/Gunter_De_Groodt.mp4",
+                            "name": "Gunter De Groodt"
+                        }
+                    }
+                },
+                "REC": {
+                    "name": "LAW (REC)",
+                    "list": {
+                        "No candidates":{
+                            "video": "/assets/img/video/Geen_Video.mp4",
+                            "name": "no candidates"
                         }
                     }
                 },
@@ -453,6 +470,15 @@
                         "Wieter": {
                             "video": "/assets/img/video/Wieter_Van_den_Brande.MOV",
                             "name": "Wieter Van den Branden"
+                        }
+                    }
+                },
+                "SES": {
+                    "name": "Revalidatie wetenschappen (RWS)",
+                    "list": {
+                        "No candidates":{
+                            "video": "/assets/img/video/Geen_Video.mp4",
+                            "name": "no candidates"
                         }
                     }
                 },
