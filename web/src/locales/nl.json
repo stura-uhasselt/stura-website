@@ -451,11 +451,6 @@
                         }
                     }
                 },
-                "REC": {
-                    "name": "Rechten (REC)",
-                    "list": {
-                    }
-                },
                 "SvM": {
                     "name": "School voor mobiliteit (SvM)",
                     "list": {
@@ -469,11 +464,6 @@
                         }
                     }
                 },
-                "SES": {
-                    "name": "Revalidatie wetenschappen (RWS)",
-                    "list": {
-                    }
-                },
                 "WET": {
                     "name": "Wetenschappen (WET)",
                     "list": {
@@ -481,6 +471,16 @@
                             "video": "/assets/img/video/Dore_Staquet.mp4",
                             "name": "Dore Staquet"
                         }
+                    }
+                },
+                "REC": {
+                    "name": "Rechten (REC)",
+                    "list": {
+                    }
+                },
+                "SES": {
+                    "name": "Revalidatie wetenschappen (RWS)",
+                    "list": {
                     }
                 }
             }                        

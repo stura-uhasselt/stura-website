@@ -451,15 +451,6 @@
                         }
                     }
                 },
-                "REC": {
-                    "name": "LAW (REC)",
-                    "list": {
-                        "No candidates":{
-                            "video": "/assets/img/video/Geen_Video.mp4",
-                            "name": "no candidates"
-                        }
-                    }
-                },
                 "SvM": {
                     "name": "School for mobility (SvM)",
                     "list": {
@@ -473,15 +464,6 @@
                         }
                     }
                 },
-                "SES": {
-                    "name": "Revalidatie wetenschappen (RWS)",
-                    "list": {
-                        "No candidates":{
-                            "video": "/assets/img/video/Geen_Video.mp4",
-                            "name": "no candidates"
-                        }
-                    }
-                },
                 "WET": {
                     "name": "Sciences (WET)",
                     "list": {
@@ -489,6 +471,16 @@
                             "video": "/assets/img/video/Dore_Staquet.mp4",
                             "name": "Dore Staquet"
                         }
+                    }
+                },
+                "REC": {
+                    "name": "LAW (REC)",
+                    "list": {
+                    }
+                },
+                "SES": {
+                    "name": "Revalidatie wetenschappen (RWS)",
+                    "list": {
                     }
                 }
             }                        
