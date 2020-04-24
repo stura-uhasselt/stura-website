@@ -9,12 +9,12 @@
         <% include ../partials/header %>
     </header> 
     <main>
-        <section id="candidates">
+        <section id="kandidaten">
             <div class="container">
                 <div class="row">
                     <div class="col-lg">
                         <h1><%= text.page.candidates.electable_candidates %></h1>
-                        <p><%= text.page.candidates.desc %></p><br>
+                        <p><%- text.page.candidates.desc %></p><br>
                         <% Object.values(text.page.candidates.list).forEach(function(fac) { %>
                             <div class="row justify-content-center" style="text-align: center;">
                                 <h3><%= fac.name %></h3>
