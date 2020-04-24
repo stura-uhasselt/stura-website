@@ -255,9 +255,9 @@ img {
 }
 
 .candidate-video {
-    max-width: 400px;
+    max-width: 360px;
     min-width: 200px;
-    max-height: 400px;
+    max-height: 360px;
     height: auto;
 }
 
