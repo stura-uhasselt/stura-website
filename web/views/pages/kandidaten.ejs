@@ -21,10 +21,10 @@
                             </div>
                             <div class="row">
                                 <% Object.values(fac.list).forEach(function(member) { %>
-                                <div class="col-md member">
+                                <div class="col-md candidate" style="text-align:middle;"> 
                                     <div class="row justify-content-center">
-                                        <div class="member-image">
-                                            <video src="<%= member.video %>" controls width="200">
+                                        <div class="candidate-video">
+                                            <video src="<%= member.video %>" controls class="candidate-video">
                                         </div>
                                     </div>
                                     <div class="row justify-content-center">
