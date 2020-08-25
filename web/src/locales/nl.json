@@ -164,12 +164,6 @@
                 "BEW": {
                     "name": "Bedrijfseconomische wetenschappen (BEW)",
                     "list": {
-                        "lisa": {
-                            "img": "/assets/img/leden/lisa_colinet.jpg",
-                            "img_alt": "Lisa Colinet",
-                            "name": "Lisa Colinet",
-                            "desc": "Voorzitster"
-                        },
                         "xhoana": {
                             "img": "/assets/img/leden/xhoana_trezhnjeva.jpg",
                             "img_alt": "Xhoana Trezhnjeva",
@@ -232,7 +226,7 @@
                             "img": "/assets/img/leden/toon_vekemans.jpg",
                             "img_alt": "Toon Vekemans",
                             "name": "Toon Vekemans",
-                            "desc": "Lid"
+                            "desc": "Faculteitscoördinator IIW"
                         },
                         "michiel": {
                             "img": "/assets/img/leden/michiel_danasovsky.jpg",
@@ -250,7 +244,7 @@
                             "img": "/assets/img/leden/nicolas_derom.jpg",
                             "img_alt": "Nicolas Derom",
                             "name": "Nicolas Derom",
-                            "desc": "Medewerker"
+                            "desc": "Ondervoorzitter onderwijs"
                         }
                     }
                 },
@@ -701,10 +695,9 @@
         "contact_us": "Contacteer ons",
         "executive_committee": "Dagelijks bestuur",
         "executive_committee_members": {
-            "line_1": "Lisa Colinet, voorzitster",
-            "line_2": "Jordi Schreurs, ondervoorzitter onderwijs",
-            "line_3": "Tim Vervoort, ondervoorzitter student",
-            "line_4": "Len Van Ocken, secretaris"
+            "line_1": "Jelle DeGeest, voorzitster",
+            "line_2": "Nicolas Derom, ondervoorzitter onderwijs",
+          
         },
         "locations": {
             "line_1": "Locatie campus Diepenbeek: lokaal J12, in de gang bij de verenigingslokalen",
