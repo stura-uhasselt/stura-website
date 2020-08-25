@@ -166,8 +166,8 @@
                     "list": {
                         
                         "Steuwie": {
-                            "img": "/assets/img/leden/ilse_bouwman.jpg",
-                            "img_alt": "Xhoana Trezhnjeva",
+                            "img": "/assets/img/ionicons/person.svg",
+                            "img_alt": "no picture yet",
                             "name": "Steuwie Fonke",
                             "desc": "International Coordinator"
                         },
@@ -182,128 +182,87 @@
                 "GLW": {
                     "name": "Medicine and Life Sciences (GLW)",
                     "list": {
-                        "stijn": {
-                            "img": "/assets/img/leden/stijn_dilissen.jpg",
-                            "img_alt": "Stijn Dilissen",
-                            "name": "Stijn Dilissen",
-                            "desc": "Association Coordinator"
-                        },
-                        "ilse": {
-                            "img": "/assets/img/leden/ilse_bouwman.jpg",
-                            "img_alt": "Ilse Bouwman",
-                            "name": "Ilse Bouwman",
-                            "desc": "Financial administrator"
-                        },
-                        "martin": {
+                        "ibtissam": {
                             "img": "/assets/img/ionicons/person.svg",
-                            "img_alt": "no picture yet",
-                            "name": "Martin Wyckmans",
+                            "img_alt": "Ibtissam El Ouakili",
+                            "name": "Ibtissam El Ouakili",
                             "desc": "Faculty Coordinator GLW"
-                        }
+                        },
+                        "katelyn": {
+                            "img": "/assets/img/ionicons/person.svg",
+                            "img_alt": "Katelyn Bleyens",
+                            "name": "Katelyn Bleyens",
+                            "desc": "FUN-manager"
+                        }                    
                     }
                 },
                 "IIW": {
                     "name": "Industrial engineering sciences (IIW)",
                     "list": {
-                        "jordi": {
-                            "img": "/assets/img/leden/jordi_schreurs.jpg",
-                            "img_alt": "Jordi Schreurs",
-                            "name": "Jordi Schreurs",
+                         "nicolas": {
+                            "img": "/assets/img/leden/nicolas_derom.jpg",
+                            "img_alt": "Nicolas Derom",
+                            "name": "Nicolas Derom",
                             "desc": "Vice President Education"
                         },
-                        "rainier": {
-                            "img": "/assets/img/leden/rainier_hermans.jpg",
-                            "img_alt": "Rainier Hermans",
-                            "name": "Rainier Hermans",
-                            "desc": "Faculty Coordinator IIW"
-                        },
-                        "bram": {
-                            "img": "/assets/img/leden/bram_claessen.jpg",
-                            "img_alt": "Bram Claessen",
-                            "name": "Bram Claessen",
-                            "desc": "ICT manager"
+                        "mathias": {
+                            "img": "/assets/img/ionicons/person.svg",
+                            "img_alt": "Mathias Beerden",
+                            "name": "Mathias Beerden",
+                            "desc": "ICT-beheerder"
                         },
                         "toon": {
                             "img": "/assets/img/leden/toon_vekemans.jpg",
                             "img_alt": "Toon Vekemans",
                             "name": "Toon Vekemans",
-                            "desc": "Member"
+                            "desc": "Faculty Coordinator IIW"
                         },
-                        "michiel": {
-                            "img": "/assets/img/leden/michiel_danasovsky.jpg",
-                            "img_alt": "Michiel Danasovsky",
-                            "name": "Michiel Danasovsky",
-                            "desc": "collaborator"
-                        },
-                        "joren": {
-                            "img": "/assets/img/leden/joren_vandeweyer.jpg",
-                            "img_alt": "Joren Vandeweyer",
-                            "name": "Joren Vandeweyer",
-                            "desc": "Collaborator"
-                        },
-                        "nicolas": {
-                            "img": "/assets/img/leden/nicolas_derom.jpg",
-                            "img_alt": "Nicolas Derom",
-                            "name": "Nicolas Derom",
-                            "desc": "Collaborator"
-                        }
+                        "lukas": {
+                            "img": "/assets/img/ionicons/person.svg",
+                            "img_alt": "Lukas Degrande",
+                            "name": "Lukas Degrande",
+                            "desc": "Medewerker"
+                        }                    
                     }
                 },
                 "MOB": {
                     "name": "Transportation Sciences (MOB)",
                     "list": {
-                        "tim": {
-                            "img": "/assets/img/leden/tim_vervoort.jpg",
-                            "img_alt": "Tim Vervoort",
-                            "name": "Tim Vervoort",
-                            "desc": "Vice President Student"
+                        "Jelle": {
+                            "img": "/assets/img/ionicons/person.svg",
+                            "img_alt": "Jelle Degeest",
+                            "name": "Jelle Degeest",
+                            "desc": "President"
                         },
-                        "len": {
-                            "img": "/assets/img/leden/len_van_ocken.jpg",
-                            "img_alt": "Len Van Ocken",
-                            "name": "Len Van Ocken",
-                            "desc": "Secretary"
-                        },
-                        "ines": {
-                            "img": "/assets/img/leden/ines_damen.jpg",
-                            "img_alt": "Ines Damen",
-                            "name": "Ines Damen",
+                        "mieke": {
+                            "img": "/assets/img/ionicons/person.svg",
+                            "img_alt": "Mieke Schepers",
+                            "name": "Mieke Schepers",
                             "desc": "Faculty Coordinator MOB"
                         },
                         "lennert": {
                             "img": "/assets/img/leden/lennert_vromans.jpg",
                             "img_alt": "Lennert Vromans",
                             "name": "Lennert Vromans",
-                            "desc": "Communication Officer"
+                            "desc": "Member"
                         },
-                        "jordi": {
-                            "img": "/assets/img/leden/jordi_boulet.jpg",
-                            "img_alt": "Jordi Boulet",
-                            "name": "Jordi Boulet",
-                            "desc": "Collaborator"
+                        "wieter": {
+                            "img": "/assets/img/ionicons/person.svg",
+                            "img_alt": "Wieter Van den Branden",
+                            "name": "Wieter Van den Branden",
+                            "desc": "Member"
                         }
+                        
                     }
                 },
                 "REC": {
                     "name": "Law (REC)",
                     "list": {
-                        "ansofie": {
-                            "img": "/assets/img/leden/an-sofie_peeters.jpg",
-                            "img_alt": "An-Sofie Peeters",
-                            "name": "An-Sofie Peeters",
-                            "desc": "Collaborator"
-                        },
-                        "chelsey": {
-                            "img": "/assets/img/leden/chelsey_thijs.jpg",
-                            "img_alt": "Chelsey Thijs",
-                            "name": "Chelsey Thijs",
-                            "desc": "Member"
-                        },
-                        "robbe": {
-                            "img": "/assets/img/leden/robbe_vos.jpg",
-                            "img_alt": "Robbe Vos",
-                            "name": "Robbe Vos",
-                            "desc": "Campus Coordinator Hasselt"
+                    "noperson": {
+                            "img": "/assets/img/leden/Uncle_Sam.jpg",
+                            "img_alt": "We need you",
+                            "name": "We need you",
+                            "desc": "Faculty Coordinator REC"
                         }
                     }
                 },
@@ -316,40 +275,22 @@
                             "name": "Timo Meus",
                             "desc": "Faculty Coordinator RWS"
                         },
-                        "victorine": {
-                            "img": "/assets/img/leden/victorine_coopman.jpg",
-                            "img_alt": "Victorine Coopman",
-                            "name": "Victorine Coopman",
-                            "desc": "Collaborator"
-                        },
-                        "laurens": {
+                         "gunter": {
                             "img": "/assets/img/ionicons/person.svg",
-                            "img_alt": "no picture yet",
-                            "name": "Laurens Vanderzande",
-                            "desc": "Sports Coordinator"
+                            "img_alt": "Gunter Degroot",
+                            "name": "Gunter Degroot",
+                            "desc": "Medewerker"                                               
                         }
                     }
                 },
                 "WET": {
                     "name": "Sciences (WET)",
                     "list": {
-                        "jasper": {
-                            "img": "/assets/img/leden/jasper_steegmans.jpg",
-                            "img_alt": "Jasper Steegmans",
-                            "name": "Jasper Steegmans",
-                            "desc": "Faculty Coordinator WET"
-                        },
-                        "victor": {
-                            "img": "/assets/img/leden/victor_smet.jpg",
-                            "img_alt": "Victor Smet",
-                            "name": "Victor Smet",
-                            "desc": "FUN manager"
-                        },
-                        "dore": {
+                       "dore": {
                             "img": "/assets/img/leden/dore_staquet.jpg",
                             "img_alt": "Dore Staquet",
                             "name": "Dore Staquet",
-                            "desc": "Collaborator"
+                            "desc": "Faculty Coordinator WET"
                         }
                     }
                 }
