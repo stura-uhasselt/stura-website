@@ -164,17 +164,17 @@
                 "BEW": {
                     "name": "Bedrijfseconomische wetenschappen (BEW)",
                     "list": {
-                        "xhoana": {
-                            "img": "/assets/img/leden/xhoana_trezhnjeva.jpg",
+                        "steuwie": {
+                            "img": "/assets/img/ionicons/person.svg",
                             "img_alt": "Xhoana Trezhnjeva",
-                            "name": "Xhoana Trezhnjeva",
-                            "desc": "Member"
+                            "name": "Steuwie Fonke",
+                            "desc": "International Coordinator"
                         },
                         "ahsan": {
                             "img": "/assets/img/leden/ahsan_chuhan.jpg",
                             "img_alt": "Ahsan Chuhan",
                             "name": "Ahsan Chuhan",
-                            "desc": "International Coordinator"
+                            "desc": "Member"
                         }
                     }
                 },
@@ -182,44 +182,32 @@
                     "name": "Geneeskunde en levenswetenschappen (GLW)",
                     "list": {
                         "stijn": {
-                            "img": "/assets/img/leden/stijn_dilissen.jpg",
-                            "img_alt": "Stijn Dilissen",
-                            "name": "Stijn Dilissen",
-                            "desc": "Verenigingscoördinator"
+                            "img": "/assets/img/ionicons/person.svg",
+                            "img_alt": "Ibtissam El Ouakili",
+                            "name": "Ibtissam El Ouakili",
+                            "desc": "Faculteitscoïordinator GLW"
                         },
                         "ilse": {
-                            "img": "/assets/img/leden/ilse_bouwman.jpg",
-                            "img_alt": "Ilse Bouwman",
-                            "name": "Ilse Bouwman",
-                            "desc": "Financieel beheerder"
-                        },
-                        "martin": {
                             "img": "/assets/img/ionicons/person.svg",
-                            "img_alt": "no picture yet",
-                            "name": "Martin Wyckmans",
-                            "desc": "Faculteitscoïordinator GLW"
+                            "img_alt": "Katelyn Bleyens",
+                            "name": "Katelyn Bleyens",
+                            "desc": "FUN-manager"
                         }
                     }
                 },
                 "IIW": {
                     "name": "Industriële ingenieurswetenschappen (IIW)",
                     "list": {
-                        "jordi": {
-                            "img": "/assets/img/leden/jordi_schreurs.jpg",
-                            "img_alt": "Jordi Schreurs",
-                            "name": "Jordi Schreurs",
+                      "nicolas": {
+                            "img": "/assets/img/leden/nicolas_derom.jpg",
+                            "img_alt": "Nicolas Derom",
+                            "name": "Nicolas Derom",
                             "desc": "Ondervoorzitter onderwijs"
                         },
-                        "rainier": {
-                            "img": "/assets/img/leden/rainier_hermans.jpg",
-                            "img_alt": "Rainier Hermans",
-                            "name": "Rainier Hermans",
-                            "desc": "Faculteitscoördinator IIW"
-                        },
-                        "bram": {
-                            "img": "/assets/img/leden/bram_claessen.jpg",
-                            "img_alt": "Bram Claessen",
-                            "name": "Bram Claessen",
+                        "mathias": {
+                            "img": "/assets/img/ionicons/person.svg",
+                            "img_alt": "Mathias Beerden",
+                            "name": "Mathias Beerden",
                             "desc": "ICT-beheerder"
                         },
                         "toon": {
@@ -228,57 +216,40 @@
                             "name": "Toon Vekemans",
                             "desc": "Faculteitscoördinator IIW"
                         },
-                        "michiel": {
-                            "img": "/assets/img/leden/michiel_danasovsky.jpg",
-                            "img_alt": "Michiel Danasovsky",
-                            "name": "Michiel Danasovsky",
+                        "lukas": {
+                            "img": "/assets/img/ionicons/person.svg",
+                            "img_alt": "Lukas Degrande",
+                            "name": "Lukas Degrande",
                             "desc": "Medewerker"
-                        },
-                        "joren": {
-                            "img": "/assets/img/leden/joren_vandeweyer.jpg",
-                            "img_alt": "Joren Vandeweyer",
-                            "name": "Joren Vandeweyer",
-                            "desc": "Medewerker"
-                        },
-                        "nicolas": {
-                            "img": "/assets/img/leden/nicolas_derom.jpg",
-                            "img_alt": "Nicolas Derom",
-                            "name": "Nicolas Derom",
-                            "desc": "Ondervoorzitter onderwijs"
-                        }
+                        }                                             
                     }
                 },
                 "MOB": {
                     "name": "Mobiliteitswetenschappen (MOB)",
                     "list": {
-                        "tim": {
-                            "img": "/assets/img/leden/tim_vervoort.jpg",
-                            "img_alt": "Tim Vervoort",
-                            "name": "Tim Vervoort",
-                            "desc": "Ondervoorzitter student"
+                   
+                        "Jelle": {
+                            "img": "/assets/img/ionicons/person.svg",
+                            "img_alt": "Jelle Degeest",
+                            "name": "Jelle Degeest",
+                            "desc": "Voorzitter"
                         },
-                        "len": {
-                            "img": "/assets/img/leden/len_van_ocken.jpg",
-                            "img_alt": "Len Van Ocken",
-                            "name": "Len Van Ocken",
-                            "desc": "Secretaris"
-                        },
-                        "ines": {
-                            "img": "/assets/img/leden/ines_damen.jpg",
-                            "img_alt": "Ines Damen",
-                            "name": "Ines Damen",
+                        "mieke": {
+                            "img": "/assets/img/ionicons/person.svg",
+                            "img_alt": "Mieke Schepers",
+                            "name": "Mieke Schepers",
                             "desc": "Faculteitscoördinator MOB"
                         },
                         "lennert": {
                             "img": "/assets/img/leden/lennert_vromans.jpg",
                             "img_alt": "Lennert Vromans",
                             "name": "Lennert Vromans",
-                            "desc": "Communicatieverantwoordelijke"
+                            "desc": "Medewerker"
                         },
-                        "jordi": {
-                            "img": "/assets/img/leden/jordi_boulet.jpg",
-                            "img_alt": "Jordi Boulet",
-                            "name": "Jordi Boulet",
+                        "wieter": {
+                            "img": "/assets/img/ionicons/person.svg",
+                            "img_alt": "Wieter Van den Branden",
+                            "name": "Wieter Van den Branden",
                             "desc": "Medewerker"
                         }
                     }
@@ -286,24 +257,11 @@
                 "REC": {
                     "name": "Rechten (REC)",
                     "list": {
-                        "ansofie": {
-                            "img": "/assets/img/leden/an-sofie_peeters.jpg",
-                            "img_alt": "An-Sofie Peeters",
-                            "name": "An-Sofie Peeters",
-                            "desc": "Medewerker"
-                        },
-                        "chelsey": {
-                            "img": "/assets/img/leden/chelsey_thijs.jpg",
-                            "img_alt": "Chelsey Thijs",
-                            "name": "Chelsey Thijs",
-                            "desc": "Lid"
-                        },
-                        "robbe": {
-                            "img": "/assets/img/leden/robbe_vos.jpg",
-                            "img_alt": "Robbe Vos",
-                            "name": "Robbe Vos",
-                            "desc": "Campuscoördinator Hasselt"
-                        }
+                        "noperson": {
+                            "img": "/assets/img/leden/Uncle_Sam.jpg",
+                            "img_alt": "We need you",
+                            "name": "We need you",
+                            "desc": "Faculteitscoördinator REC"
                     }
                 },
                 "RWS": {
@@ -315,40 +273,23 @@
                             "name": "Timo Meus",
                             "desc": "Faculteitscoördinator RWS"
                         },
-                        "victorine": {
-                            "img": "/assets/img/leden/victorine_coopman.jpg",
-                            "img_alt": "Victorine Coopman",
-                            "name": "Victorine Coopman",
-                            "desc": "Medewerker"
-                        },
-                        "laurens": {
+                        "gunter": {
                             "img": "/assets/img/ionicons/person.svg",
-                            "img_alt": "no picture yet",
-                            "name": "Laurens Vanderzande",
-                            "desc": "Sportcoördinator"
+                            "img_alt": "Gunter Degroot",
+                            "name": "Gunter Degroot",
+                            "desc": "Medewerker"                                               
                         }
                     }
                 },
                 "WET": {
                     "name": "Wetenschappen (WET)",
                     "list": {
-                        "jasper": {
-                            "img": "/assets/img/leden/jasper_steegmans.jpg",
-                            "img_alt": "Jasper Steegmans",
-                            "name": "Jasper Steegmans",
-                            "desc": "Faculteitscoördinator WET"
-                        },
-                        "victor": {
-                            "img": "/assets/img/leden/victor_smet.jpg",
-                            "img_alt": "Victor Smet",
-                            "name": "Victor Smet",
-                            "desc": "FUN-manager"
-                        },
+                       
                         "dore": {
                             "img": "/assets/img/leden/dore_staquet.jpg",
                             "img_alt": "Dore Staquet",
                             "name": "Dore Staquet",
-                            "desc": "Medewerker"
+                            "desc": "Faculteitscoördinator WET"
                         }
                     }
                 }
