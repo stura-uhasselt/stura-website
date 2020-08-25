@@ -174,20 +174,20 @@
                             "img": "/assets/img/leden/ahsan_chuhan.jpg",
                             "img_alt": "Ahsan Chuhan",
                             "name": "Ahsan Chuhan",
-                            "desc": "Member"
+                            "desc": "Medewerker"
                         }
                     }
                 },
                 "GLW": {
                     "name": "Geneeskunde en levenswetenschappen (GLW)",
                     "list": {
-                        "stijn": {
+                        "ibtissam": {
                             "img": "/assets/img/ionicons/person.svg",
                             "img_alt": "Ibtissam El Ouakili",
                             "name": "Ibtissam El Ouakili",
                             "desc": "Faculteitscoïordinator GLW"
                         },
-                        "ilse": {
+                        "katelyn": {
                             "img": "/assets/img/ionicons/person.svg",
                             "img_alt": "Katelyn Bleyens",
                             "name": "Katelyn Bleyens",
@@ -227,7 +227,6 @@
                 "MOB": {
                     "name": "Mobiliteitswetenschappen (MOB)",
                     "list": {
-                   
                         "Jelle": {
                             "img": "/assets/img/ionicons/person.svg",
                             "img_alt": "Jelle Degeest",
@@ -262,6 +261,7 @@
                             "img_alt": "We need you",
                             "name": "We need you",
                             "desc": "Faculteitscoördinator REC"
+                        }   
                     }
                 },
                 "RWS": {
@@ -290,9 +290,9 @@
                             "img_alt": "Dore Staquet",
                             "name": "Dore Staquet",
                             "desc": "Faculteitscoördinator WET"
-                        }
-                    }
-                }
+                                 }
+                             }
+                         }
             }
         },
         "candidates": {
