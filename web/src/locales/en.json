@@ -164,23 +164,18 @@
                 "BEW": {
                     "name": "Business Economics (BEW)",
                     "list": {
-                        "lisa": {
-                            "img": "/assets/img/leden/lisa_colinet.jpg",
-                            "img_alt": "Lisa Colinet",
-                            "name": "Lisa Colinet",
-                            "desc": "President"
-                        },
-                        "xhoana": {
-                            "img": "/assets/img/leden/xhoana_trezhnjeva.jpg",
+                        
+                        "Steuwie": {
+                            "img": "/assets/img/leden/ilse_bouwman.jpg",
                             "img_alt": "Xhoana Trezhnjeva",
-                            "name": "Xhoana Trezhnjeva",
-                            "desc": "Member"
+                            "name": "Steuwie Fonke",
+                            "desc": "International Coordinator"
                         },
                         "ahsan": {
                             "img": "/assets/img/leden/ahsan_chuhan.jpg",
                             "img_alt": "Ahsan Chuhan",
                             "name": "Ahsan Chuhan",
-                            "desc": "International Coordinator"
+                            "desc": "Member"
                         }
                     }
                 },
