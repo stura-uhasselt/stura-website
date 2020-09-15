@@ -165,7 +165,7 @@
                     "name": "Bedrijfseconomische wetenschappen (BEW)",
                     "list": {
                         "steuwie": {
-                            "img": "web/public/assets/img/leden/Steuwie_fonke.jpg",
+                            "img": "/assets/img/leden/Steuwie_fonke.jpg",
                             "img_alt": "Steuwie Fonke",
                             "name": "Steuwie Fonke",
                             "desc": "International Coordinator"
