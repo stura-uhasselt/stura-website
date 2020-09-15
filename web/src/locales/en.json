@@ -166,8 +166,8 @@
                     "list": {
                         
                         "Steuwie": {
-                            "img": "/assets/img/ionicons/person.svg",
-                            "img_alt": "no picture yet",
+                            "img": "/assets/img/leden/Steuwie_fonke.jpg",
+                            "img_alt": "Steuwie Fonke",
                             "name": "Steuwie Fonke",
                             "desc": "International Coordinator"
                         },
@@ -183,13 +183,13 @@
                     "name": "Medicine and Life Sciences (GLW)",
                     "list": {
                         "ibtissam": {
-                            "img": "/assets/img/ionicons/person.svg",
+                            "img": "/assets/img/leden/Ibti.png",
                             "img_alt": "Ibtissam El Ouakili",
                             "name": "Ibtissam El Ouakili",
                             "desc": "Faculty Coordinator GLW"
                         },
                         "katelyn": {
-                            "img": "/assets/img/ionicons/person.svg",
+                            "img": "/assets/img/leden/Katelyn_Bleyens.jpg",
                             "img_alt": "Katelyn Bleyens",
                             "name": "Katelyn Bleyens",
                             "desc": "FUN-manager"
@@ -235,7 +235,7 @@
                             "desc": "President"
                         },
                         "mieke": {
-                            "img": "/assets/img/ionicons/person.svg",
+                            "img": "/assets/img/leden/Mieke_schepers.png",
                             "img_alt": "Mieke Schepers",
                             "name": "Mieke Schepers",
                             "desc": "Faculty Coordinator MOB"
@@ -247,7 +247,7 @@
                             "desc": "Member"
                         },
                         "wieter": {
-                            "img": "/assets/img/ionicons/person.svg",
+                            "img": "/assets/img/leden/Wieter.jpg",
                             "img_alt": "Wieter Van den Branden",
                             "name": "Wieter Van den Branden",
                             "desc": "Member"
