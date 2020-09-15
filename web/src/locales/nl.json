@@ -182,13 +182,13 @@
                     "name": "Geneeskunde en levenswetenschappen (GLW)",
                     "list": {
                         "ibtissam": {
-                            "img": "/assets/img/ionicons/person.svg",
+                            "img": "/assets/img/leden/Ibti.png",
                             "img_alt": "Ibtissam El Ouakili",
                             "name": "Ibtissam El Ouakili",
                             "desc": "Faculteitscoïordinator GLW"
                         },
                         "katelyn": {
-                            "img": "/assets/img/ionicons/person.svg",
+                            "img": "/assets/img/leden/Katelyn_Bleyens.jpg",
                             "img_alt": "Katelyn Bleyens",
                             "name": "Katelyn Bleyens",
                             "desc": "FUN-manager"
@@ -228,13 +228,13 @@
                     "name": "Mobiliteitswetenschappen (MOB)",
                     "list": {
                         "Jelle": {
-                            "img": "/assets/img/ionicons/person.svg",
+                            "img": "/assets/img/leden/Jelle_Degeest.jpg",
                             "img_alt": "Jelle Degeest",
                             "name": "Jelle Degeest",
                             "desc": "Voorzitter"
                         },
                         "mieke": {
-                            "img": "/assets/img/ionicons/person.svg",
+                            "img": "/assets/img/leden/Mieke_schepers.png",
                             "img_alt": "Mieke Schepers",
                             "name": "Mieke Schepers",
                             "desc": "Faculteitscoördinator MOB"
