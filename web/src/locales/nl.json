@@ -165,8 +165,8 @@
                     "name": "Bedrijfseconomische wetenschappen (BEW)",
                     "list": {
                         "steuwie": {
-                            "img": "/assets/img/ionicons/person.svg",
-                            "img_alt": "Xhoana Trezhnjeva",
+                            "img": "web/public/assets/img/leden/Steuwie_fonke.jpg",
+                            "img_alt": "Steuwie Fonke",
                             "name": "Steuwie Fonke",
                             "desc": "International Coordinator"
                         },
@@ -246,7 +246,7 @@
                             "desc": "Medewerker"
                         },
                         "wieter": {
-                            "img": "/assets/img/ionicons/person.svg",
+                            "img": "/assets/img/leden/Wieter.jpg",
                             "img_alt": "Wieter Van den Branden",
                             "name": "Wieter Van den Branden",
                             "desc": "Medewerker"
