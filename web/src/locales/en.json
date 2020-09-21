@@ -452,6 +452,10 @@
             "meeting_report_desc": "Here you can download al our meeting reports as a PDF.",
             "more": "More..."
         },
+        "agenda":{
+            "title": "Calendar | StuRa UHasselt",
+        
+        },
         "mobility": {
             "title": "Mobility Project | StuRa UHasselt",
             "h1": "Mobility project!",
@@ -495,6 +499,7 @@
         "international": "International",
         "members": "Members",
         "documents": "Documents",
+        "agenda": "Calendar"
         "mobility": "Mobility"
     },
     "footer": {
