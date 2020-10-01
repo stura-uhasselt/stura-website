@@ -6,6 +6,7 @@ services:
             - ./nginx/nginx.conf:/etc/nginx/conf.d/default.conf
             - ./.logs/:/etc/logs/
             - /etc/letsencrypt/live/:/etc/certs/
+            - /etc/letsencrypt/archive:/etc/archive/
         restart: always
         depends_on:
             - web
@@ -30,6 +31,6 @@ services:
         volumes:
             - ./api/src/:/usr/src/app/src/
             - ./.certs/:/usr/src/app/.certs/
-
+            - /var/www/certbot/:/usr/src/app/www/
         restart: always
 
