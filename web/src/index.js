@@ -10,6 +10,7 @@ app.disable('x-powered-by');
 app.set('view engine', 'ejs');
 
 app.use(compression());
+app.use(express.static(path.resolve('www')));
 app.use(express.static(path.resolve('public'), {
     maxage: '3h',
     setHeaders: (res) => {
