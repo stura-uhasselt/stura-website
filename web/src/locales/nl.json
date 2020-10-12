@@ -262,10 +262,10 @@
                 "REC": {
                     "name": "Rechten (REC)",
                     "list": {
-                        "noperson": {
-                            "img": "/assets/img/leden/Uncle_Sam.jpg",
-                            "img_alt": "We need you",
-                            "name": "We need you",
+                        "mira": {
+                            "img": "assets/img/ionicons/person.svg",
+                            "img_alt": "Miroslawa "Mira" Jablonski",
+                            "name": "Miroslawa "Mira" Jablonski",
                             "desc": "Faculteitscoördinator REC"
                         }   
                     }
