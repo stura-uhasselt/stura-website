@@ -267,7 +267,7 @@
                     "mira": {
                             "img": "assets/img/ionicons/person.svg",
                             "img_alt": "Miroslawa Jablonski",
-                            "name": "Miroslawa Jablonski",
+                            "name": "Miroslawa 'Mira' Jablonski",
                             "desc": "Faculty Coordinator REC"
                         }
                     }
@@ -514,6 +514,7 @@
         "executive_committee_members": {
             "line_1": "Jelle Degeest, President",
             "line_2": "Nicolas Derom, Vice President Education"
+            "line_3": "Katelyn Bleyens, Vice President Student"
 
         },
         "locations": {
