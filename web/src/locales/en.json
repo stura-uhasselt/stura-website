@@ -176,6 +176,12 @@
                             "img_alt": "Ahsan Chuhan",
                             "name": "Ahsan Chuhan",
                             "desc": "Member"
+                         },
+                        "Emma": {
+                            "img": "/assets/img/ionicons/person.svg",
+                            "img_alt": "Emma Van Coillie",
+                            "name": "Emma Van Coillie",
+                            "desc": "Member"   
                         }
                     }
                 },
