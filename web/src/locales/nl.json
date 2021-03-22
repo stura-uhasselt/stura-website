@@ -299,6 +299,7 @@
                                  }
                              }
                          }
+    
             }
         },
         "candidates": {
@@ -322,10 +323,7 @@
                             "video":  "/assets/img/video/Geen_Video.mp4",
                             "name": "Kandidaat BEW"
                         }, 
-                        "KandidaatBEW": {
-                            "video":  "/assets/img/video/Geen_Video.mp4",
-                            "name": "Kandidaat BEW"
-                        }
+                      
                     }
                 },
                 "GLW": {
@@ -391,7 +389,7 @@
                             "name": "Kandidaat WET"
                         }
                     }
-                
+                }
             }                        
         },
         "associations": {
