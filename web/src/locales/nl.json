@@ -322,7 +322,7 @@
                         "Kandidaat": {
                             "video":  "/assets/img/video/Geen_Video.mp4",
                             "name": "Kandidaat BEW"
-                        }, 
+                        }
                       
                     }
                 },
@@ -351,9 +351,8 @@
                         "KandidaatIIW": {
                             "video":  "/assets/img/video/Geen_Video.mp4",
                             "name": "Kandidaat IIW"
-                          },
-                    
-                        }
+                        }  
+                    }
                 },
                 "RWS": {
                     "name": "Revalidatie wetenschappen (RWS)",
