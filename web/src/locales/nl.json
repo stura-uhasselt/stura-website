@@ -5,7 +5,7 @@
             "what_stura": "Wat is StuRa?",
             "what_stura_desc": "StuRa is de studentenraad van de UHasselt, net zoals elke andere universiteit en hogeschool zijn eigen studentenraad heeft. Wij zijn een gemotiveerde groep studenten die de mening van alle studenten vertegenwoordigt en verdedigt binnen onze universiteit. Doordat we actief zijn binnen verscheidene organen binnen onze universiteit hebben we inspraak op verschillende niveau's. Dit gaat van kleine organen, zoals de Eetcomissie en de Bibliotheeksbeleidscomissie, tot en met de hoogste zoals de Onderwijsraad en de Raad van Bestuur van de UHasselt. Omwille van deze inspraak worden wij gezien als medebestuur van de universiteit.<br><br>StuRa bestaat sinds 2004 en is sindsdien altijd actief bezig geweest met het oplossen van problemen en de mening van studenten binnen de universiteit. Neem gerust eens onze verslagen door of ons lijstje met projecten om te zien waar we momenteel mee bezig zijn! StuRa kun je altijd bereiken door leden te contacteren, door op onze open Algemene Vergaderingen binnen te springen, of via onze Stuver-overleggen, waar elke faculteitscoördinator met de studenten uit de evaluatievergaderingen en OMT's samenzit.",
             "who_stura": "Wie is StuRa?",
-            "who_stura_desc": "StuRa telt momenteel 24 leden, waarvan je in onderstaand overzicht kunt zien welke functie ze beoefenen. Je kunt op twee manieren lid worden van StuRa.<br><br>Oftewel stel je je kandidaat tijdens de verkiezingen (kandidaatstelling 10 april t.e.m. 22 april), waardoor je lid bent en stemrecht hebt, oftewel vraag je om gecoöpteerd te worden gedurende het academiejaar. Wanneer je gecoöpteerd wordt krijg je enkel stemrecht als je opkomt voor een functie, niet als je opkomt voor een mandaat. Dit neemt niet weg dat je je mening kunt geven op een vergadering!",
+            "who_stura_desc": "StuRa telt momenteel 18 leden, waarvan je in onderstaand overzicht kunt zien welke functie ze beoefenen. Je kunt op twee manieren lid worden van StuRa.<br><br>Oftewel stel je je kandidaat tijdens de verkiezingen (kandidaatstelling 10 april t.e.m. 22 april), waardoor je lid bent en stemrecht hebt, oftewel vraag je om gecoöpteerd te worden gedurende het academiejaar. Wanneer je gecoöpteerd wordt krijg je enkel stemrecht als je opkomt voor een functie, niet als je opkomt voor een mandaat. Dit neemt niet weg dat je je mening kunt geven op een vergadering!",
             "list_functions": "Lijst van functies",
             "list_mandates": "Lijst van mandaten",
             "list_both": "Beide lijsten",
@@ -512,7 +512,7 @@
                 "mobility": {
                     "title": "Mobiliteit op en rond de campus",
                     "description": "We kennen allemaal het parking-probleem rond zowel campus Hasselt als Diepenbeek. Al enkele jaren ijvert de studentenraad voor frequentere buslijnen en een efficiënter parkingbeleid. Hier hoor je het komende academiejaar ongetwijfeld nog meer over! Werk jij hier dit jaar aan mee?"
-                    
+                    "projectpage": "<a class='text-url' href='/kandidaten'>Bekijk onze mobiliteitspagina, klik hier!</a>",
                 },
                 "mails": {
                     "title": "Het mailverkeer van de UHasselt",
