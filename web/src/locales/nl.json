@@ -330,8 +330,8 @@
                     "name": "Geneeskunde en levenswetenschappen (GLW)",
                     "list": {
                         "KandidaatGLW": {
-                            "video":  "/assets/img/video/Geen_Video.mp4",
-                            "name": "Kandidaat GLW",
+                            "video":  "/assets/img/video/Ezra_Taş.mov",
+                            "name": "Ezra Taş",
                             "control": "control"
                         },
                         "KandidaatGLW": {
@@ -384,8 +384,8 @@
                     "name": "Wetenschappen (WET)",
                     "list": {
                         "Kandidaat WET": {
-                            "video":  "/assets/img/video/Geen_Video.mp4",
-                            "name": "Kandidaat WET"
+                            "video":  "/assets/img/video/Emma_Peeters.mp4",
+                            "name": "Emma Peeters"
                         }
                     }
                 }
