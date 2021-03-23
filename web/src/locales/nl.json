@@ -512,6 +512,7 @@
                 "mobility": {
                     "title": "Mobiliteit op en rond de campus",
                     "description": "We kennen allemaal het parking-probleem rond zowel campus Hasselt als Diepenbeek. Al enkele jaren ijvert de studentenraad voor frequentere buslijnen en een efficiënter parkingbeleid. Hier hoor je het komende academiejaar ongetwijfeld nog meer over! Werk jij hier dit jaar aan mee?"
+                    "mobility": "<a class='text-url' href='/mobiliteit'>
                 },
                 "mails": {
                     "title": "Het mailverkeer van de UHasselt",
@@ -520,6 +521,7 @@
                 "examresults": {
                     "title": "Beschikbaarheid examenresultaten",
                     "description": "Wanneer komen jouw examenresultaten online? Moet je hier lang op wachten? In het OER (onderwijs-, examen- en rechtspositieregeling) staat een adviesperiode waarin de resultaten worden beschikbaar worden gesteld van 10 dagen na de examenperiode. Dit is echter geen verplichting, waardoor er vorig academiejaar richtingen waren waarbij studenten tot wel 20 dagen moesten wachten vooraleer ze hun punten te zien kregen. Dit betekent al dat het volgende semester begint, je je hebt ingeschreven voor vakken, je deelneemt aan groepswerken etc., zonder zeker te zijn dat je op je vorige punten geslaagd bent. Hierdoor zou je je studietraject misschien anders willen samenstellen, zoals het opnemen van andere vakken, meer of minder vakken, het organiseren van hobby's in je tweede semester etc.<br>StuRa ijverde vorig jaar al om de adviesperiode bindend te maken. Dit werd afgewezen in de Onderwijsraad omwille van de werkoverlast die het zou veroorzaken. Wij vragen ons echter af waarom dit dan wel kan bij onze student-collega's op andere universiteiten, of waarom onze eigen, grootste faculteit (BEW) zich wel al aan de adviesperiode houdt, of waarom resultaten na het 2e semester veel sneller online komen te staan. Dit jaar wensen we deze argumenten te versterken door middel van een debat en enquête, waar je ongetwijfeld nog iets over zult zien in de wandelgangen!"
+                    
                 },
                 "food": {
                     "title": "Onze dagelijke kost",
