@@ -304,7 +304,7 @@
         },
         "candidates": {
             "title": "Kandidaten | StuRa UHasselt",
-            "electable_candidates": "Kandidaten voor de 2020 studentenraad verkiezingen",
+            "electable_candidates": "Kandidaten voor de 2021 studentenraad verkiezingen",
             "desc": "Tijd om te stemmen! Hieronder zie je de kandidaten per faculteit of school. Je kunt ENKEL op studenten stemmen die opkomen in je eigen faculteit of school. Stemmen doe je via je studentendossier! <br><br>Spijt dat je niet bent opgekomen? Of wil je toch wat meer weten? Aarzel niet en stuur gerust een mailtje naar stura@uhasselt.be!",
             "list": {
                 "ARK": {
@@ -332,7 +332,7 @@
                         "KandidaatGLW": {
                             "video":  "/assets/img/video/Ezra_Taş.mov",
                             "name": "Ezra Taş",
-                            "control": "control"
+                          
                         },
                         "KandidaatGLW": {
                             "video":  "/assets/img/video/Geen_Video.mp4",
