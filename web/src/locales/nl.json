@@ -381,6 +381,10 @@
                         "Emma Peeters": {
                             "video":  "/assets/img/video/Emma_Peeters.mp4",
                             "name": "Emma Peeters"
+                        },    
+                         "Gwendoline Nijssen": {
+                            "video":  "/assets/img/video/Gwendoline_Nijssen.mov",
+                            "name": "Gwendoline Nijssen"
                         }
                     }
                 }
