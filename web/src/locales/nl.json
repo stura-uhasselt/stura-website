@@ -310,9 +310,13 @@
                 "ARK": {
                     "name": "Architectuur (ARK)",
                     "list": {
-                        "KandidaatARK": {
+                        "Zjef Van den Bruel": {
                             "video": "/assets/img/video/Geen_Video.mp4",
-                            "name": "Kandidaat ARK"
+                            "name": "Zjef Van den Bruel"
+                        },
+                        "Steve Van Schoor": {
+                            "video": "/assets/img/video/Geen_Video.mp4",
+                            "name": "Steve Van Schoor"
                         }
                     }
                 },
@@ -339,39 +343,48 @@
                 "IIW": {
                     "name": "Industriële ingenieurswetenschappen (IIW)",
                     "list": {
-                        "KandidaatIIW": {
+                        "Ismael Warnants": {
                             "video":  "/assets/img/video/Geen_Video.mp4",
-                            "name": "Kandidaat IIW"
-                         },
-                        "KandidaatIIW": {
+                            "name": "Ismael Warnants"
+                         } 
+                    }
+                },
+                    "REC": {
+                    "name": "Rechten (REC)",
+                    "list": {
+                        "Miroslawa Jablonski": {
                             "video":  "/assets/img/video/Geen_Video.mp4",
-                            "name": "Kandidaat IIW"
-                        }  
+                            "name": "Miroslawa Jablonski"
+                         } 
                     }
                 },
                 "RWS": {
                     "name": "Revalidatie wetenschappen (RWS)",
                     "list": {
-                        "KandidaatRWS": {
+                        "Timo Meus": {
                             "video":  "/assets/img/video/Geen_Video.mp4",
-                            "name": "Kandidaat RWS"
+                            "name": "Timo Meus"
                         },
-                        "KandidaatRWS": {
+                        "Gunter De Groodt": {
                             "video":  "/assets/img/video/Geen_Video.mp4",
-                            "name": "Kandidaat RWS"
+                            "name": "Gunter De Groodt"
                         }
                     }
                 },
                 "SvM": {
                     "name": "School voor mobiliteit (SvM)",
                     "list": {
-                        "Kandidaat SvM": {
+                        "Jelle De Geest": {
                             "video": "/assets/img/video/Geen_Video.mp4",
-                            "name": "Kandidaat SvM"
+                            "name": "Jelle De Geest"
                         },
-                        "Kandidaat SvM": {
+                        "Alvine Ntumngia": {
                             "video": "/assets/img/video/Geen_Video.mp4",
-                            "name": "Kandidaat SvM"
+                            "name": "Alvine Ntumngia"
+                        },
+                        "Mieke Schepers": {
+                            "video": "/assets/img/video/Geen_Video.mp4",
+                            "name": "Mieke Schepers"
                         }
                     }
                 },
@@ -385,6 +398,10 @@
                          "Gwendoline Nijssen": {
                             "video":  "/assets/img/video/Gwendoline_Nijssen.mov",
                             "name": "Gwendoline Nijssen"
+                          },    
+                         "Dore Staquet": {
+                            "video":  "/assets/img/video/Gwendoline_Nijssen.mov",
+                            "name": "Dore Staquet"
                         }
                     }
                 }
