@@ -7,6 +7,8 @@ name.com
 
 https://certbot.eff.org/docs/using.html#manual
 
+Certificates auto: certbot renew
+
 Certificates needs to be renewed manually for:
 
 - sturauhasselt.be
